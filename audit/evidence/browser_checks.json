@@ -1,0 +1,30 @@
+{
+  "complete_smoke_dashboard": {
+    "plotly_graphs": 8,
+    "table": "G09",
+    "directions_checked": [
+      "long",
+      "short"
+    ],
+    "parts_checked": [
+      "train",
+      "check"
+    ],
+    "tooltip_checked": true,
+    "screenshots": [
+      "output/playwright/dashboard-default.png",
+      "output/playwright/dashboard-price.png"
+    ]
+  },
+  "partial_dashboard": {
+    "available": [
+      "30_long"
+    ],
+    "selected_direction": "short",
+    "stale_graph_title": "2026-07-20 · 30 минут · рост",
+    "subsequent_part": "check",
+    "application_error": "TypeError: Cannot read properties of undefined (reading 'check_signals') at refreshDays"
+  },
+  "console_source": ".playwright-cli/console-2026-11-19T13-24-42-334Z.log",
+  "scope": "Real Playwright CLI browser; file:// initially blocked by tool, HTTP localhost used."
+}

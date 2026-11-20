@@ -1,0 +1,487 @@
+{
+  "environment": {
+    "python": "3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)]",
+    "executable": "<LOCAL_PATH>/python.exe",
+    "torch": "2.14.1+cu126",
+    "cuda": "12.6",
+    "gpu_available": true,
+    "gpu": "NVIDIA GeForce GTX 1070",
+    "cpu": "Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"
+  },
+  "checks": {
+    "cpu_repeat": {
+      "score_equal": true,
+      "curves_equal_excluding_time": true
+    },
+    "score_ignores_learning_history": {
+      "same_score": true,
+      "score": 0.83519
+    },
+    "resume_accepts_changed_features": {
+      "accepted_stale_result": true,
+      "winner": "eb6a6d8c49e03735"
+    },
+    "resume_accepts_changed_day": {
+      "accepted_stale_result": true,
+      "winner": "eb6a6d8c49e03735"
+    },
+    "resume_accepts_changed_split": {
+      "accepted_stale_result": true,
+      "winner": "eb6a6d8c49e03735"
+    },
+    "supplied_tests": {
+      "returncode": 0,
+      "seconds": 6.081281999999192
+    },
+    "all_tf_directions_invariants": [
+      {
+        "tf": 1,
+        "side": "long",
+        "unique_children": 28,
+        "unchanged_children": 11,
+        "smallest_original": 1247,
+        "architectures": [
+          "small"
+        ]
+      },
+      {
+        "tf": 1,
+        "side": "short",
+        "unique_children": 25,
+        "unchanged_children": 12,
+        "smallest_original": 1593,
+        "architectures": [
+          "small"
+        ]
+      },
+      {
+        "tf": 5,
+        "side": "long",
+        "unique_children": 28,
+        "unchanged_children": 11,
+        "smallest_original": 311,
+        "architectures": [
+          "small"
+        ]
+      },
+      {
+        "tf": 5,
+        "side": "short",
+        "unique_children": 25,
+        "unchanged_children": 12,
+        "smallest_original": 346,
+        "architectures": [
+          "small"
+        ]
+      },
+      {
+        "tf": 10,
+        "side": "long",
+        "unique_children": 29,
+        "unchanged_children": 10,
+        "smallest_original": 146,
+        "architectures": [
+          "small"
+        ]
+      },
+      {
+        "tf": 10,
+        "side": "short",
+        "unique_children": 29,
+        "unchanged_children": 10,
+        "smallest_original": 158,
+        "architectures": [
+          "small"
+        ]
+      },
+      {
+        "tf": 15,
+        "side": "long",
+        "unique_children": 31,
+        "unchanged_children": 8,
+        "smallest_original": 94,
+        "architectures": [
+          "small"
+        ]
+      },
+      {
+        "tf": 15,
+        "side": "short",
+        "unique_children": 31,
+        "unchanged_children": 8,
+        "smallest_original": 74,
+        "architectures": [
+          "small"
+        ]
+      },
+      {
+        "tf": 30,
+        "side": "long",
+        "unique_children": 16,
+        "unchanged_children": 23,
+        "smallest_original": 24,
+        "architectures": [
+          "small"
+        ]
+      },
+      {
+        "tf": 30,
+        "side": "short",
+        "unique_children": 22,
+        "unchanged_children": 16,
+        "smallest_original": 19,
+        "architectures": [
+          "small"
+        ]
+      }
+    ],
+    "training_counts": {
+      "summary_retrainings": 5,
+      "actual_train_calls_including_controls": 15,
+      "cached": 2,
+      "extra_control_trainings": 10,
+      "calls": [
+        {
+          "positives": 49,
+          "negatives": 98,
+          "seed": 31
+        },
+        {
+          "positives": 36,
+          "negatives": 72,
+          "seed": 31
+        },
+        {
+          "positives": 44,
+          "negatives": 88,
+          "seed": 31
+        },
+        {
+          "positives": 42,
+          "negatives": 84,
+          "seed": 31
+        },
+        {
+          "positives": 44,
+          "negatives": 88,
+          "seed": 31
+        },
+        {
+          "positives": 44,
+          "negatives": 88,
+          "seed": 31
+        },
+        {
+          "positives": 49,
+          "negatives": 98,
+          "seed": 31
+        },
+        {
+          "positives": 44,
+          "negatives": 88,
+          "seed": 31
+        },
+        {
+          "positives": 44,
+          "negatives": 88,
+          "seed": 17
+        },
+        {
+          "positives": 44,
+          "negatives": 88,
+          "seed": 73
+        },
+        {
+          "positives": 49,
+          "negatives": 98,
+          "seed": 17
+        },
+        {
+          "positives": 49,
+          "negatives": 98,
+          "seed": 73
+        },
+        {
+          "positives": 44,
+          "negatives": 88,
+          "seed": 31
+        },
+        {
+          "positives": 44,
+          "negatives": 88,
+          "seed": 31
+        },
+        {
+          "positives": 44,
+          "negatives": 88,
+          "seed": 31
+        }
+      ]
+    },
+    "no_future_in_features": {
+      "common_rows": 102,
+      "all_features_identical": true
+    },
+    "labels_gap_and_overnight": {
+      "surviving_rows": 248,
+      "invalid_endpoints": 0,
+      "long_short_overlap": 0
+    },
+    "no_positive": {
+      "error": "ValueError: a cannot be empty unless no samples are taken"
+    },
+    "all_positive": {
+      "returned_score": -100.0,
+      "folds": [
+        {
+          "ap": null,
+          "lift": null,
+          "base": 1.0,
+          "top_good": 0,
+          "top_total": 0
+        }
+      ],
+      "n_negative": 0
+    },
+    "million_member_encoding": [
+      {
+        "members": 100000,
+        "encoded_bytes": 184484,
+        "decode_bytes": 800000,
+        "encode_decode_seconds": 0.1838417999970261
+      },
+      {
+        "members": 1000000,
+        "encoded_bytes": 1844064,
+        "decode_bytes": 8000000,
+        "encode_decode_seconds": 1.317819200005033
+      }
+    ],
+    "benchmark_completed": true,
+    "random_data_mini_search": [
+      {
+        "seed": 101,
+        "select_winner_score": 1.03401,
+        "check": {
+          "ap": 0.266321,
+          "lift": 1.00498,
+          "base": 0.265,
+          "top_good": 2,
+          "top_total": 8
+        },
+        "full": {
+          "ap": 0.266321,
+          "lift": 1.00498,
+          "base": 0.265,
+          "top_good": 2,
+          "top_total": 8
+        },
+        "random": [
+          {
+            "ap": 0.266321,
+            "lift": 1.00498,
+            "base": 0.265,
+            "top_good": 2,
+            "top_total": 8
+          },
+          {
+            "ap": 0.266321,
+            "lift": 1.00498,
+            "base": 0.265,
+            "top_good": 2,
+            "top_total": 8
+          },
+          {
+            "ap": 0.266321,
+            "lift": 1.00498,
+            "base": 0.265,
+            "top_good": 2,
+            "top_total": 8
+          }
+        ],
+        "shuffle": {
+          "ap": 0.26701,
+          "lift": 1.00758,
+          "base": 0.265,
+          "top_good": 2,
+          "top_total": 8
+        }
+      },
+      {
+        "seed": 102,
+        "select_winner_score": 1.03478,
+        "check": {
+          "ap": 0.231381,
+          "lift": 0.96914,
+          "base": 0.23875,
+          "top_good": 2,
+          "top_total": 8
+        },
+        "full": {
+          "ap": 0.235103,
+          "lift": 0.98473,
+          "base": 0.23875,
+          "top_good": 2,
+          "top_total": 8
+        },
+        "random": [
+          {
+            "ap": 0.23217,
+            "lift": 0.97244,
+            "base": 0.23875,
+            "top_good": 2,
+            "top_total": 8
+          },
+          {
+            "ap": 0.23355,
+            "lift": 0.97822,
+            "base": 0.23875,
+            "top_good": 2,
+            "top_total": 8
+          },
+          {
+            "ap": 0.23748,
+            "lift": 0.99468,
+            "base": 0.23875,
+            "top_good": 3,
+            "top_total": 8
+          }
+        ],
+        "shuffle": {
+          "ap": 0.236749,
+          "lift": 0.99162,
+          "base": 0.23875,
+          "top_good": 2,
+          "top_total": 8
+        }
+      },
+      {
+        "seed": 103,
+        "select_winner_score": 1.01994,
+        "check": {
+          "ap": 0.258374,
+          "lift": 0.98428,
+          "base": 0.2625,
+          "top_good": 2,
+          "top_total": 8
+        },
+        "full": {
+          "ap": 0.258335,
+          "lift": 0.98413,
+          "base": 0.2625,
+          "top_good": 2,
+          "top_total": 8
+        },
+        "random": [
+          {
+            "ap": 0.256546,
+            "lift": 0.97732,
+            "base": 0.2625,
+            "top_good": 2,
+            "top_total": 8
+          },
+          {
+            "ap": 0.257874,
+            "lift": 0.98238,
+            "base": 0.2625,
+            "top_good": 2,
+            "top_total": 8
+          },
+          {
+            "ap": 0.259005,
+            "lift": 0.98669,
+            "base": 0.2625,
+            "top_good": 2,
+            "top_total": 8
+          }
+        ],
+        "shuffle": {
+          "ap": 0.262381,
+          "lift": 0.99955,
+          "base": 0.2625,
+          "top_good": 2,
+          "top_total": 8
+        }
+      }
+    ],
+    "partial_report": {
+      "files": [
+        "CANDIDATES_COMPACT.json",
+        "МИКРОКОНСТИТУЦИЯ_NEXUS_LAB.md",
+        "REPORT_STATUS.txt"
+      ],
+      "status": "PARTIAL or ERROR. Re-run START.py with the same options to resume."
+    },
+    "completed": true
+  },
+  "benchmark": {
+    "30m_cpu": {
+      "seconds": [
+        0.2621357000025455,
+        0.21855350000259932,
+        0.26469289998931345
+      ],
+      "median_seconds": 0.2621357000025455,
+      "scores": [
+        0.84814,
+        0.84814,
+        0.84814
+      ],
+      "positive": 49,
+      "negative": 98,
+      "epochs": 24,
+      "peak_gpu_bytes": 0
+    },
+    "30m_cuda": {
+      "seconds": [
+        0.18265170000086073,
+        0.1833364000049187,
+        0.21671029999561142
+      ],
+      "median_seconds": 0.1833364000049187,
+      "scores": [
+        0.84202,
+        0.84202,
+        0.84202
+      ],
+      "positive": 49,
+      "negative": 98,
+      "epochs": 24,
+      "peak_gpu_bytes": 17165824
+    },
+    "1m_cpu": {
+      "seconds": [
+        3.17902700000559,
+        2.8748087999993004,
+        2.3734159000014188
+      ],
+      "median_seconds": 2.8748087999993004,
+      "scores": [
+        1.0452,
+        1.0452,
+        1.0452
+      ],
+      "positive": 3517,
+      "negative": 7034,
+      "epochs": 24,
+      "peak_gpu_bytes": 0
+    },
+    "1m_cuda": {
+      "seconds": [
+        2.932160299998941,
+        3.4665257000015117,
+        2.7375261000124738
+      ],
+      "median_seconds": 2.932160299998941,
+      "scores": [
+        1.10507,
+        1.10507,
+        1.10507
+      ],
+      "positive": 3517,
+      "negative": 7034,
+      "epochs": 24,
+      "peak_gpu_bytes": 20612096
+    }
+  }
+}

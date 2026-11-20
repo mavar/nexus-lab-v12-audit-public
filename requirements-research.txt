@@ -1,0 +1,7 @@
+# Exact installed core versions used for the audit; torch is installed separately for CPU/CUDA.
+numpy==2.2.3
+pandas==2.3.3
+scikit-learn==1.8.0
+pyarrow>=18
+pytest>=8
+duckdb>=1.1

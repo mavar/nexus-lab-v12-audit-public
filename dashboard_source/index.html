@@ -1,0 +1,56 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nexus · недельная разметка</title>
+<style>
+:root{font:15px system-ui;color:#182536;background:#f2f5f9;--line:#dce4ee;--blue:#1554c0;--green:#08754d}*{box-sizing:border-box}[hidden]{display:none!important}body{margin:0}main{max-width:1540px;margin:auto;padding:20px}h1,h2,p{margin:0}h1{font-size:26px}h2{font-size:17px;margin-bottom:10px}.sub{font-size:13px;color:#516277;line-height:1.5;margin:5px 0 0}.card{background:white;padding:17px;border:1px solid var(--line);border-radius:13px;margin:12px 0}.head{padding:0;display:grid;grid-template-columns:20% 30% 50%;overflow:hidden}.head section{padding:17px 19px;min-width:0}.head section+section{border-left:1px solid var(--line)}.head section:first-child{background:#f9fbff;display:flex;flex-direction:column}.card label{display:block}.radios{display:flex;flex-direction:column;gap:10px;overflow:auto;max-height:290px;padding:3px 0}.radios label{display:flex;align-items:center;gap:9px;cursor:pointer}.radios input{margin:0;accent-color:var(--blue)}button,input,select{font:inherit}button,select,input:not([type=radio]):not([type=range]){border:1px solid #b8c6d6;border-radius:7px;padding:7px 10px;color:#182536;background:white}button{cursor:pointer;font-weight:600}button:hover{background:#edf4ff}button.primary{background:var(--blue);border:0;color:white;padding:10px 15px;box-shadow:0 2px 5px #13356b45}button.primary:hover{background:#103e97}button:disabled{opacity:.5;cursor:default}#horizon{width:100%;margin:9px 0;accent-color:var(--blue)}#horizonValue{display:block;font-weight:750;font-size:29px;margin-bottom:13px;font-variant-numeric:tabular-nums}.fields{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.fields input{width:100%}.fields span{display:block;font-size:12px;color:#4d5f73;margin-bottom:4px}.bar{display:flex;align-items:center;flex-wrap:wrap;gap:9px;margin:8px 0}.bar label{display:flex;align-items:center;gap:5px}.winner{margin-top:13px;border-top:1px solid var(--line);padding-top:10px}.winner dl{display:grid;grid-template-columns:max-content 1fr;gap:4px 14px;margin:7px 0}.winner dt{color:#4d5f73}.winner dd{margin:0;font-weight:650}.gain{color:var(--green);font-size:1.2em;font-weight:750}.chartWrap{position:relative}.chartTop{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;margin:10px 0}.chartTop aside{text-align:right;margin-left:auto}.chartTop strong{font-size:25px}.statLine{font-size:14px}.split{display:grid;grid-template-columns:minmax(0,2fr) minmax(255px,1fr);gap:12px}canvas{display:block;width:100%;height:330px;touch-action:none;cursor:crosshair}#zoom{height:265px}.detail dl{display:grid;grid-template-columns:1fr auto;gap:7px;margin:10px 0}.detail dt{color:#526276}.detail dd{margin:0;text-align:right}.small{font-size:12px;color:#637388}.rating{width:min(1080px,95vw);max-height:88vh;border:0;border-radius:14px;padding:17px;color:#182536;box-shadow:0 10px 50px #13264144}.rating::backdrop{background:#18253690}.rating .filters{display:grid;grid-template-columns:repeat(5,minmax(100px,1fr));gap:9px;margin:10px 0}.rating .filters input{width:100%;min-width:0}.rating .filters label{font-size:12px}.rating .filters div{display:grid;grid-template-columns:1fr 1fr;gap:3px}.scroll{max-height:54vh;overflow:auto}table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}th,td{text-align:right;padding:6px 8px;border-bottom:1px solid var(--line);white-space:nowrap}th{background:#f2f5fa;position:sticky;top:0}tr:hover td{background:#f4f8ff}progress{width:180px}.tag{color:#173f75}.error{color:#a32032}@media(max-width:950px){.head{grid-template-columns:22% 28% 50%}.head section{padding:13px}.fields{grid-template-columns:1fr}.rating .filters{grid-template-columns:repeat(2,minmax(100px,1fr))}}@media(max-width:640px){main{padding:9px}.head,.split{grid-template-columns:1fr}.head section+section{border-left:0;border-top:1px solid var(--line)}.radios{max-height:150px}.fields{grid-template-columns:repeat(3,minmax(0,1fr))}}
+</style>
+<main><h1 id="title">Недельная разметка</h1><p class="sub" id="coverage"></p>
+<div class="bar" role="tablist" aria-label="Режим лаборатории"><button id="tabLabels" type="button" class="primary" role="tab" aria-selected="true" aria-controls="labelPanel">Разметка</button><button id="tabLab" type="button" role="tab" aria-selected="false" aria-controls="labPanel" tabindex="-1">Тесты алгоритмов</button></div>
+<div id="labelPanel" role="tabpanel" aria-labelledby="tabLabels">
+<div class="card bar" id="scopeControls">
+ <label>Направление <select id="side"><option value="long">Лонг</option><option value="short">Шорт</option><option value="both">Лонг и шорт</option></select></label>
+ <label>Период графика и расчёта <select id="scope"><option value="day">День</option><option value="hour">Час</option><option value="custom">Свой отрезок</option><option value="week">Неделя</option></select></label>
+ <label id="dateLabel">Дата UTC <select id="date"></select></label><label id="hourLabel" hidden>Час UTC <select id="hour"></select></label>
+ <label id="fromLabel" hidden>От UTC <input id="from" type="datetime-local"></label><label id="toLabel" hidden>До UTC <input id="to" type="datetime-local"></label><button id="setRange" hidden>Показать отрезок</button>
+</div>
+<div class="card head">
+ <section><h2>Цель чистыми</h2><div class="radios" id="goals"></div></section>
+ <section><h2><label for="horizon">Ждать выхода до</label></h2><input id="horizon" type="range" min="0" max="1000" value="200" step="1"><output id="horizonValue" for="horizon"></output><label>Допустимое падение цены <select id="dip"></select></label><p class="sub" id="applied"></p></section>
+ <section><h2>Подбор настроек <span id="scopeHeading"></span></h2><div class="fields">
+   <label><span>Падение не больше, %</span><input id="optDip" type="number" min="0" max="1" step="any" placeholder="до 1"></label>
+   <label><span>Цель не ниже, %</span><input id="optGoal" type="number" min="0" max="5" step="any" placeholder="любая"></label>
+   <label><span>Ждать не дольше, мин</span><input id="optTime" type="number" min=".5" max="360" step="any" placeholder="до 360"></label>
+  </div><div class="bar"><button class="primary" id="run">Найти и применить лучшие</button><button id="openRating" disabled>Рейтинг вариантов</button><button id="cancel" hidden>Остановить</button><progress id="progress" hidden></progress></div>
+  <p class="sub" id="job" aria-live="polite">Пустые поля означают всю сетку. Результат задним числом.</p><div id="winner" class="winner" hidden></div>
+ </section>
+</div>
+<div class="card"><div class="chartTop"><div><h2>Цена и размеченные входы</h2><p class="sub">Колесо — приблизить, перетаскивание — сдвинуть, двойной клик — сброс. ▲ лонг, ▼ шорт, × выход. Жёлтое — разрыв.</p><p class="sub" id="chartStatus" aria-live="polite">Загрузка графика… Если страница не открылась, запустите OPEN_REVIEW.bat в обычном браузере.</p></div><aside><strong id="signalCount">—</strong> <span class="small">успешных входов за период</span><div class="statLine" id="money"></div></aside></div><canvas id="main" aria-label="Цена и размеченные входы"></canvas></div>
+<div class="split"><section class="card"><h2>Выбранный вход крупно</h2><div class="bar"><button id="prev">← Секунда</button><button id="next">Секунда →</button><button id="nextSignal">Следующий удачный</button><select id="detailSide" aria-label="Направление выбранного входа"><option value="1">Лонг</option><option value="-1">Шорт</option></select></div><canvas id="zoom" aria-label="Окно выбранного входа"></canvas></section><section class="card detail" id="detail"></section></div>
+<p class="sub">Комиссия 0,05% на сторону, задержка 300 мс. Шорт условный, с расчётом результата в USDT под полное обеспечение по цене входа; реальное исполнение на споте не моделируется. В общем режиме одна позиция на оба направления. На неделе остаток переносится между днями, открытые позиции через 00:00 UTC не переносятся. Все результаты — разметка задним числом.</p>
+</div>
+<div id="labPanel" role="tabpanel" aria-labelledby="tabLab" hidden>
+ <section class="card"><h2 id="labTitle">Первый пробный запуск</h2><p class="sub">Проверяем путь от сигнала до отчёта. Торговые прогоны пока не включены: сначала выбери правило входа.</p>
+  <div class="fields" id="labDates">
+   <div><span>Настройка, UTC</span><b id="labTrainDates"></b><p class="sub">Рабочая неделя на вкладке «Разметка».</p></div>
+   <div><span>Проверка, UTC</span><b>23–29 ноября 2026</b><p class="sub">Будущий период. Источники ещё нужно проверить и подтвердить запись до начала недели.</p></div>
+   <div><span>Статус</span><b>Ждём выбор правила</b><p class="sub">Здесь нет результатов на будущих данных. Пропуски не дорисовываем.</p></div>
+  </div>
+ </section>
+ <section class="card"><h2>Выбери правило входа</h2><fieldset id="labChoices" class="radios" style="max-height:none;border:0;margin:0;padding:0"><legend class="small">Один вариант для пробного запуска</legend></fieldset>
+  <p class="sub" id="labParams"></p><div class="bar"><button id="labSave" type="button" class="primary" disabled>Скачать черновик теста</button></div><p class="small">В файл попадут выбранное правило, направление, текущие настройки разметки и обе недели. Скачать план — не запустить тест.</p>
+ </section>
+ <section class="card"><h2>Как будем сравнивать</h2><ol>
+  <li>Подготовим данные на июньской неделе, проверим отсутствие заглядывания вперёд. Настраивать будем только на ней.</li>
+  <li>Запишем список вариантов, правила выхода и расходы до 23 ноября. В реальном времени выходить можно по цели, стопу или времени; лучший будущий выход годится только для разметки.</li>
+  <li>После 29 ноября проверим запись и прогоним те же варианты без изменений. В отчёте будут чистый итог, просадка, число сделок и доля плюсовых отдельно по каждой неделе.</li>
+ </ol><p class="sub">Если по ноябрьской неделе снова подбирать настройки, она перестанет быть независимой. Новую версию тогда проверим на следующей ещё не использованной неделе.</p></section>
+</div>
+</main>
+<dialog id="rating" class="rating"><div class="bar"><h2>Рейтинг сочетаний</h2><button id="closeRating">Закрыть</button></div><p class="sub" id="ratingContext"></p><div id="ratingFilters" class="filters"></div><div class="bar"><label>Сортировать <select id="sort"><option value="capital">Итог ↓</option><option value="dip">Допустимое падение ↑</option><option value="seconds">Ожидание ↑</option><option value="goal">Цель ↑</option><option value="count">Сделки ↓</option></select></label><button id="clearFilters">Сбросить фильтры</button><span id="ratingCount" class="small"></span></div><div class="scroll"><table><thead><tr><th>Итог из 100</th><th>Цель, %</th><th>Ждать</th><th>Падение до, %</th><th>Сделок</th><th></th></tr></thead><tbody id="ratingRows"></tbody></table></div></dialog>
+<script>
+const DATA=/* DATA */;
+const ENGINE_SOURCE=/* ENGINE FOR WORKER */;
+/* ENGINE */
+/* CHARTS */
+/* APP */
+/* LAB */
+</script></html>

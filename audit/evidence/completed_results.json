@@ -1,0 +1,876 @@
+{
+  "experiments": {
+    "10m_long": {
+      "summary": {
+        "tf_minutes": 10,
+        "direction": "long",
+        "planned_slots": 1800,
+        "unique_genomes": 1654,
+        "search_trainings": 1654,
+        "cache_slots": 146,
+        "invalid_slots": 0,
+        "select_score": 1.79813,
+        "check_ap": 0.201684,
+        "full_ap": 0.205186,
+        "check_lift": 1.44493,
+        "full_lift": 1.47002,
+        "random_mean_lift": 1.4956833333333335,
+        "random_best_lift": 1.54174,
+        "shuffled_lift": 1.00048,
+        "paired_wins_vs_full_3_seeds": 0,
+        "mean_paired_lift_delta": -0.12028333333333337,
+        "check_positive_fraction": 0.139581,
+        "top_good": 4,
+        "top_total": 16,
+        "winner_original": 107,
+        "winner_early": 2,
+        "winner_new": 4,
+        "selected_updates": 24
+      },
+      "paired_selected": [
+        1.44493,
+        1.30088,
+        1.31626
+      ],
+      "paired_full": [
+        1.47002,
+        1.51247,
+        1.44043
+      ],
+      "errors": {},
+      "check": {
+        "ap": 0.201684,
+        "lift": 1.44493,
+        "base": 0.139581,
+        "top_good": 4,
+        "top_total": 16
+      },
+      "full": {
+        "ap": 0.205186,
+        "lift": 1.47002,
+        "base": 0.139581,
+        "top_good": 7,
+        "top_total": 16
+      },
+      "random": [
+        {
+          "ap": 0.21171,
+          "lift": 1.51676,
+          "base": 0.139581,
+          "top_good": 7,
+          "top_total": 16
+        },
+        {
+          "ap": 0.215197,
+          "lift": 1.54174,
+          "base": 0.139581,
+          "top_good": 7,
+          "top_total": 16
+        },
+        {
+          "ap": 0.199398,
+          "lift": 1.42855,
+          "base": 0.139581,
+          "top_good": 4,
+          "top_total": 16
+        }
+      ],
+      "shuffled": {
+        "ap": 0.139647,
+        "lift": 1.00048,
+        "base": 0.139581,
+        "top_good": 6,
+        "top_total": 16
+      },
+      "winner_id": "fbad441710f7e07d",
+      "source_result_sha256": "ce45cece2020810088c830dca54037b79052493d9edb72ad26bcf0af9be79b57"
+    },
+    "10m_short": {
+      "summary": {
+        "tf_minutes": 10,
+        "direction": "short",
+        "planned_slots": 1800,
+        "unique_genomes": 1481,
+        "search_trainings": 1481,
+        "cache_slots": 319,
+        "invalid_slots": 0,
+        "select_score": 2.41468,
+        "check_ap": 0.23877,
+        "full_ap": 0.21894,
+        "check_lift": 2.002,
+        "full_lift": 1.83573,
+        "random_mean_lift": 1.8481,
+        "random_best_lift": 1.90996,
+        "shuffled_lift": 1.48935,
+        "paired_wins_vs_full_3_seeds": 2,
+        "mean_paired_lift_delta": 0.037213333333333175,
+        "check_positive_fraction": 0.119266,
+        "top_good": 6,
+        "top_total": 16,
+        "winner_original": 269,
+        "winner_early": 0,
+        "winner_new": 0,
+        "selected_updates": 72
+      },
+      "paired_selected": [
+        2.002,
+        1.69728,
+        1.85662
+      ],
+      "paired_full": [
+        1.83573,
+        1.80807,
+        1.80046
+      ],
+      "errors": {},
+      "check": {
+        "ap": 0.23877,
+        "lift": 2.002,
+        "base": 0.119266,
+        "top_good": 6,
+        "top_total": 16
+      },
+      "full": {
+        "ap": 0.21894,
+        "lift": 1.83573,
+        "base": 0.119266,
+        "top_good": 6,
+        "top_total": 16
+      },
+      "random": [
+        {
+          "ap": 0.227794,
+          "lift": 1.90996,
+          "base": 0.119266,
+          "top_good": 5,
+          "top_total": 16
+        },
+        {
+          "ap": 0.21961,
+          "lift": 1.84135,
+          "base": 0.119266,
+          "top_good": 4,
+          "top_total": 16
+        },
+        {
+          "ap": 0.213843,
+          "lift": 1.79299,
+          "base": 0.119266,
+          "top_good": 5,
+          "top_total": 16
+        }
+      ],
+      "shuffled": {
+        "ap": 0.177629,
+        "lift": 1.48935,
+        "base": 0.119266,
+        "top_good": 4,
+        "top_total": 16
+      },
+      "winner_id": "021052c6068cbd71",
+      "source_result_sha256": "e496eb6356357f024cc9f97093e5fe8a3e77557cb5c6c7c92b02842912c0743f"
+    },
+    "15m_long": {
+      "summary": {
+        "tf_minutes": 15,
+        "direction": "long",
+        "planned_slots": 1800,
+        "unique_genomes": 1497,
+        "search_trainings": 1497,
+        "cache_slots": 303,
+        "invalid_slots": 0,
+        "select_score": 2.37043,
+        "check_ap": 0.202573,
+        "full_ap": 0.197962,
+        "check_lift": 1.61525,
+        "full_lift": 1.57849,
+        "random_mean_lift": 1.60884,
+        "random_best_lift": 1.65761,
+        "shuffled_lift": 0.99499,
+        "paired_wins_vs_full_3_seeds": 1,
+        "mean_paired_lift_delta": -0.08491999999999995,
+        "check_positive_fraction": 0.125413,
+        "top_good": 6,
+        "top_total": 10,
+        "winner_original": 124,
+        "winner_early": 0,
+        "winner_new": 0,
+        "selected_updates": 24
+      },
+      "paired_selected": [
+        1.61525,
+        1.26685,
+        1.39943
+      ],
+      "paired_full": [
+        1.57849,
+        1.48186,
+        1.47594
+      ],
+      "errors": {},
+      "check": {
+        "ap": 0.202573,
+        "lift": 1.61525,
+        "base": 0.125413,
+        "top_good": 6,
+        "top_total": 10
+      },
+      "full": {
+        "ap": 0.197962,
+        "lift": 1.57849,
+        "base": 0.125413,
+        "top_good": 5,
+        "top_total": 10
+      },
+      "random": [
+        {
+          "ap": 0.1969,
+          "lift": 1.57002,
+          "base": 0.125413,
+          "top_good": 4,
+          "top_total": 10
+        },
+        {
+          "ap": 0.200521,
+          "lift": 1.59889,
+          "base": 0.125413,
+          "top_good": 5,
+          "top_total": 10
+        },
+        {
+          "ap": 0.207885,
+          "lift": 1.65761,
+          "base": 0.125413,
+          "top_good": 6,
+          "top_total": 10
+        }
+      ],
+      "shuffled": {
+        "ap": 0.124785,
+        "lift": 0.99499,
+        "base": 0.125413,
+        "top_good": 1,
+        "top_total": 10
+      },
+      "winner_id": "7cb5b951bbf4a7c1",
+      "source_result_sha256": "0ae649f4e3e9e54c940d00d8a1bff1ab0bb112f8002097ff7817ca4c73405697"
+    },
+    "15m_short": {
+      "summary": {
+        "tf_minutes": 15,
+        "direction": "short",
+        "planned_slots": 1800,
+        "unique_genomes": 1651,
+        "search_trainings": 1651,
+        "cache_slots": 149,
+        "invalid_slots": 0,
+        "select_score": 2.8758,
+        "check_ap": 0.155891,
+        "full_ap": 0.16488,
+        "check_lift": 1.54027,
+        "full_lift": 1.62909,
+        "random_mean_lift": 1.6491566666666666,
+        "random_best_lift": 1.69595,
+        "shuffled_lift": 0.86592,
+        "paired_wins_vs_full_3_seeds": 0,
+        "mean_paired_lift_delta": -0.23415999999999992,
+        "check_positive_fraction": 0.10121,
+        "top_good": 1,
+        "top_total": 10,
+        "winner_original": 110,
+        "winner_early": 14,
+        "winner_new": 19,
+        "selected_updates": 48
+      },
+      "paired_selected": [
+        1.54027,
+        1.36732,
+        1.48482
+      ],
+      "paired_full": [
+        1.62909,
+        1.7405,
+        1.7253
+      ],
+      "errors": {},
+      "check": {
+        "ap": 0.155891,
+        "lift": 1.54027,
+        "base": 0.10121,
+        "top_good": 1,
+        "top_total": 10
+      },
+      "full": {
+        "ap": 0.16488,
+        "lift": 1.62909,
+        "base": 0.10121,
+        "top_good": 3,
+        "top_total": 10
+      },
+      "random": [
+        {
+          "ap": 0.171647,
+          "lift": 1.69595,
+          "base": 0.10121,
+          "top_good": 1,
+          "top_total": 10
+        },
+        {
+          "ap": 0.161969,
+          "lift": 1.60033,
+          "base": 0.10121,
+          "top_good": 3,
+          "top_total": 10
+        },
+        {
+          "ap": 0.167117,
+          "lift": 1.65119,
+          "base": 0.10121,
+          "top_good": 4,
+          "top_total": 10
+        }
+      ],
+      "shuffled": {
+        "ap": 0.08764,
+        "lift": 0.86592,
+        "base": 0.10121,
+        "top_good": 1,
+        "top_total": 10
+      },
+      "winner_id": "12b6261b9258c68a",
+      "source_result_sha256": "6e7603cb61856f61c79d541b8647e904d8fa57d23a42477b71440fb734309c4f"
+    },
+    "1m_long": {
+      "summary": {
+        "tf_minutes": 1,
+        "direction": "long",
+        "planned_slots": 1800,
+        "unique_genomes": 1270,
+        "search_trainings": 1270,
+        "cache_slots": 530,
+        "invalid_slots": 0,
+        "select_score": 1.4892,
+        "check_ap": 0.224081,
+        "full_ap": 0.233283,
+        "check_lift": 0.97774,
+        "full_lift": 1.01789,
+        "random_mean_lift": 0.9623966666666667,
+        "random_best_lift": 0.98967,
+        "shuffled_lift": 1.12607,
+        "paired_wins_vs_full_3_seeds": 0,
+        "mean_paired_lift_delta": -0.06603333333333335,
+        "check_positive_fraction": 0.229183,
+        "top_good": 0,
+        "top_total": 39,
+        "winner_original": 967,
+        "winner_early": 0,
+        "winner_new": 15,
+        "selected_updates": 192
+      },
+      "paired_selected": [
+        0.97774,
+        0.99016,
+        0.94038
+      ],
+      "paired_full": [
+        1.01789,
+        1.0072,
+        1.08129
+      ],
+      "errors": {},
+      "check": {
+        "ap": 0.224081,
+        "lift": 0.97774,
+        "base": 0.229183,
+        "top_good": 0,
+        "top_total": 39
+      },
+      "full": {
+        "ap": 0.233283,
+        "lift": 1.01789,
+        "base": 0.229183,
+        "top_good": 9,
+        "top_total": 39
+      },
+      "random": [
+        {
+          "ap": 0.226815,
+          "lift": 0.98967,
+          "base": 0.229183,
+          "top_good": 5,
+          "top_total": 39
+        },
+        {
+          "ap": 0.211343,
+          "lift": 0.92216,
+          "base": 0.229183,
+          "top_good": 0,
+          "top_total": 39
+        },
+        {
+          "ap": 0.223535,
+          "lift": 0.97536,
+          "base": 0.229183,
+          "top_good": 0,
+          "top_total": 39
+        }
+      ],
+      "shuffled": {
+        "ap": 0.258077,
+        "lift": 1.12607,
+        "base": 0.229183,
+        "top_good": 13,
+        "top_total": 39
+      },
+      "winner_id": "dc411615d46ddd3a",
+      "source_result_sha256": "0210105024d9f7850c9d237254b3d3b8840914819ea8bde51fdc522a72ad0d03"
+    },
+    "1m_short": {
+      "summary": {
+        "tf_minutes": 1,
+        "direction": "short",
+        "planned_slots": 1800,
+        "unique_genomes": 1518,
+        "search_trainings": 1518,
+        "cache_slots": 282,
+        "invalid_slots": 0,
+        "select_score": 1.12511,
+        "check_ap": 0.247766,
+        "full_ap": 0.233932,
+        "check_lift": 1.14825,
+        "full_lift": 1.08414,
+        "random_mean_lift": 1.1269933333333333,
+        "random_best_lift": 1.16962,
+        "shuffled_lift": 1.01785,
+        "paired_wins_vs_full_3_seeds": 3,
+        "mean_paired_lift_delta": 0.05831000000000001,
+        "check_positive_fraction": 0.215777,
+        "top_good": 15,
+        "top_total": 39,
+        "winner_original": 1043,
+        "winner_early": 106,
+        "winner_new": 94,
+        "selected_updates": 240
+      },
+      "paired_selected": [
+        1.14825,
+        1.19609,
+        1.2032
+      ],
+      "paired_full": [
+        1.08414,
+        1.15039,
+        1.13808
+      ],
+      "errors": {},
+      "check": {
+        "ap": 0.247766,
+        "lift": 1.14825,
+        "base": 0.215777,
+        "top_good": 15,
+        "top_total": 39
+      },
+      "full": {
+        "ap": 0.233932,
+        "lift": 1.08414,
+        "base": 0.215777,
+        "top_good": 14,
+        "top_total": 39
+      },
+      "random": [
+        {
+          "ap": 0.234182,
+          "lift": 1.0853,
+          "base": 0.215777,
+          "top_good": 9,
+          "top_total": 39
+        },
+        {
+          "ap": 0.252377,
+          "lift": 1.16962,
+          "base": 0.215777,
+          "top_good": 17,
+          "top_total": 39
+        },
+        {
+          "ap": 0.242979,
+          "lift": 1.12606,
+          "base": 0.215777,
+          "top_good": 15,
+          "top_total": 39
+        }
+      ],
+      "shuffled": {
+        "ap": 0.219628,
+        "lift": 1.01785,
+        "base": 0.215777,
+        "top_good": 8,
+        "top_total": 39
+      },
+      "winner_id": "9073b80565dbe895",
+      "source_result_sha256": "3c72a1b65087575353b8aa66be2eb0037091ea2f0da441c8443a47c6a71f4256"
+    },
+    "30m_long": {
+      "summary": {
+        "tf_minutes": 30,
+        "direction": "long",
+        "planned_slots": 1800,
+        "unique_genomes": 1193,
+        "search_trainings": 1116,
+        "cache_slots": 607,
+        "invalid_slots": 77,
+        "select_score": 3.41728,
+        "check_ap": 0.159209,
+        "full_ap": 0.224373,
+        "check_lift": 1.63852,
+        "full_lift": 2.30917,
+        "random_mean_lift": 1.7896566666666667,
+        "random_best_lift": 1.84832,
+        "shuffled_lift": 1.33404,
+        "paired_wins_vs_full_3_seeds": 1,
+        "mean_paired_lift_delta": -0.2652299999999999,
+        "check_positive_fraction": 0.097166,
+        "top_good": 0,
+        "top_total": 3,
+        "winner_original": 31,
+        "winner_early": 0,
+        "winner_new": 0,
+        "selected_updates": 24
+      },
+      "paired_selected": [
+        1.63852,
+        2.25673,
+        1.4391
+      ],
+      "paired_full": [
+        2.30917,
+        1.89102,
+        1.92985
+      ],
+      "errors": {
+        "ValueError: Invalid chromosome: too few originals or duplicate points": 77
+      },
+      "check": {
+        "ap": 0.159209,
+        "lift": 1.63852,
+        "base": 0.097166,
+        "top_good": 0,
+        "top_total": 3
+      },
+      "full": {
+        "ap": 0.224373,
+        "lift": 2.30917,
+        "base": 0.097166,
+        "top_good": 1,
+        "top_total": 3
+      },
+      "random": [
+        {
+          "ap": 0.164447,
+          "lift": 1.69243,
+          "base": 0.097166,
+          "top_good": 0,
+          "top_total": 3
+        },
+        {
+          "ap": 0.177641,
+          "lift": 1.82822,
+          "base": 0.097166,
+          "top_good": 0,
+          "top_total": 3
+        },
+        {
+          "ap": 0.179594,
+          "lift": 1.84832,
+          "base": 0.097166,
+          "top_good": 0,
+          "top_total": 3
+        }
+      ],
+      "shuffled": {
+        "ap": 0.129623,
+        "lift": 1.33404,
+        "base": 0.097166,
+        "top_good": 1,
+        "top_total": 3
+      },
+      "winner_id": "4fda6f1ff9f9569e",
+      "source_result_sha256": "4ac50b484cf38fdd7cebc1feb848b23bae3f8edaf885d82b7694bdad9c20ea15"
+    },
+    "30m_short": {
+      "summary": {
+        "tf_minutes": 30,
+        "direction": "short",
+        "planned_slots": 1800,
+        "unique_genomes": 1127,
+        "search_trainings": 1017,
+        "cache_slots": 673,
+        "invalid_slots": 110,
+        "select_score": 5.95756,
+        "check_ap": 0.120565,
+        "full_ap": 0.090292,
+        "check_lift": 3.30884,
+        "full_lift": 2.47803,
+        "random_mean_lift": 2.8162966666666667,
+        "random_best_lift": 3.02047,
+        "shuffled_lift": 3.66866,
+        "paired_wins_vs_full_3_seeds": 3,
+        "mean_paired_lift_delta": 1.2148033333333335,
+        "check_positive_fraction": 0.036437,
+        "top_good": 0,
+        "top_total": 3,
+        "winner_original": 31,
+        "winner_early": 2,
+        "winner_new": 0,
+        "selected_updates": 24
+      },
+      "paired_selected": [
+        3.30884,
+        2.45354,
+        5.06519
+      ],
+      "paired_full": [
+        2.47803,
+        2.27227,
+        2.43286
+      ],
+      "errors": {
+        "ValueError: Invalid chromosome: too few originals or duplicate points": 110
+      },
+      "check": {
+        "ap": 0.120565,
+        "lift": 3.30884,
+        "base": 0.036437,
+        "top_good": 0,
+        "top_total": 3
+      },
+      "full": {
+        "ap": 0.090292,
+        "lift": 2.47803,
+        "base": 0.036437,
+        "top_good": 0,
+        "top_total": 3
+      },
+      "random": [
+        {
+          "ap": 0.09515,
+          "lift": 2.61133,
+          "base": 0.036437,
+          "top_good": 0,
+          "top_total": 3
+        },
+        {
+          "ap": 0.102647,
+          "lift": 2.81709,
+          "base": 0.036437,
+          "top_good": 0,
+          "top_total": 3
+        },
+        {
+          "ap": 0.110057,
+          "lift": 3.02047,
+          "base": 0.036437,
+          "top_good": 1,
+          "top_total": 3
+        }
+      ],
+      "shuffled": {
+        "ap": 0.133676,
+        "lift": 3.66866,
+        "base": 0.036437,
+        "top_good": 0,
+        "top_total": 3
+      },
+      "winner_id": "b726b5b1797b7ece",
+      "source_result_sha256": "aa7c4e4935b60e36bebe2e91797564011c4b4a9c1cfec9659a7594ac9de78b5b"
+    },
+    "5m_long": {
+      "summary": {
+        "tf_minutes": 5,
+        "direction": "long",
+        "planned_slots": 1800,
+        "unique_genomes": 1670,
+        "search_trainings": 1670,
+        "cache_slots": 130,
+        "invalid_slots": 0,
+        "select_score": 1.88969,
+        "check_ap": 0.199691,
+        "full_ap": 0.196905,
+        "check_lift": 1.30511,
+        "full_lift": 1.2869,
+        "random_mean_lift": 1.3442866666666666,
+        "random_best_lift": 1.35162,
+        "shuffled_lift": 0.98493,
+        "paired_wins_vs_full_3_seeds": 1,
+        "mean_paired_lift_delta": -0.006713333333333349,
+        "check_positive_fraction": 0.153007,
+        "top_good": 9,
+        "top_total": 33,
+        "winner_original": 508,
+        "winner_early": 0,
+        "winner_new": 9,
+        "selected_updates": 120
+      },
+      "paired_selected": [
+        1.30511,
+        1.35404,
+        1.30446
+      ],
+      "paired_full": [
+        1.2869,
+        1.35591,
+        1.34094
+      ],
+      "errors": {},
+      "check": {
+        "ap": 0.199691,
+        "lift": 1.30511,
+        "base": 0.153007,
+        "top_good": 9,
+        "top_total": 33
+      },
+      "full": {
+        "ap": 0.196905,
+        "lift": 1.2869,
+        "base": 0.153007,
+        "top_good": 7,
+        "top_total": 33
+      },
+      "random": [
+        {
+          "ap": 0.205737,
+          "lift": 1.34462,
+          "base": 0.153007,
+          "top_good": 9,
+          "top_total": 33
+        },
+        {
+          "ap": 0.206808,
+          "lift": 1.35162,
+          "base": 0.153007,
+          "top_good": 9,
+          "top_total": 33
+        },
+        {
+          "ap": 0.204513,
+          "lift": 1.33662,
+          "base": 0.153007,
+          "top_good": 10,
+          "top_total": 33
+        }
+      ],
+      "shuffled": {
+        "ap": 0.150701,
+        "lift": 0.98493,
+        "base": 0.153007,
+        "top_good": 5,
+        "top_total": 33
+      },
+      "winner_id": "d00ea752e881adb5",
+      "source_result_sha256": "dee41d580d9e0d149b535ac49b62cfdb4661f649100b37ba88704f477a608a17"
+    },
+    "5m_short": {
+      "summary": {
+        "tf_minutes": 5,
+        "direction": "short",
+        "planned_slots": 1800,
+        "unique_genomes": 1648,
+        "search_trainings": 1648,
+        "cache_slots": 152,
+        "invalid_slots": 0,
+        "select_score": 2.17608,
+        "check_ap": 0.20514,
+        "full_ap": 0.218992,
+        "check_lift": 1.56736,
+        "full_lift": 1.6732,
+        "random_mean_lift": 1.79434,
+        "random_best_lift": 1.89016,
+        "shuffled_lift": 1.1412,
+        "paired_wins_vs_full_3_seeds": 2,
+        "mean_paired_lift_delta": 0.03134999999999999,
+        "check_positive_fraction": 0.130882,
+        "top_good": 5,
+        "top_total": 33,
+        "winner_original": 652,
+        "winner_early": 47,
+        "winner_new": 32,
+        "selected_updates": 144
+      },
+      "paired_selected": [
+        1.56736,
+        1.7952,
+        1.70345
+      ],
+      "paired_full": [
+        1.6732,
+        1.64221,
+        1.65655
+      ],
+      "errors": {},
+      "check": {
+        "ap": 0.20514,
+        "lift": 1.56736,
+        "base": 0.130882,
+        "top_good": 5,
+        "top_total": 33
+      },
+      "full": {
+        "ap": 0.218992,
+        "lift": 1.6732,
+        "base": 0.130882,
+        "top_good": 8,
+        "top_total": 33
+      },
+      "random": [
+        {
+          "ap": 0.225815,
+          "lift": 1.72533,
+          "base": 0.130882,
+          "top_good": 11,
+          "top_total": 33
+        },
+        {
+          "ap": 0.247388,
+          "lift": 1.89016,
+          "base": 0.130882,
+          "top_good": 11,
+          "top_total": 33
+        },
+        {
+          "ap": 0.231338,
+          "lift": 1.76753,
+          "base": 0.130882,
+          "top_good": 10,
+          "top_total": 33
+        }
+      ],
+      "shuffled": {
+        "ap": 0.149363,
+        "lift": 1.1412,
+        "base": 0.130882,
+        "top_good": 7,
+        "top_total": 33
+      },
+      "winner_id": "5b9df8db185bcfe4",
+      "source_result_sha256": "37012ebe9843c7dc96f7997d58ced7e0788418bcc78496429ac663537ff0cc8f"
+    }
+  },
+  "artifacts": {
+    "NEXUS_DASHBOARD.html": {
+      "bytes": 7591574,
+      "sha256": "8dcf16755e4e96d3e93d06989daac44efd2c542ede70a053f9c2165afcff34c6"
+    },
+    "NEXUS_V12_REPORT.zip": {
+      "bytes": 3671773,
+      "sha256": "f6faa38a7df91d729cfcaad891da7ccea2bdedfc0dd68a112534d6fcf7f6dcb7"
+    }
+  },
+  "totals": {
+    "planned_slots": 18000,
+    "unique_genomes": 14709,
+    "search_trainings": 14522,
+    "cache_slots": 3291,
+    "invalid_slots": 187
+  },
+  "matches_zip_disk_html": true
+}

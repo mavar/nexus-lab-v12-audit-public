@@ -1,0 +1,49 @@
+{
+  "completed_resume_does_not_regenerate_exports": {
+    "CANDIDATES_TABLE.csv": false,
+    "WINNER_SAMPLES.csv": false,
+    "LABEL_COVERAGE.csv": false
+  },
+  "interior_corruption": {
+    "returned": [
+      {
+        "n": 1
+      }
+    ],
+    "file_after": "{\"n\":1}\n",
+    "saved_tail": "BROKEN\n{\"n\":3}\n"
+  },
+  "negative_control_changes_with_size": {
+    "n60": 60,
+    "n80": 80,
+    "intersection": 17
+  },
+  "pseudo_labels_and_control": {
+    "captured": [
+      {
+        "pos": 110,
+        "pseudo_positive_original_zeros": 10,
+        "neg": 220
+      }
+    ],
+    "winner_original": 100,
+    "winner_new": 10,
+    "random_original": 110,
+    "random_new": 0
+  },
+  "all_positive_run": {
+    "score": -100.0,
+    "invalid_candidates": 0,
+    "check": {
+      "ap": null,
+      "lift": null,
+      "base": 1.0,
+      "top_good": 0,
+      "top_total": 0
+    }
+  },
+  "reject_nontrain_members": {
+    "select": "A non-TRAIN row entered the chromosome",
+    "check": "A non-TRAIN row entered the chromosome"
+  }
+}

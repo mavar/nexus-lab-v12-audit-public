@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-19",
+  "files": [
+    {
+      "path": "START.py",
+      "bytes": 6265,
+      "sha256": "1063d1c79fd725bb8c2ba0e05870a3c67ae2c51a422a06b730987012445c6d99"
+    },
+    {
+      "path": "МИКРОКОНСТИТУЦИЯ_NEXUS_LAB.md",
+      "bytes": 7119,
+      "sha256": "b9da121abe0c54877b39771d35abd87ed7911ad38722298d347f31c18ea840fa"
+    },
+    {
+      "path": "research\\dashboard_v12.py",
+      "bytes": 2361,
+      "sha256": "3ebe305cd56400a5d57f776a25d04c9c2fb3175abf17c196d8350a09b08942b7"
+    },
+    {
+      "path": "research\\dashboard_v12_template.html",
+      "bytes": 24040,
+      "sha256": "054b0b847a789fb449a55216392632f383d98f974b3912ce74c1979fae8cecb1"
+    },
+    {
+      "path": "research\\evolve_datasets.py",
+      "bytes": 25000,
+      "sha256": "0aa4929c56e424d625dcdbe9d92a7011fbf98214f2a2573e0963b21f89fea428"
+    },
+    {
+      "path": "research\\plotly.min.js",
+      "bytes": 4838938,
+      "sha256": "e2b0f77ee8156ff9d525852fe4acb7bfe7d85e8a2e1da0523f6d16209b848968"
+    },
+    {
+      "path": "research\\prepare_finam.py",
+      "bytes": 7295,
+      "sha256": "dfe6797352cb3db022cfb15bc45e54fc316f065d8964602271cf0650506b9a41"
+    },
+    {
+      "path": "research\\__init__.py",
+      "bytes": 94,
+      "sha256": "f3b6498c6bfa7837b1f673cde0ccabf692bdf2674e423f3e6a32b826d331db4e"
+    },
+    {
+      "path": "tests\\test_v12.py",
+      "bytes": 4844,
+      "sha256": "948f4d544dc5c7a6da77995c7f242b77ecd7050bac72fa2b6887ed040a14862d"
+    },
+    {
+      "path": "prepared\\SBRF_10m_research.csv.gz",
+      "bytes": 946396,
+      "sha256": "383daae3e6a90c508156741897e769780fb9f59274e3709dcdae5ff421c77f03"
+    },
+    {
+      "path": "prepared\\SBRF_15m_research.csv.gz",
+      "bytes": 559984,
+      "sha256": "54ee04bb84d6a398ec2f8f9db2e4bee3cb3db0858ad93d3958c33c11af67f52b"
+    },
+    {
+      "path": "prepared\\SBRF_1m_research.csv.gz",
+      "bytes": 4414574,
+      "sha256": "4a65a55380a46f57189020b89d541d985a643ad0ab4c3f6bf484616d603db74a"
+    },
+    {
+      "path": "prepared\\SBRF_30m_research.csv.gz",
+      "bytes": 150243,
+      "sha256": "14218272021082e9676fa941332a5b974af67d22624caccd21f3a2dcab79a188"
+    },
+    {
+      "path": "prepared\\SBRF_5m_research.csv.gz",
+      "bytes": 2059790,
+      "sha256": "d34591788daf2b3ec85f642df78e68eaa5a951f52d7e6760def85453e9289518"
+    }
+  ],
+  "input_source_unchanged_vs_sandbox": true
+}

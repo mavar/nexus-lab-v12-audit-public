@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "updated": "2026-10-30",
+  "about": "Машинные правила лаборатории. Harness читает их и проверяет КАЖДЫЙ прогон сам. Меняет только владелец (через Opus).",
+  "fees": {
+    "exchange": "MEXC spot",
+    "maker_pct": 0.0,
+    "taker_pct": 0.05
+  },
+  "execution": {
+    "default_order": "taker",
+    "latency_ticks": 1,
+    "fill_rule": "решение на тике i исполняется на тике i+latency: покупка по ask, продажа по bid",
+    "allow_short": true,
+    "short_note": "MEXC spot без шорта; short разрешён для исследования симметричных идей, в таблице помечается"
+  },
+  "validation": {
+    "require_no_lookahead": true,
+    "lookahead_cut_frac": 0.6,
+    "min_trades": 50,
+    "walk_forward_folds": 5,
+    "min_positive_folds": 3,
+    "p_value_max": 0.05,
+    "bootstrap_iter": 2000,
+    "plateau_min_neighbor_share": 0.6
+  },
+  "reproducibility": {
+    "seed": 42,
+    "store_code_hash": true,
+    "store_data_hash": true,
+    "store_rules_hash": true
+  },
+  "reporting": {
+    "effectiveness_table": "harness/effectiveness_table.csv",
+    "passports_dir": "harness/passports",
+    "only_harness_writes_table": true
+  }
+}

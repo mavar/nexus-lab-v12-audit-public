@@ -1,0 +1,627 @@
+{
+  "BTCUSDT_1m_research.csv.gz": {
+    "rows": 23107,
+    "source_sha256": "e058e9b5a9ad724ba8b8f4782200e43f3284fca4802e67f4e233ec04e655e095",
+    "sha256": "3d4b7489db5ff33b8d843b44892ae4e72d0c51f2c1ffc2b08de61658d07c9f91",
+    "splits": {
+      "check": {
+        "rows": 2327,
+        "days": 4,
+        "long": 453,
+        "short": 713
+      },
+      "select": {
+        "rows": 4203,
+        "days": 4,
+        "long": 974,
+        "short": 1136
+      },
+      "train": {
+        "rows": 16577,
+        "days": 15,
+        "long": 3731,
+        "short": 4191
+      }
+    }
+  },
+  "BTCUSDT_5m_research.csv.gz": {
+    "rows": 3952,
+    "source_sha256": "e058e9b5a9ad724ba8b8f4782200e43f3284fca4802e67f4e233ec04e655e095",
+    "sha256": "5d10613605b34cb9fbc5105419653506ff2d4811f1ac2e53eece46ca2ec9f1d7",
+    "splits": {
+      "check": {
+        "rows": 369,
+        "days": 3,
+        "long": 59,
+        "short": 116
+      },
+      "select": {
+        "rows": 708,
+        "days": 4,
+        "long": 182,
+        "short": 188
+      },
+      "train": {
+        "rows": 2875,
+        "days": 15,
+        "long": 667,
+        "short": 733
+      }
+    }
+  },
+  "BTCUSDT_10m_research.csv.gz": {
+    "rows": 1621,
+    "source_sha256": "e058e9b5a9ad724ba8b8f4782200e43f3284fca4802e67f4e233ec04e655e095",
+    "sha256": "adf7c07a5dbf68825913a77a189f88ad256bab1b0f5b8eff1756dc02322defba",
+    "splits": {
+      "check": {
+        "rows": 146,
+        "days": 3,
+        "long": 22,
+        "short": 50
+      },
+      "select": {
+        "rows": 275,
+        "days": 4,
+        "long": 74,
+        "short": 82
+      },
+      "train": {
+        "rows": 1200,
+        "days": 15,
+        "long": 273,
+        "short": 303
+      }
+    }
+  },
+  "BTCUSDT_15m_research.csv.gz": {
+    "rows": 861,
+    "source_sha256": "e058e9b5a9ad724ba8b8f4782200e43f3284fca4802e67f4e233ec04e655e095",
+    "sha256": "1a4c37b2b6cbe1dd8ee8f31724a3cd17e0d4c7b4bac8dbe214d22ce022e818e7",
+    "splits": {
+      "check": {
+        "rows": 72,
+        "days": 3,
+        "long": 9,
+        "short": 22
+      },
+      "select": {
+        "rows": 137,
+        "days": 4,
+        "long": 26,
+        "short": 46
+      },
+      "train": {
+        "rows": 652,
+        "days": 14,
+        "long": 142,
+        "short": 170
+      }
+    }
+  },
+  "BTCUSDT_30m_research.csv.gz": {
+    "rows": 200,
+    "source_sha256": "e058e9b5a9ad724ba8b8f4782200e43f3284fca4802e67f4e233ec04e655e095",
+    "sha256": "cd9d895322661ffc0785d11a9b0ad119a971a39c959dd62e177afeb16ba2ae2c",
+    "splits": {
+      "check": {
+        "rows": 7,
+        "days": 2,
+        "long": 3,
+        "short": 3
+      },
+      "select": {
+        "rows": 28,
+        "days": 2,
+        "long": 5,
+        "short": 11
+      },
+      "train": {
+        "rows": 165,
+        "days": 12,
+        "long": 47,
+        "short": 45
+      }
+    }
+  },
+  "DOGEUSDT_1m_research.csv.gz": {
+    "rows": 23183,
+    "source_sha256": "ae38a08478e1ec108c1344b1d2010e19974c10e315070a0664ef1a6a03f67d07",
+    "sha256": "37da354d0071ac6d81660f1f4259bda862b2e1e0e5898e19591a19aae7409c2b",
+    "splits": {
+      "check": {
+        "rows": 2327,
+        "days": 4,
+        "long": 555,
+        "short": 761
+      },
+      "select": {
+        "rows": 4203,
+        "days": 4,
+        "long": 1124,
+        "short": 1312
+      },
+      "train": {
+        "rows": 16653,
+        "days": 15,
+        "long": 4948,
+        "short": 5205
+      }
+    }
+  },
+  "DOGEUSDT_5m_research.csv.gz": {
+    "rows": 3988,
+    "source_sha256": "ae38a08478e1ec108c1344b1d2010e19974c10e315070a0664ef1a6a03f67d07",
+    "sha256": "80440b994f5b27a7fdfd5487d06243d1bca84269820002a8c64d5e491f0cc1e3",
+    "splits": {
+      "check": {
+        "rows": 369,
+        "days": 3,
+        "long": 80,
+        "short": 123
+      },
+      "select": {
+        "rows": 708,
+        "days": 4,
+        "long": 187,
+        "short": 230
+      },
+      "train": {
+        "rows": 2911,
+        "days": 15,
+        "long": 871,
+        "short": 928
+      }
+    }
+  },
+  "DOGEUSDT_10m_research.csv.gz": {
+    "rows": 1652,
+    "source_sha256": "ae38a08478e1ec108c1344b1d2010e19974c10e315070a0664ef1a6a03f67d07",
+    "sha256": "609a03aa596562aba8aca110ec66e5c802739dd16d8c87853de9b42c9fe8150f",
+    "splits": {
+      "check": {
+        "rows": 146,
+        "days": 3,
+        "long": 31,
+        "short": 49
+      },
+      "select": {
+        "rows": 275,
+        "days": 4,
+        "long": 81,
+        "short": 97
+      },
+      "train": {
+        "rows": 1231,
+        "days": 15,
+        "long": 363,
+        "short": 400
+      }
+    }
+  },
+  "DOGEUSDT_15m_research.csv.gz": {
+    "rows": 890,
+    "source_sha256": "ae38a08478e1ec108c1344b1d2010e19974c10e315070a0664ef1a6a03f67d07",
+    "sha256": "4f2777d200df74e0400f1346cc950e3a26976d9d5f681e53fa82b45183034da7",
+    "splits": {
+      "check": {
+        "rows": 72,
+        "days": 3,
+        "long": 9,
+        "short": 24
+      },
+      "select": {
+        "rows": 137,
+        "days": 4,
+        "long": 31,
+        "short": 59
+      },
+      "train": {
+        "rows": 681,
+        "days": 14,
+        "long": 194,
+        "short": 218
+      }
+    }
+  },
+  "DOGEUSDT_30m_research.csv.gz": {
+    "rows": 207,
+    "source_sha256": "ae38a08478e1ec108c1344b1d2010e19974c10e315070a0664ef1a6a03f67d07",
+    "sha256": "26785de79eff2354e1f9af2e7ba4357fc93a156b634542cc8b5d3c3f4c119f07",
+    "splits": {
+      "check": {
+        "rows": 7,
+        "days": 2,
+        "long": 2,
+        "short": 3
+      },
+      "select": {
+        "rows": 28,
+        "days": 2,
+        "long": 9,
+        "short": 11
+      },
+      "train": {
+        "rows": 172,
+        "days": 13,
+        "long": 53,
+        "short": 52
+      }
+    }
+  },
+  "ETHUSDT_1m_research.csv.gz": {
+    "rows": 23107,
+    "source_sha256": "d4bac72481db0a99dc676814bb1713b9b19cdc74734c226b122152792fda65ed",
+    "sha256": "3fff036e95cc585f24cef6a25043f85b70e1ce0994df786bba60be49a19f6cbb",
+    "splits": {
+      "check": {
+        "rows": 2327,
+        "days": 4,
+        "long": 499,
+        "short": 691
+      },
+      "select": {
+        "rows": 4203,
+        "days": 4,
+        "long": 1106,
+        "short": 1228
+      },
+      "train": {
+        "rows": 16577,
+        "days": 15,
+        "long": 4423,
+        "short": 4520
+      }
+    }
+  },
+  "ETHUSDT_5m_research.csv.gz": {
+    "rows": 3952,
+    "source_sha256": "d4bac72481db0a99dc676814bb1713b9b19cdc74734c226b122152792fda65ed",
+    "sha256": "b3210fb8aad0a5cd5c2846e10fe2605aefb7fb6f2979641b47e91c7ca6b69f04",
+    "splits": {
+      "check": {
+        "rows": 369,
+        "days": 3,
+        "long": 66,
+        "short": 113
+      },
+      "select": {
+        "rows": 708,
+        "days": 4,
+        "long": 200,
+        "short": 208
+      },
+      "train": {
+        "rows": 2875,
+        "days": 15,
+        "long": 795,
+        "short": 775
+      }
+    }
+  },
+  "ETHUSDT_10m_research.csv.gz": {
+    "rows": 1621,
+    "source_sha256": "d4bac72481db0a99dc676814bb1713b9b19cdc74734c226b122152792fda65ed",
+    "sha256": "2164f70eba5a7f5a4528adef32e6f602e9fa9d5d621943ec697d1e5bf54ea393",
+    "splits": {
+      "check": {
+        "rows": 146,
+        "days": 3,
+        "long": 25,
+        "short": 44
+      },
+      "select": {
+        "rows": 275,
+        "days": 4,
+        "long": 79,
+        "short": 91
+      },
+      "train": {
+        "rows": 1200,
+        "days": 15,
+        "long": 339,
+        "short": 320
+      }
+    }
+  },
+  "ETHUSDT_15m_research.csv.gz": {
+    "rows": 861,
+    "source_sha256": "d4bac72481db0a99dc676814bb1713b9b19cdc74734c226b122152792fda65ed",
+    "sha256": "2f1e7a1a30e8ad8d3f7a0d1b660f86e17c375fa0e331fa2c08dd573f3fd0a023",
+    "splits": {
+      "check": {
+        "rows": 72,
+        "days": 3,
+        "long": 7,
+        "short": 25
+      },
+      "select": {
+        "rows": 137,
+        "days": 4,
+        "long": 31,
+        "short": 48
+      },
+      "train": {
+        "rows": 652,
+        "days": 14,
+        "long": 174,
+        "short": 184
+      }
+    }
+  },
+  "ETHUSDT_30m_research.csv.gz": {
+    "rows": 200,
+    "source_sha256": "d4bac72481db0a99dc676814bb1713b9b19cdc74734c226b122152792fda65ed",
+    "sha256": "8f48f95408b90a0e91bb99d64d4916a2a7202e6821e78eac519289d66bfd76b9",
+    "splits": {
+      "check": {
+        "rows": 7,
+        "days": 2,
+        "long": 2,
+        "short": 2
+      },
+      "select": {
+        "rows": 28,
+        "days": 2,
+        "long": 5,
+        "short": 9
+      },
+      "train": {
+        "rows": 165,
+        "days": 12,
+        "long": 47,
+        "short": 42
+      }
+    }
+  },
+  "SOLUSDT_1m_research.csv.gz": {
+    "rows": 23193,
+    "source_sha256": "ebb169bc351cbdcb71f9f238cbfbb2282198ef2d9880693c4750202bd5aad20e",
+    "sha256": "8d627ad436a88464169559ede8e76dc3654dd209b3a742aa4bce15e733c864fc",
+    "splits": {
+      "check": {
+        "rows": 2327,
+        "days": 4,
+        "long": 674,
+        "short": 849
+      },
+      "select": {
+        "rows": 4203,
+        "days": 4,
+        "long": 1250,
+        "short": 1454
+      },
+      "train": {
+        "rows": 16663,
+        "days": 15,
+        "long": 5777,
+        "short": 5465
+      }
+    }
+  },
+  "SOLUSDT_5m_research.csv.gz": {
+    "rows": 3990,
+    "source_sha256": "ebb169bc351cbdcb71f9f238cbfbb2282198ef2d9880693c4750202bd5aad20e",
+    "sha256": "0869c00ff8a80b06a94c1d3abedfe0c1413a08d1840f901345b802ff5f290c19",
+    "splits": {
+      "check": {
+        "rows": 369,
+        "days": 3,
+        "long": 90,
+        "short": 136
+      },
+      "select": {
+        "rows": 708,
+        "days": 4,
+        "long": 229,
+        "short": 232
+      },
+      "train": {
+        "rows": 2913,
+        "days": 15,
+        "long": 1026,
+        "short": 960
+      }
+    }
+  },
+  "SOLUSDT_10m_research.csv.gz": {
+    "rows": 1653,
+    "source_sha256": "ebb169bc351cbdcb71f9f238cbfbb2282198ef2d9880693c4750202bd5aad20e",
+    "sha256": "267863705f7bf551ac40a727a2377c9730c6a94c903fb260ef48ac661a5b44eb",
+    "splits": {
+      "check": {
+        "rows": 146,
+        "days": 3,
+        "long": 33,
+        "short": 52
+      },
+      "select": {
+        "rows": 275,
+        "days": 4,
+        "long": 88,
+        "short": 98
+      },
+      "train": {
+        "rows": 1232,
+        "days": 15,
+        "long": 431,
+        "short": 397
+      }
+    }
+  },
+  "SOLUSDT_15m_research.csv.gz": {
+    "rows": 890,
+    "source_sha256": "ebb169bc351cbdcb71f9f238cbfbb2282198ef2d9880693c4750202bd5aad20e",
+    "sha256": "d515e8e9bb33416641e467ae8eab52dbd26ac87f7a0babc38ba3116e4398b7ac",
+    "splits": {
+      "check": {
+        "rows": 72,
+        "days": 3,
+        "long": 9,
+        "short": 30
+      },
+      "select": {
+        "rows": 137,
+        "days": 4,
+        "long": 42,
+        "short": 54
+      },
+      "train": {
+        "rows": 681,
+        "days": 14,
+        "long": 233,
+        "short": 225
+      }
+    }
+  },
+  "SOLUSDT_30m_research.csv.gz": {
+    "rows": 207,
+    "source_sha256": "ebb169bc351cbdcb71f9f238cbfbb2282198ef2d9880693c4750202bd5aad20e",
+    "sha256": "7bf7b81873b8607a9660541d0c48289dc13f50a87d94dee5eda1045741fead6b",
+    "splits": {
+      "check": {
+        "rows": 7,
+        "days": 2,
+        "long": 2,
+        "short": 3
+      },
+      "select": {
+        "rows": 28,
+        "days": 2,
+        "long": 10,
+        "short": 10
+      },
+      "train": {
+        "rows": 172,
+        "days": 13,
+        "long": 61,
+        "short": 51
+      }
+    }
+  },
+  "XRPUSDT_1m_research.csv.gz": {
+    "rows": 23203,
+    "source_sha256": "c5d0ca059697c1d1e5d9d3bfd6b45c7519901244303c0bf1a18635f99d09545a",
+    "sha256": "efd4a10d281ff90731a61f26ecc87a6bc17d528aa52736d28e4f2834e51d4343",
+    "splits": {
+      "check": {
+        "rows": 2347,
+        "days": 4,
+        "long": 545,
+        "short": 699
+      },
+      "select": {
+        "rows": 4203,
+        "days": 4,
+        "long": 1159,
+        "short": 1364
+      },
+      "train": {
+        "rows": 16653,
+        "days": 15,
+        "long": 5167,
+        "short": 5337
+      }
+    }
+  },
+  "XRPUSDT_5m_research.csv.gz": {
+    "rows": 3988,
+    "source_sha256": "c5d0ca059697c1d1e5d9d3bfd6b45c7519901244303c0bf1a18635f99d09545a",
+    "sha256": "c9f10b7ec661b83457272e3ca00a5110875a1fe013c83990e1c4def28035a4a3",
+    "splits": {
+      "check": {
+        "rows": 369,
+        "days": 3,
+        "long": 77,
+        "short": 100
+      },
+      "select": {
+        "rows": 708,
+        "days": 4,
+        "long": 213,
+        "short": 234
+      },
+      "train": {
+        "rows": 2911,
+        "days": 15,
+        "long": 926,
+        "short": 932
+      }
+    }
+  },
+  "XRPUSDT_10m_research.csv.gz": {
+    "rows": 1652,
+    "source_sha256": "c5d0ca059697c1d1e5d9d3bfd6b45c7519901244303c0bf1a18635f99d09545a",
+    "sha256": "3e6c5897108fc3cb69d776d4e9ef0a2d18a3b0b931e3802d201670724dd85891",
+    "splits": {
+      "check": {
+        "rows": 146,
+        "days": 3,
+        "long": 27,
+        "short": 35
+      },
+      "select": {
+        "rows": 275,
+        "days": 4,
+        "long": 84,
+        "short": 100
+      },
+      "train": {
+        "rows": 1231,
+        "days": 15,
+        "long": 398,
+        "short": 392
+      }
+    }
+  },
+  "XRPUSDT_15m_research.csv.gz": {
+    "rows": 890,
+    "source_sha256": "c5d0ca059697c1d1e5d9d3bfd6b45c7519901244303c0bf1a18635f99d09545a",
+    "sha256": "a73e06043ba94623596efd5dcfa8827993ec541c6fd05a468c2efed8106a627f",
+    "splits": {
+      "check": {
+        "rows": 72,
+        "days": 3,
+        "long": 7,
+        "short": 20
+      },
+      "select": {
+        "rows": 137,
+        "days": 4,
+        "long": 35,
+        "short": 51
+      },
+      "train": {
+        "rows": 681,
+        "days": 14,
+        "long": 209,
+        "short": 227
+      }
+    }
+  },
+  "XRPUSDT_30m_research.csv.gz": {
+    "rows": 207,
+    "source_sha256": "c5d0ca059697c1d1e5d9d3bfd6b45c7519901244303c0bf1a18635f99d09545a",
+    "sha256": "821c8c3a4f308d8ebf9f862d617b2d7ebd884c06d2c489ddbe8f12319a8a7c2d",
+    "splits": {
+      "check": {
+        "rows": 7,
+        "days": 2,
+        "long": 2,
+        "short": 3
+      },
+      "select": {
+        "rows": 28,
+        "days": 2,
+        "long": 7,
+        "short": 8
+      },
+      "train": {
+        "rows": 172,
+        "days": 13,
+        "long": 56,
+        "short": 59
+      }
+    }
+  }
+}

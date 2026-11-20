@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --background: #f5f3ee;
+  --foreground: #242923;
+  --card: #fffefa;
+  --muted: #62675f;
+  --primary: #40594a;
+  --primary-foreground: #fffefa;
+  --border: #d9d7ce;
+  --radius: 0.5rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-muted: var(--muted);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-border: var(--border);
+  --radius-md: var(--radius);
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: #f2f5fa; color: #142238; font: 16px/1.5 system-ui, sans-serif; }
+a { color: inherit; }

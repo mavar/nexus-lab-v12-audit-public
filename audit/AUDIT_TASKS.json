@@ -1,0 +1,482 @@
+{
+  "project": "NEXUS LAB",
+  "audited_version": "V12",
+  "audit_date": "2026-11-19",
+  "summary": {
+    "critical": 1,
+    "high": 10,
+    "medium": 5,
+    "low": 0
+  },
+  "tasks": [
+    {
+      "id": "NEXUS-AUDIT-001",
+      "priority": "P0",
+      "category": "evaluation",
+      "title": "Запретить старые оценки после изменения признаков, разбиения или программы",
+      "status": "confirmed",
+      "finding_type": "implementation_bug",
+      "evidence": {
+        "file": "research/evolve_datasets.py",
+        "function": "run_one",
+        "lines": "235-243",
+        "observed_behavior": "Реальный опыт: изменён ret1. Прежняя папка:0 обучений,score0.54790. Новая папка:15 обучений,score0.68709. Повтор старого журнала без RESULT:0 повторных обучений кандидатов,10 новых конечных контролей; старый SELECT и новый CHECK в одном результате. Split тоже принят; close правильно отклонён.",
+        "expected_behavior": "Продолжение разрешено только при идентичном полном протоколе.",
+        "reproduction": "verify_cache_definitively.py → evidence/cache_definitive.json; CACHE_PROOF.md"
+      },
+      "impact": "Можно смешать оценки разных данных и условий и получить недостоверного победителя.",
+      "proposed_fix": "Считать хэш всех признаков, целевых и временных полей, порядка строк, настроек, кода и зависимостей; сохранять seed и устройство. Разрешённые различия описать отдельно. Вместо assert использовать явную проверку с исключением.",
+      "acceptance_criteria": [
+        "Изменение каждого признака, split, day, версии кода или устройства отклоняется до чтения кэша.",
+        "Неизменный запуск продолжается и даёт прежний результат; работает и с python -O.",
+        "Регрессия с настоящим обучением: изменения X/split не возвращают старые scores и не смешивают старые journal evaluations с новыми controls."
+      ],
+      "suggested_tests": [
+        "audit_checks.py / run_one"
+      ],
+      "dependencies": [],
+      "estimated_complexity": "medium"
+    },
+    {
+      "id": "NEXUS-AUDIT-002",
+      "priority": "P1",
+      "category": "labels",
+      "title": "Отделить новые предположительные метки от подтверждённых примеров",
+      "status": "confirmed",
+      "finding_type": "protocol_limitation",
+      "evidence": {
+        "file": "research/evolve_datasets.py",
+        "function": "pools_for / children / train_candidate",
+        "lines": "41-53,73-75,110-116,129-144",
+        "observed_behavior": "Новые точки берутся из y=0 и обучаются как y=1 с весами 0.2/0.55. У реального LONG-победителя 15 новых точек, все имеют исходную метку 0. Ранние точки соответствуют другому будущему интервалу.",
+        "expected_behavior": "Новая гипотеза имеет явную цель, период ожидания и независимую проверку; происхождение не выдаётся за доказанную хорошую метку.",
+        "reproduction": "extra_checks.py: pseudo_labels_and_control; evidence/data_consistency.json"
+      },
+      "impact": "Отбор примеров смешан с изменением смысла метки и удалением части отрицательных примеров.",
+      "proposed_fix": "Сохранить исследования новых точек, но добавить отдельные режимы original-only, proposed-target, remove-only. Задать цель и время для каждой новой метки; проверить её на SELECT и новом CHECK тем же правилом, не искать новые точки по CHECK.",
+      "acceptance_criteria": [
+        "Каждая proposed-точка содержит исходную метку, правило новой метки, задержку, результат проверки и причину включения.",
+        "Отдельно показаны эффекты удаления отрицательных, изменения меток и выбора положительных."
+      ],
+      "suggested_tests": [
+        "audit_checks.py / pools_for / children / train_candidate"
+      ],
+      "dependencies": [],
+      "estimated_complexity": "medium"
+    },
+    {
+      "id": "NEXUS-AUDIT-003",
+      "priority": "P1",
+      "category": "evaluation",
+      "title": "Сделать контрольные наборы действительно сопоставимыми",
+      "status": "confirmed",
+      "finding_type": "protocol_limitation",
+      "evidence": {
+        "file": "research/evolve_datasets.py",
+        "function": "eval_gene / train_candidate / run_one",
+        "lines": "132-144,199-203,280-303",
+        "observed_behavior": "Случайный контроль берёт train_size только из исходных положительных; у победителя есть early/new. При размерах положительных 30/40 отрицательные наборы из 60/80 точек имеют лишь 17 общих. 24 эпохи дают разное число обновлений, scaler тоже меняется.",
+        "expected_behavior": "Сравнения с одинаковым размером/происхождением, одинаковыми стартами и заранее определённым бюджетом; дополнительные факторы проверяются отдельно.",
+        "reproduction": "extra_checks.py: negative_control_changes_with_size / pseudo_labels_and_control; audit_checks.py: training_counts; COMPARISON_CONDITIONS.md"
+      },
+      "impact": "Нельзя надёжно приписать улучшение качеству выбранных положительных точек.",
+      "proposed_fix": "Основной original-only опыт проводить с общей нормализацией TRAIN и зафиксированным контрольным набором отрицательных. Для новых меток добавить случайные контроли того же происхождения и веса. Показать результаты при равных эпохах и отдельно при равных обновлениях.",
+      "acceptance_criteria": [
+        "В журнале есть точные отрицательные ID и число шагов оптимизатора.",
+        "У каждого основного сравнения совпадают правила, размер, происхождение, устройство и seeds.",
+        "Отдельно сравниваются полная база, случайные равного размера, сильнейшие по движению и shuffled."
+      ],
+      "suggested_tests": [
+        "audit_checks.py / eval_gene / train_candidate / run_one"
+      ],
+      "dependencies": [
+        "NEXUS-AUDIT-001",
+        "NEXUS-AUDIT-002"
+      ],
+      "estimated_complexity": "medium"
+    },
+    {
+      "id": "NEXUS-AUDIT-004",
+      "priority": "P1",
+      "category": "evaluation",
+      "title": "Не объявлять рост SELECT доказательством переносимости",
+      "status": "confirmed",
+      "finding_type": "protocol_limitation",
+      "evidence": {
+        "file": "research/evolve_datasets.py",
+        "function": "score_candidate / run_one",
+        "lines": "171-184,269-303",
+        "observed_behavior": "Изучены все10 финальных опытов:5/10 выигрывают у full при основном seed; лишь SHORT1m и SHORT30m выигрывают3/3 имеющихся стартов. У SHORT30m shuffled выше победителя. Общая переносимость не доказана; полный разбор в COMPLETED_RUN_REVIEW.md.",
+        "expected_behavior": "Улучшение подтверждается на новых временных блоках и нескольких стартах против контрольных наборов.",
+        "reproduction": "results/FULL/1m_long/RESULT.json + audit_checks.py: random_data_mini_search"
+      },
+      "impact": "Многократный подбор может запомнить особенности SELECT. Представленный опыт не доказывает пользу отбора.",
+      "proposed_fix": "Сохранить финальный CHECK закрытым для поиска. Добавить вложенные временные окна внутри TRAIN/SELECT, несколько парных seeds, блочные интервалы неопределённости и заранее определённый порог принятия. После знакомства с сентябрём нужен новый финальный период.",
+      "acceptance_criteria": [
+        "Выбор победителя воспроизводится без CHECK.",
+        "Отчёт показывает распределение парных разностей с контролями по окнам и seeds, включая проигрыши.",
+        "Сентябрь после аудита не называется новым невиданным финальным тестом."
+      ],
+      "suggested_tests": [
+        "audit_checks.py / score_candidate / run_one"
+      ],
+      "dependencies": [
+        "NEXUS-AUDIT-001",
+        "NEXUS-AUDIT-003"
+      ],
+      "estimated_complexity": "medium"
+    },
+    {
+      "id": "NEXUS-AUDIT-005",
+      "priority": "P1",
+      "category": "evaluation",
+      "title": "Считать независимые события и сравнивать одинаковые рыночные участки",
+      "status": "confirmed",
+      "finding_type": "protocol_limitation",
+      "evidence": {
+        "file": "research/evolve_datasets.py",
+        "function": "score_candidate / make_frame",
+        "lines": "171-184,197-203; prepare_finam.py:33-36,100-116",
+        "observed_behavior": "3517 учебных положительных строк LONG 1m образуют 356 непрерывных серий, а не 3517 независимых событий. CHECK 1m содержит 19 дней, 5m 22, 10m/15m 23, 30m 19. Время суток также различается.",
+        "expected_behavior": "Число строк отделено от числа событий; сравнение TF дополнительно проводится на общем календаре и времени.",
+        "reproduction": "evidence/inventory.json; evidence/data_consistency.json"
+      },
+      "impact": "Соседние метки одного движения завышают объём доказательств; рейтинг TF смешан с выбором дней/часов.",
+      "proposed_fix": "Сохранять event_id по перекрывающимся горизонтам с ограничением длительности и явным правилом; считать метрики по событиям/дням. Давать как естественную выборку TF, так и строго общий временной набор.",
+      "acceptance_criteria": [
+        "Выводятся строки, события, дни и эффективное покрытие.",
+        "Добавление соседних копий одного события не увеличивает независимый размер и значимость.",
+        "Для рейтинга TF показаны одинаковые даты/часы и отдельно потерянное покрытие."
+      ],
+      "suggested_tests": [
+        "audit_checks.py / score_candidate / make_frame"
+      ],
+      "dependencies": [
+        "NEXUS-AUDIT-004"
+      ],
+      "estimated_complexity": "medium"
+    },
+    {
+      "id": "NEXUS-AUDIT-006",
+      "priority": "P1",
+      "category": "evaluation",
+      "title": "Проверять запоминание при отборе, а не только рисовать его",
+      "status": "confirmed",
+      "finding_type": "protocol_limitation",
+      "evidence": {
+        "file": "research/evolve_datasets.py",
+        "function": "score_candidate",
+        "lines": "171-184,204-207",
+        "observed_behavior": "Аргументы curve и frame почти не влияют на защиту от запоминания: curve вообще не используется. Подмена хорошей истории на резкое ухудшение даёт тот же score. overfit_ap_drop записывается позже и не влияет на решение.",
+        "expected_behavior": "Есть заранее определённая проверка устойчивости обучения; улучшения от случайного старта не смешиваются с качеством данных.",
+        "reproduction": "audit_checks.py: score_ignores_learning_history"
+      },
+      "impact": "Можно выбрать нестабильный набор с красивым последним баллом; сама кривая не доказывает общую закономерность.",
+      "proposed_fix": "Ввести отдельные диагностические ограничения и повторную оценку финалистов; не штрафовать произвольный loss без калибровки. Логировать разрыв качества на одинаковой фиксированной TRAIN-проверке и SELECT. Определить правило выбора эпохи внутри обучающей части.",
+      "acceptance_criteria": [
+        "Контрольный пример с ухудшением SELECT помечается и получает пересмотр/отклонение по заранее заданному правилу.",
+        "Финалисты проходят несколько seeds и окон; CHECK не выбирает эпоху."
+      ],
+      "suggested_tests": [
+        "audit_checks.py / score_candidate"
+      ],
+      "dependencies": [
+        "NEXUS-AUDIT-003",
+        "NEXUS-AUDIT-004"
+      ],
+      "estimated_complexity": "medium"
+    },
+    {
+      "id": "NEXUS-AUDIT-007",
+      "priority": "P1",
+      "category": "genetic_algorithm",
+      "title": "Убрать непреднамеренные ограничения размеров и бесполезные мутации",
+      "status": "confirmed",
+      "finding_type": "protocol_limitation",
+      "evidence": {
+        "file": "research/evolve_datasets.py",
+        "function": "initial / children / eval_gene",
+        "lines": "63-71,92-109,194-198",
+        "observed_behavior": "Наборы меньше 30 исходных точек запрещены; shrink ограничен max(50,25% базы). У 30m LONG всего 49 исходных точек; random50 создаёт 24 и сразу отклоняется. В проверке 36 потомков 30m LONG 23 совпали с исходной популяцией.",
+        "expected_behavior": "Допустимые размеры задаются протоколом по числу независимых событий, маленькие/средние/большие семьи реально исследуются; no-op виден отдельно.",
+        "reproduction": "audit_checks.py: all_tf_directions_invariants; evidence/smoke.log"
+      },
+      "impact": "Поиск не может исследовать полезные маленькие группы и расходует слоты на неизменившихся кандидатов.",
+      "proposed_fix": "Разделить минимальную статистическую пригодность и размер генома; сделать допустимые размеры явными. Не создавать заведомо запрещённые initial-кандидаты. Ограниченный повтор мутации при no-op, мигранты разных размеров и отдельные острова.",
+      "acceptance_criteria": [
+        "Допустимый протоколом набор из 10 независимых событий может быть оценён.",
+        "Все initial-кандидаты либо валидны, либо явно исключены до расходования слота обучения.",
+        "Отчёт разделяет elites, no-op, новые составы и повторные оценки."
+      ],
+      "suggested_tests": [
+        "audit_checks.py / initial / children / eval_gene"
+      ],
+      "dependencies": [],
+      "estimated_complexity": "medium"
+    },
+    {
+      "id": "NEXUS-AUDIT-008",
+      "priority": "P1",
+      "category": "evaluation",
+      "title": "Отклонять непригодную цель вместо успешного результата с -100",
+      "status": "confirmed",
+      "finding_type": "implementation_bug",
+      "evidence": {
+        "file": "research/evolve_datasets.py",
+        "function": "metric / initial / score_candidate / run_one",
+        "lines": "23-29,63-71,177-178,257-270",
+        "observed_behavior": "Нет положительных: initial падает на rng.choice пустого массива. Все метки положительные: нет отрицательных, score=-100 и AP=None; такой кандидат всё равно valid, возможен готовый RESULT с invalid_candidates=0.",
+        "expected_behavior": "Перед опытом проверяются обе группы и минимальное число независимых событий в каждом окне; непригодность записывается явно.",
+        "reproduction": "audit_checks.py: no_positive/all_positive; extra_checks.py: all_positive_run"
+      },
+      "impact": "Формально успешный запуск может не иметь измеримого качества.",
+      "proposed_fix": "Ввести проверку контекста и статус invalid_objective; None/NaN/Inf никогда не участвуют в сортировке. Различать ошибка данных, недостаточно событий и ошибка обучения.",
+      "acceptance_criteria": [
+        "Нулевая/единичная доля целевой метки завершает опыт понятным статусом без победителя.",
+        "Мало положительных проверяется отдельно от полного отсутствия.",
+        "Плохой objective не считается valid и не попадает в сравнение графиков."
+      ],
+      "suggested_tests": [
+        "audit_checks.py / metric / initial / score_candidate / run_one"
+      ],
+      "dependencies": [],
+      "estimated_complexity": "medium"
+    },
+    {
+      "id": "NEXUS-AUDIT-009",
+      "priority": "P1",
+      "category": "logging",
+      "title": "Не удалять правильные записи после ошибки внутри журнала",
+      "status": "confirmed",
+      "finding_type": "implementation_bug",
+      "evidence": {
+        "file": "research/evolve_datasets.py",
+        "function": "_read_jsonl",
+        "lines": "214-228",
+        "observed_behavior": "На последовательности valid/BROKEN/valid функция обрезает журнал после первой записи и переносит всю остальную часть в RECOVERED_INCOMPLETE_LINE.bin. Отличия оборванного хвоста от повреждения середины нет.",
+        "expected_behavior": "Автовосстановление допустимо только для подтверждённого незавершённого хвоста; при повреждении середины остановка с сохранением исходника.",
+        "reproduction": "extra_checks.py: interior_corruption"
+      },
+      "impact": "Можно незаметно лишиться уже проведённых опытов и пересчитать их как новые.",
+      "proposed_fix": "Проверять расположение повреждения, полную границу строки и последующие записи; делать уникальную резервную копию до любых правок. При внутренней ошибке не продолжать без явной процедуры восстановления.",
+      "acceptance_criteria": [
+        "Порванный последний JSON восстанавливается.",
+        "Повреждённая середина с последующими валидными строками не обрезается автоматически.",
+        "Повторное восстановление не перезаписывает прежний сохранённый хвост."
+      ],
+      "suggested_tests": [
+        "audit_checks.py / _read_jsonl"
+      ],
+      "dependencies": [],
+      "estimated_complexity": "small"
+    },
+    {
+      "id": "NEXUS-AUDIT-010",
+      "priority": "P1",
+      "category": "dashboard",
+      "title": "Не показывать LONG под выбранным SHORT в неполном отчёте",
+      "status": "confirmed",
+      "finding_type": "implementation_bug",
+      "evidence": {
+        "file": "research/dashboard_v12_template.html",
+        "function": "ex / refreshDays / refresh",
+        "lines": "31-37,65",
+        "observed_behavior": "В HTML с одним завершённым LONG выбор SHORT оставляет карточки и графики LONG. Последующий выбор CHECK вызывает TypeError reading check_signals.",
+        "expected_behavior": "Показывать только доступные сочетания или очищать экран с сообщением, что расчёт ещё не готов.",
+        "reproduction": "extra_checks.py создаёт PARTIAL_DASHBOARD.html; Playwright: direction=short, part=check"
+      },
+      "impact": "Пользователь может принять чужие результаты за результат выбранного направления.",
+      "proposed_fix": "Проверять наличие опыта во всех обработчиках, синхронизировать селекторы с доступными результатами, очищать старые графики. Добавить UI-тест неполного отчёта.",
+      "acceptance_criteria": [
+        "При недоступном SHORT не остаётся ни одного числа/графика LONG.",
+        "Переключения части истории и TF не создают JS-ошибок.",
+        "После завершения SHORT результат появляется без смешения направлений."
+      ],
+      "suggested_tests": [
+        "audit_checks.py / ex / refreshDays / refresh"
+      ],
+      "dependencies": [],
+      "estimated_complexity": "small"
+    },
+    {
+      "id": "NEXUS-AUDIT-015",
+      "priority": "P1",
+      "category": "labels",
+      "title": "Восстановить происхождение свечей и проверить полноту исходной истории",
+      "status": "needs_data",
+      "finding_type": "data_gap",
+      "evidence": {
+        "file": "research/prepare_finam.py",
+        "function": "make_frame / load_or_prepare",
+        "lines": "29-36,100-116,122-134",
+        "observed_behavior": "Переданы подготовленные файлы без исходных Finam CSV и описания времени/контракта. Можно проверить внутреннюю согласованность, но нельзя подтвердить исходную полноту свечей и смысл timestamp. Разные TF имеют разное покрытие.",
+        "expected_behavior": "Сохранены исходный файл/хэш/контракт/таймзона/смысл времени свечи и таблица исключённых строк.",
+        "reproduction": "Файлы raw из FILE_NAMES отсутствуют в переданной папке"
+      },
+      "impact": "Реальность и сопоставимость истории пока подтверждены лишь частично; нельзя считать пропуски подготовленного CSV пропусками исходной биржи.",
+      "proposed_fix": "Предоставить исходные CSV и паспорт выгрузки, проверить порядок/повторы/OHLCV/сессии/причины исключения, пересобрать prepared текущим кодом и сверить хэши/значения.",
+      "acceptance_criteria": [
+        "Для каждой prepared-строки известен источник и время доступности признаков.",
+        "Полнота проверена на raw до фильтрации; причина каждого исключения сохранена.",
+        "Сравнение TF основано на подтверждённых общих участках."
+      ],
+      "suggested_tests": [
+        "audit_checks.py / make_frame / load_or_prepare"
+      ],
+      "dependencies": [
+        "NEXUS-AUDIT-001",
+        "NEXUS-AUDIT-005"
+      ],
+      "estimated_complexity": "medium"
+    },
+    {
+      "id": "NEXUS-AUDIT-011",
+      "priority": "P2",
+      "category": "logging",
+      "title": "Сохранять полный паспорт оценки и честные счётчики затрат",
+      "status": "confirmed",
+      "finding_type": "implementation_bug",
+      "evidence": {
+        "file": "research/evolve_datasets.py",
+        "function": "children / train_candidate / run_one",
+        "lines": "95-96,158,206-208,235-243,265-273,309-314",
+        "observed_behavior": "Нет ID второго родителя crossover, negative IDs, версии кода/зависимостей, числа обновлений/памяти. actual_retrainings не включает 10 конечных контрольных обучений. В инструментированном опыте 5 в сводке и 15 вызовов. Времена эпох CUDA без synchronize не равны полному времени работы устройства.",
+        "expected_behavior": "История каждого обучения и происхождение набора восстанавливаются; стоимость поиска и контрольных опытов разделена.",
+        "reproduction": "audit_checks.py: training_counts; анализ указанных строк"
+      },
+      "impact": "Нельзя достоверно оценить полезные проверки в час, повторить изменённый протокол и проследить оба родителя.",
+      "proposed_fix": "Отделить candidate evaluation от training run; хранить manifest и обе связи родителей, точные membership IDs/negative IDs, steps, seeds, hardware, wall-clock. Подсчитывать search/control/failed/cached/no-op отдельно.",
+      "acceptance_criteria": [
+        "Сумма обучений совпадает с фактическими вызовами, в том числе controls.",
+        "Любой кандидат восстанавливается по журналу без предположений об исходной версии.",
+        "Оба родителя crossover представлены; измерения GPU синхронизированы для бенчмарка."
+      ],
+      "suggested_tests": [
+        "audit_checks.py / children / train_candidate / run_one"
+      ],
+      "dependencies": [
+        "NEXUS-AUDIT-001"
+      ],
+      "estimated_complexity": "medium"
+    },
+    {
+      "id": "NEXUS-AUDIT-012",
+      "priority": "P2",
+      "category": "logging",
+      "title": "Завершать и восстанавливать результат атомарно",
+      "status": "confirmed",
+      "finding_type": "implementation_bug",
+      "evidence": {
+        "file": "research/evolve_datasets.py",
+        "function": "run_one",
+        "lines": "240,276,315-328",
+        "observed_behavior": "RESULT пишется до CSV. Если он уже есть, функция возвращается до восстановления CSV. В опыте все три CSV отсутствовали после продолжения. SETTINGS/GENERATIONS/RESULT записываются неатомарно.",
+        "expected_behavior": "Завершение означает согласованный комплект; частичные производные файлы можно пересобрать из журнала.",
+        "reproduction": "extra_checks.py: completed_resume_does_not_regenerate_exports"
+      },
+      "impact": "После сбоя доступен неполный/повреждённый отчёт, хотя RESULT существует.",
+      "proposed_fix": "Писать JSON во временный файл с os.replace; строить exports идемпотентно, писать COMPLETED manifest последним; сверять хэши артефактов при продолжении.",
+      "acceptance_criteria": [
+        "Сбой между RESULT и CSV исправляется при следующем запуске без переобучения.",
+        "Оборванный JSON восстанавливается из предыдущего состояния или даёт понятный статус.",
+        "Готовность проверяет manifest, а не наличие одного RESULT."
+      ],
+      "suggested_tests": [
+        "audit_checks.py / run_one"
+      ],
+      "dependencies": [
+        "NEXUS-AUDIT-001",
+        "NEXUS-AUDIT-009"
+      ],
+      "estimated_complexity": "medium"
+    },
+    {
+      "id": "NEXUS-AUDIT-013",
+      "priority": "P2",
+      "category": "performance",
+      "title": "Ограничить память журналов и измерять полезную скорость поиска",
+      "status": "confirmed",
+      "finding_type": "implementation_bug",
+      "evidence": {
+        "file": "research/evolve_datasets.py",
+        "function": "run_one / package_report / build",
+        "lines": "233-245,254-264,320; START.py:25-34; dashboard_v12.py:17",
+        "observed_behavior": "Полные журналы читаются целиком, old/old_by_slot/cache держат повторные структуры с геномами и кривыми. encode_ids обрабатывает Python set/sort. 1M ID: 1.84 MB base64, 8 MB декодированных int64. Один миллионный геном в 100k строках уже около 184 GB до служебных полей.",
+        "expected_behavior": "Хранилище выдерживает сотни тысяч кандидатов без многократного копирования одинаковых массивов.",
+        "reproduction": "audit_checks.py: million_member_encoding / benchmark"
+      },
+      "impact": "ОЗУ/диск ограничат поиск раньше, чем арифметика нейросети; fsync после каждого кандидата тоже имеет цену.",
+      "proposed_fix": "Сохранять genome content-addressed один раз, membership в Roaring/битовых масках или бинарных массивах, evaluations в SQLite/Parquet. Читать потоково и держать ограниченный кэш оценок, не полных записей. Профилировать подготовку/обучение/диск отдельно.",
+      "acceptance_criteria": [
+        "При 100k записей память reader не растёт пропорционально полному объёму геномов.",
+        "После ускорения одинаковые seeds дают те же составы/метрики на одном устройстве.",
+        "Скорость считается в новых валидных оценках/час и выигрыше финального качества за этот бюджет."
+      ],
+      "suggested_tests": [
+        "audit_checks.py / run_one / package_report / build"
+      ],
+      "dependencies": [],
+      "estimated_complexity": "large"
+    },
+    {
+      "id": "NEXUS-AUDIT-014",
+      "priority": "P2",
+      "category": "dead_code",
+      "title": "Сделать фиксированную модель явной и убрать ложные настройки генома",
+      "status": "confirmed",
+      "finding_type": "protocol_limitation",
+      "evidence": {
+        "file": "research/evolve_datasets.py",
+        "function": "stamp / initial / children / train_candidate",
+        "lines": "13,19,38,76,120,124,134-147; prepare_finam.py:71-72; dashboard_v12_template.html:65,76",
+        "observed_behavior": "Все 2997 прочитанных оценок используют small, lr=.003, dropout=.05. children их не меняет; genes.epochs=None не определяет epochs обучения. fold_days и curve не используются по назначению. FEATURE_INDEX импортирован, но ветвления сети нет; rolling_pivot не вызывается.",
+        "expected_behavior": "Для сравнения наборов модель зафиксирована в отдельном протоколе; изменяемые параметры генома реально участвуют в поиске.",
+        "reproduction": "evidence/inventory.json + исходники"
+      },
+      "impact": "Создаётся ложное ожидание поиска архитектуры/обучения; лишние поля порождают формально разные ID.",
+      "proposed_fix": "Сохранить одинаковую сеть для основного опыта. Выделить model_config из dataset_gene, убрать/подключить неработающие параметры после проверки совместимости. Поиск архитектуры делать отдельным опытом с новым ID протокола.",
+      "acceptance_criteria": [
+        "Нет gene-полей, меняющих ID без изменения смысла обучения.",
+        "Список реально проверенных архитектур виден; неизвестные поля не игнорируются.",
+        "Ни одна старая функция не удаляется без проверки вызовов и теста миграции."
+      ],
+      "suggested_tests": [
+        "audit_checks.py / stamp / initial / children / train_candidate"
+      ],
+      "dependencies": [],
+      "estimated_complexity": "small"
+    },
+    {
+      "id": "NEXUS-AUDIT-016",
+      "priority": "P2",
+      "category": "portability",
+      "title": "Сделать инструмент, split-даты и границу SELECT параметрами",
+      "status": "confirmed",
+      "finding_type": "scope_limitation",
+      "evidence": {
+        "file": "research/evolve_datasets.py + prepare_finam.py",
+        "function": "score_candidate / load_or_prepare / make_frame",
+        "lines": "173; prepare_finam.py:14,33-36,124",
+        "observed_behavior": "Hardcoded SBRF filenames, июль–сентябрь и cut2026-08-24. При переносе тех же SELECT строк на более ранний календарь score становится-100 из-за пустого второго окна. Готовый экспорт крипты нельзя просто выдать за native-совместимый полный GA-прогон.",
+        "expected_behavior": "Инструмент/даты/границы окон берутся из явного protocol config; пустые окна не дают номинально готового результата.",
+        "reproduction": "verify_cache_definitively.py: fixed_date_portability; prepare_crypto.py даёт корректные данные, но не меняет hardcoded GA score."
+      },
+      "impact": "Мультиинструментальные тесты могут оцениваться неверным календарём; это препятствует текущей задаче расширения.",
+      "proposed_fix": "Обобщить reader и разбиение окон; сохранить оригинальный SBRF-протокол отдельной конфигурацией; проверять наличие обоих классов в каждом окне.",
+      "acceptance_criteria": [
+        "Один запуск принимает SBRF и5криптопар через их конфигурации без переименования активов и подмены дат.",
+        "Пустое SELECT-окно отклоняется явно.",
+        "Старый SBRF-протокол воспроизводится на исходной конфигурации."
+      ],
+      "suggested_tests": [
+        "fixed_date_portability; six-market smoke"
+      ],
+      "dependencies": [
+        "NEXUS-AUDIT-001",
+        "NEXUS-AUDIT-008"
+      ],
+      "estimated_complexity": "medium"
+    }
+  ],
+  "update_date": "2026-11-20"
+}

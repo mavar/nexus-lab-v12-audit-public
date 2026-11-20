@@ -1,0 +1,797 @@
+{
+  "files": {
+    "10": {
+      "rows": 4780,
+      "sha256": "383daae3e6a90c508156741897e769780fb9f59274e3709dcdae5ff421c77f03",
+      "duplicates": 0,
+      "sorted": true,
+      "invalid_ohlc": 0,
+      "feature_nan": 0,
+      "feature_inf": 0,
+      "splits": {
+        "check": {
+          "rows": 1526,
+          "days": 23,
+          "first": "2026-09-01 10:10:00",
+          "last": "2026-09-25 22:40:00",
+          "long": 213,
+          "short": 182,
+          "intraday_nonstandard_deltas": 1,
+          "first_time": "10:10:00",
+          "last_time": "22:40:00"
+        },
+        "select": {
+          "rows": 819,
+          "days": 12,
+          "first": "2026-08-17 10:10:00",
+          "last": "2026-08-28 22:40:00",
+          "long": 136,
+          "short": 125,
+          "intraday_nonstandard_deltas": 0,
+          "first_time": "10:10:00",
+          "last_time": "22:40:00"
+        },
+        "train": {
+          "rows": 2435,
+          "days": 38,
+          "first": "2026-07-06 12:00:00",
+          "last": "2026-08-14 22:40:00",
+          "long": 370,
+          "short": 404,
+          "intraday_nonstandard_deltas": 0,
+          "first_time": "10:10:00",
+          "last_time": "22:40:00"
+        }
+      },
+      "label_mismatch_long": 0,
+      "label_mismatch_short": 0
+    },
+    "15": {
+      "rows": 2804,
+      "sha256": "54ee04bb84d6a398ec2f8f9db2e4bee3cb3db0858ad93d3958c33c11af67f52b",
+      "duplicates": 0,
+      "sorted": true,
+      "invalid_ohlc": 0,
+      "feature_nan": 0,
+      "feature_inf": 0,
+      "splits": {
+        "check": {
+          "rows": 909,
+          "days": 23,
+          "first": "2026-09-01 11:45:00",
+          "last": "2026-09-25 22:45:00",
+          "long": 114,
+          "short": 92,
+          "intraday_nonstandard_deltas": 0,
+          "first_time": "11:45:00",
+          "last_time": "22:45:00"
+        },
+        "select": {
+          "rows": 477,
+          "days": 12,
+          "first": "2026-08-17 11:45:00",
+          "last": "2026-08-28 22:45:00",
+          "long": 70,
+          "short": 63,
+          "intraday_nonstandard_deltas": 0,
+          "first_time": "11:45:00",
+          "last_time": "22:45:00"
+        },
+        "train": {
+          "rows": 1418,
+          "days": 38,
+          "first": "2026-07-06 13:30:00",
+          "last": "2026-08-14 22:45:00",
+          "long": 215,
+          "short": 197,
+          "intraday_nonstandard_deltas": 0,
+          "first_time": "11:45:00",
+          "last_time": "22:45:00"
+        }
+      },
+      "label_mismatch_long": 0,
+      "label_mismatch_short": 0
+    },
+    "1": {
+      "rows": 21790,
+      "sha256": "4a65a55380a46f57189020b89d541d985a643ad0ab4c3f6bf484616d603db74a",
+      "duplicates": 0,
+      "sorted": true,
+      "invalid_ohlc": 0,
+      "feature_nan": 0,
+      "feature_inf": 0,
+      "splits": {
+        "check": {
+          "rows": 3879,
+          "days": 19,
+          "first": "2026-09-01 09:01:00",
+          "last": "2026-09-25 16:56:00",
+          "long": 889,
+          "short": 837,
+          "intraday_nonstandard_deltas": 32,
+          "first_time": "08:01:00",
+          "last_time": "22:17:00"
+        },
+        "select": {
+          "rows": 3226,
+          "days": 10,
+          "first": "2026-08-17 07:19:00",
+          "last": "2026-08-28 17:46:00",
+          "long": 896,
+          "short": 993,
+          "intraday_nonstandard_deltas": 14,
+          "first_time": "07:19:00",
+          "last_time": "18:40:00"
+        },
+        "train": {
+          "rows": 14685,
+          "days": 31,
+          "first": "2026-07-06 09:18:00",
+          "last": "2026-08-14 17:53:00",
+          "long": 3517,
+          "short": 4172,
+          "intraday_nonstandard_deltas": 32,
+          "first_time": "07:19:00",
+          "last_time": "22:49:00"
+        }
+      },
+      "label_mismatch_long": 0,
+      "label_mismatch_short": 0
+    },
+    "30": {
+      "rows": 749,
+      "sha256": "14218272021082e9676fa941332a5b974af67d22624caccd21f3a2dcab79a188",
+      "duplicates": 0,
+      "sorted": true,
+      "invalid_ohlc": 0,
+      "feature_nan": 0,
+      "feature_inf": 0,
+      "splits": {
+        "check": {
+          "rows": 247,
+          "days": 19,
+          "first": "2026-09-01 16:30:00",
+          "last": "2026-09-25 22:30:00",
+          "long": 24,
+          "short": 9,
+          "intraday_nonstandard_deltas": 0,
+          "first_time": "16:30:00",
+          "last_time": "22:30:00"
+        },
+        "select": {
+          "rows": 130,
+          "days": 10,
+          "first": "2026-08-17 16:30:00",
+          "last": "2026-08-28 22:30:00",
+          "long": 20,
+          "short": 9,
+          "intraday_nonstandard_deltas": 0,
+          "first_time": "16:30:00",
+          "last_time": "22:30:00"
+        },
+        "train": {
+          "rows": 372,
+          "days": 30,
+          "first": "2026-07-06 18:00:00",
+          "last": "2026-08-14 22:30:00",
+          "long": 49,
+          "short": 39,
+          "intraday_nonstandard_deltas": 0,
+          "first_time": "16:30:00",
+          "last_time": "22:30:00"
+        }
+      },
+      "label_mismatch_long": 0,
+      "label_mismatch_short": 0
+    },
+    "5": {
+      "rows": 10266,
+      "sha256": "d34591788daf2b3ec85f642df78e68eaa5a951f52d7e6760def85453e9289518",
+      "duplicates": 0,
+      "sorted": true,
+      "invalid_ohlc": 0,
+      "feature_nan": 0,
+      "feature_inf": 0,
+      "splits": {
+        "check": {
+          "rows": 3209,
+          "days": 22,
+          "first": "2026-09-01 08:35:00",
+          "last": "2026-09-25 22:45:00",
+          "long": 491,
+          "short": 420,
+          "intraday_nonstandard_deltas": 1,
+          "first_time": "08:35:00",
+          "last_time": "22:45:00"
+        },
+        "select": {
+          "rows": 1739,
+          "days": 11,
+          "first": "2026-08-17 08:35:00",
+          "last": "2026-08-28 22:45:00",
+          "long": 299,
+          "short": 299,
+          "intraday_nonstandard_deltas": 0,
+          "first_time": "08:35:00",
+          "last_time": "22:45:00"
+        },
+        "train": {
+          "rows": 5318,
+          "days": 38,
+          "first": "2026-07-06 10:30:00",
+          "last": "2026-08-14 22:45:00",
+          "long": 848,
+          "short": 955,
+          "intraday_nonstandard_deltas": 5,
+          "first_time": "08:35:00",
+          "last_time": "22:45:00"
+        }
+      },
+      "label_mismatch_long": 0,
+      "label_mismatch_short": 0
+    }
+  },
+  "runs": {
+    "1m_long": {
+      "records": 1800,
+      "unique_genomes": 1270,
+      "unique_positive_sets": 1270,
+      "cached": 530,
+      "errors": 0,
+      "actual_evolution_trainings": 1270,
+      "last_slot": [
+        50,
+        36
+      ],
+      "architecture": [
+        "small"
+      ],
+      "lr": [
+        0.003
+      ],
+      "dropout": [
+        0.05
+      ],
+      "population_per_gen": [
+        {
+          "gen": 1,
+          "unique": 36,
+          "mean_jaccard_original": 0.57363843315626,
+          "best": 1.18576
+        },
+        {
+          "gen": 2,
+          "unique": 27,
+          "mean_jaccard_original": 0.6007024318353494,
+          "best": 1.19225
+        },
+        {
+          "gen": 3,
+          "unique": 35,
+          "mean_jaccard_original": 0.5824645884141226,
+          "best": 1.25186
+        },
+        {
+          "gen": 4,
+          "unique": 35,
+          "mean_jaccard_original": 0.563722936616724,
+          "best": 1.33607
+        },
+        {
+          "gen": 5,
+          "unique": 33,
+          "mean_jaccard_original": 0.545545860079772,
+          "best": 1.33607
+        },
+        {
+          "gen": 6,
+          "unique": 32,
+          "mean_jaccard_original": 0.5267566903970374,
+          "best": 1.33607
+        },
+        {
+          "gen": 7,
+          "unique": 33,
+          "mean_jaccard_original": 0.5509871386678878,
+          "best": 1.34482
+        },
+        {
+          "gen": 8,
+          "unique": 30,
+          "mean_jaccard_original": 0.523482612323753,
+          "best": 1.35717
+        },
+        {
+          "gen": 9,
+          "unique": 31,
+          "mean_jaccard_original": 0.6006316344071414,
+          "best": 1.36953
+        },
+        {
+          "gen": 10,
+          "unique": 31,
+          "mean_jaccard_original": 0.6331790008074802,
+          "best": 1.39158
+        },
+        {
+          "gen": 11,
+          "unique": 30,
+          "mean_jaccard_original": 0.6232684998801246,
+          "best": 1.39158
+        },
+        {
+          "gen": 12,
+          "unique": 25,
+          "mean_jaccard_original": 0.7167887816026234,
+          "best": 1.39848
+        },
+        {
+          "gen": 13,
+          "unique": 26,
+          "mean_jaccard_original": 0.7242174683235559,
+          "best": 1.39848
+        },
+        {
+          "gen": 14,
+          "unique": 28,
+          "mean_jaccard_original": 0.6992052223898962,
+          "best": 1.39848
+        },
+        {
+          "gen": 15,
+          "unique": 22,
+          "mean_jaccard_original": 0.6923329904317835,
+          "best": 1.39848
+        },
+        {
+          "gen": 16,
+          "unique": 21,
+          "mean_jaccard_original": 0.7150885842808338,
+          "best": 1.39848
+        },
+        {
+          "gen": 17,
+          "unique": 23,
+          "mean_jaccard_original": 0.7542193328904992,
+          "best": 1.4052
+        },
+        {
+          "gen": 18,
+          "unique": 27,
+          "mean_jaccard_original": 0.7113980660059064,
+          "best": 1.4052
+        },
+        {
+          "gen": 19,
+          "unique": 28,
+          "mean_jaccard_original": 0.7042752692146561,
+          "best": 1.4052
+        },
+        {
+          "gen": 20,
+          "unique": 17,
+          "mean_jaccard_original": 0.8214052564143218,
+          "best": 1.4052
+        },
+        {
+          "gen": 21,
+          "unique": 26,
+          "mean_jaccard_original": 0.6843195553686746,
+          "best": 1.4052
+        },
+        {
+          "gen": 22,
+          "unique": 21,
+          "mean_jaccard_original": 0.7726054245630217,
+          "best": 1.40612
+        },
+        {
+          "gen": 23,
+          "unique": 27,
+          "mean_jaccard_original": 0.7003225374500035,
+          "best": 1.40679
+        },
+        {
+          "gen": 24,
+          "unique": 25,
+          "mean_jaccard_original": 0.680930694598579,
+          "best": 1.40679
+        },
+        {
+          "gen": 25,
+          "unique": 26,
+          "mean_jaccard_original": 0.7048066579799019,
+          "best": 1.41093
+        },
+        {
+          "gen": 26,
+          "unique": 33,
+          "mean_jaccard_original": 0.6996091722316667,
+          "best": 1.43981
+        },
+        {
+          "gen": 27,
+          "unique": 33,
+          "mean_jaccard_original": 0.5873151468662714,
+          "best": 1.43981
+        },
+        {
+          "gen": 28,
+          "unique": 30,
+          "mean_jaccard_original": 0.6235027747036676,
+          "best": 1.43981
+        },
+        {
+          "gen": 29,
+          "unique": 30,
+          "mean_jaccard_original": 0.5808061040317578,
+          "best": 1.43981
+        },
+        {
+          "gen": 30,
+          "unique": 26,
+          "mean_jaccard_original": 0.5834723002030177,
+          "best": 1.43981
+        },
+        {
+          "gen": 31,
+          "unique": 28,
+          "mean_jaccard_original": 0.5969398680564987,
+          "best": 1.43981
+        },
+        {
+          "gen": 32,
+          "unique": 31,
+          "mean_jaccard_original": 0.7413606678617918,
+          "best": 1.44264
+        },
+        {
+          "gen": 33,
+          "unique": 31,
+          "mean_jaccard_original": 0.648158882561028,
+          "best": 1.44264
+        },
+        {
+          "gen": 34,
+          "unique": 28,
+          "mean_jaccard_original": 0.6826638955030472,
+          "best": 1.44264
+        },
+        {
+          "gen": 35,
+          "unique": 32,
+          "mean_jaccard_original": 0.6570311416294441,
+          "best": 1.4469
+        },
+        {
+          "gen": 36,
+          "unique": 33,
+          "mean_jaccard_original": 0.630040514244033,
+          "best": 1.4469
+        },
+        {
+          "gen": 37,
+          "unique": 29,
+          "mean_jaccard_original": 0.7295105237663209,
+          "best": 1.4469
+        },
+        {
+          "gen": 38,
+          "unique": 21,
+          "mean_jaccard_original": 0.7234925231505186,
+          "best": 1.4469
+        },
+        {
+          "gen": 39,
+          "unique": 24,
+          "mean_jaccard_original": 0.775841656080888,
+          "best": 1.4469
+        },
+        {
+          "gen": 40,
+          "unique": 23,
+          "mean_jaccard_original": 0.7282726431067312,
+          "best": 1.4469
+        },
+        {
+          "gen": 41,
+          "unique": 22,
+          "mean_jaccard_original": 0.7992539873998102,
+          "best": 1.44774
+        },
+        {
+          "gen": 42,
+          "unique": 24,
+          "mean_jaccard_original": 0.8080809914323848,
+          "best": 1.44774
+        },
+        {
+          "gen": 43,
+          "unique": 25,
+          "mean_jaccard_original": 0.7951612294777985,
+          "best": 1.44774
+        },
+        {
+          "gen": 44,
+          "unique": 29,
+          "mean_jaccard_original": 0.8045212625891413,
+          "best": 1.44961
+        },
+        {
+          "gen": 45,
+          "unique": 30,
+          "mean_jaccard_original": 0.5969478096971118,
+          "best": 1.44961
+        },
+        {
+          "gen": 46,
+          "unique": 24,
+          "mean_jaccard_original": 0.7201972741422876,
+          "best": 1.46186
+        },
+        {
+          "gen": 47,
+          "unique": 29,
+          "mean_jaccard_original": 0.7052457797999212,
+          "best": 1.46186
+        },
+        {
+          "gen": 48,
+          "unique": 32,
+          "mean_jaccard_original": 0.5566312086485368,
+          "best": 1.46721
+        },
+        {
+          "gen": 49,
+          "unique": 32,
+          "mean_jaccard_original": 0.7619416142342962,
+          "best": 1.47922
+        },
+        {
+          "gen": 50,
+          "unique": 32,
+          "mean_jaccard_original": 0.6158379309839881,
+          "best": 1.4892
+        }
+      ],
+      "unknown_unique": 5054,
+      "early_unique": 2336,
+      "distinct_negative_sets_reconstructed": 758,
+      "positive_order_variants_beyond_sets": 0,
+      "journal_prefix_sha256": "cda4bdbc1107ddd8593c545b03a44f247ab8493b21502c23497ed6ea0646929c"
+    },
+    "1m_short": {
+      "records": 1197,
+      "unique_genomes": 1064,
+      "unique_positive_sets": 1064,
+      "cached": 133,
+      "errors": 0,
+      "actual_evolution_trainings": 1064,
+      "last_slot": [
+        34,
+        9
+      ],
+      "architecture": [
+        "small"
+      ],
+      "lr": [
+        0.003
+      ],
+      "dropout": [
+        0.05
+      ],
+      "population_per_gen": [
+        {
+          "gen": 1,
+          "unique": 36,
+          "mean_jaccard_original": 0.5695657998837299,
+          "best": 0.99095
+        },
+        {
+          "gen": 2,
+          "unique": 36,
+          "mean_jaccard_original": 0.46340120821192354,
+          "best": 0.99095
+        },
+        {
+          "gen": 3,
+          "unique": 36,
+          "mean_jaccard_original": 0.4889839853659573,
+          "best": 1.01671
+        },
+        {
+          "gen": 4,
+          "unique": 35,
+          "mean_jaccard_original": 0.4376303619119895,
+          "best": 1.01671
+        },
+        {
+          "gen": 5,
+          "unique": 35,
+          "mean_jaccard_original": 0.4438499244164367,
+          "best": 1.02924
+        },
+        {
+          "gen": 6,
+          "unique": 36,
+          "mean_jaccard_original": 0.4424379567686511,
+          "best": 1.03533
+        },
+        {
+          "gen": 7,
+          "unique": 35,
+          "mean_jaccard_original": 0.46317923058786664,
+          "best": 1.04142
+        },
+        {
+          "gen": 8,
+          "unique": 36,
+          "mean_jaccard_original": 0.5367379844004706,
+          "best": 1.04142
+        },
+        {
+          "gen": 9,
+          "unique": 36,
+          "mean_jaccard_original": 0.6887142916578578,
+          "best": 1.05355
+        },
+        {
+          "gen": 10,
+          "unique": 35,
+          "mean_jaccard_original": 0.5830942830218027,
+          "best": 1.05355
+        },
+        {
+          "gen": 11,
+          "unique": 36,
+          "mean_jaccard_original": 0.5169806285693382,
+          "best": 1.06003
+        },
+        {
+          "gen": 12,
+          "unique": 36,
+          "mean_jaccard_original": 0.5401022909766178,
+          "best": 1.06003
+        },
+        {
+          "gen": 13,
+          "unique": 35,
+          "mean_jaccard_original": 0.4819072975398931,
+          "best": 1.06003
+        },
+        {
+          "gen": 14,
+          "unique": 36,
+          "mean_jaccard_original": 0.4292069058476821,
+          "best": 1.06003
+        },
+        {
+          "gen": 15,
+          "unique": 36,
+          "mean_jaccard_original": 0.4762671144247602,
+          "best": 1.06003
+        },
+        {
+          "gen": 16,
+          "unique": 36,
+          "mean_jaccard_original": 0.4880458596032412,
+          "best": 1.06696
+        },
+        {
+          "gen": 17,
+          "unique": 36,
+          "mean_jaccard_original": 0.4933301068773904,
+          "best": 1.06696
+        },
+        {
+          "gen": 18,
+          "unique": 36,
+          "mean_jaccard_original": 0.5627412536651314,
+          "best": 1.07375
+        },
+        {
+          "gen": 19,
+          "unique": 36,
+          "mean_jaccard_original": 0.5322986839361783,
+          "best": 1.07375
+        },
+        {
+          "gen": 20,
+          "unique": 35,
+          "mean_jaccard_original": 0.45761348328864165,
+          "best": 1.07375
+        },
+        {
+          "gen": 21,
+          "unique": 35,
+          "mean_jaccard_original": 0.485811629140008,
+          "best": 1.07752
+        },
+        {
+          "gen": 22,
+          "unique": 36,
+          "mean_jaccard_original": 0.588376982792867,
+          "best": 1.07752
+        },
+        {
+          "gen": 23,
+          "unique": 36,
+          "mean_jaccard_original": 0.585254010165177,
+          "best": 1.08219
+        },
+        {
+          "gen": 24,
+          "unique": 36,
+          "mean_jaccard_original": 0.5157189732843092,
+          "best": 1.08219
+        },
+        {
+          "gen": 25,
+          "unique": 36,
+          "mean_jaccard_original": 0.5274529468496266,
+          "best": 1.09397
+        },
+        {
+          "gen": 26,
+          "unique": 36,
+          "mean_jaccard_original": 0.4810380496177564,
+          "best": 1.09397
+        },
+        {
+          "gen": 27,
+          "unique": 36,
+          "mean_jaccard_original": 0.5110013916670285,
+          "best": 1.09397
+        },
+        {
+          "gen": 28,
+          "unique": 34,
+          "mean_jaccard_original": 0.5243107326712179,
+          "best": 1.09397
+        },
+        {
+          "gen": 29,
+          "unique": 32,
+          "mean_jaccard_original": 0.534826121044797,
+          "best": 1.09397
+        },
+        {
+          "gen": 30,
+          "unique": 29,
+          "mean_jaccard_original": 0.6193259023448366,
+          "best": 1.09397
+        },
+        {
+          "gen": 31,
+          "unique": 27,
+          "mean_jaccard_original": 0.6528911619803033,
+          "best": 1.09397
+        },
+        {
+          "gen": 32,
+          "unique": 28,
+          "mean_jaccard_original": 0.6642009828850309,
+          "best": 1.09397
+        },
+        {
+          "gen": 33,
+          "unique": 28,
+          "mean_jaccard_original": 0.7293506508326536,
+          "best": 1.09786
+        },
+        {
+          "gen": 34,
+          "unique": 9,
+          "mean_jaccard_original": 0.5930427447937008,
+          "best": 1.09786
+        }
+      ],
+      "unknown_unique": 4445,
+      "early_unique": 2708,
+      "distinct_negative_sets_reconstructed": 735,
+      "positive_order_variants_beyond_sets": 0,
+      "journal_prefix_sha256": "f997aa2fb61a043808810256efcc9a6a2288421c5440fe5ca602b4a9a8e9a024"
+    }
+  },
+  "snapshot_note": "Read first 1800 LONG and 1197 SHORT records; original process appends later records. Counts are audit snapshot, not current progress."
+}

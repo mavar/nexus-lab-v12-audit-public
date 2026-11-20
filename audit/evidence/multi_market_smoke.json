@@ -1,0 +1,281 @@
+{
+  "purpose": "Technical data/model compatibility only; no genetic selection and no profitability claim",
+  "results": [
+    {
+      "file": "SBRF_1m_research.csv.gz",
+      "side": "long",
+      "epochs": 3,
+      "parameter_count": 961,
+      "train_positive": 3517,
+      "train_negative": 7034,
+      "metrics": {
+        "select": {
+          "rows": 3226,
+          "positive_fraction": 0.277743335399876,
+          "ap": 0.3581059749133611,
+          "lift": 1.2893413784269006
+        },
+        "check": {
+          "rows": 3879,
+          "positive_fraction": 0.2291827790667698,
+          "ap": 0.21468463498945595,
+          "lift": 0.9367398190372324
+        }
+      },
+      "seconds": 4.326608800009126
+    },
+    {
+      "file": "SBRF_1m_research.csv.gz",
+      "side": "short",
+      "epochs": 3,
+      "parameter_count": 961,
+      "train_positive": 4172,
+      "train_negative": 8344,
+      "metrics": {
+        "select": {
+          "rows": 3226,
+          "positive_fraction": 0.3078115313081215,
+          "ap": 0.31124098511524534,
+          "lift": 1.0111414078366379
+        },
+        "check": {
+          "rows": 3879,
+          "positive_fraction": 0.21577726218097448,
+          "ap": 0.24197628763301365,
+          "lift": 1.121416988922891
+        }
+      },
+      "seconds": 0.5045850000024075
+    },
+    {
+      "file": "BTCUSDT_1m_research.csv.gz",
+      "side": "long",
+      "epochs": 3,
+      "parameter_count": 961,
+      "train_positive": 3731,
+      "train_negative": 7462,
+      "metrics": {
+        "select": {
+          "rows": 4203,
+          "positive_fraction": 0.2317392338805615,
+          "ap": 0.26520199407280753,
+          "lift": 1.1443983378727003
+        },
+        "check": {
+          "rows": 2327,
+          "positive_fraction": 0.19467125053717232,
+          "ap": 0.3559027768998675,
+          "lift": 1.8282246398366262
+        }
+      },
+      "seconds": 0.33864299999549985
+    },
+    {
+      "file": "BTCUSDT_1m_research.csv.gz",
+      "side": "short",
+      "epochs": 3,
+      "parameter_count": 961,
+      "train_positive": 4191,
+      "train_negative": 8382,
+      "metrics": {
+        "select": {
+          "rows": 4203,
+          "positive_fraction": 0.2702831310968356,
+          "ap": 0.3893941926968001,
+          "lift": 1.4406899576625447
+        },
+        "check": {
+          "rows": 2327,
+          "positive_fraction": 0.3064030941125913,
+          "ap": 0.3291066622248268,
+          "lift": 1.0740970589020646
+        }
+      },
+      "seconds": 0.3483267999981763
+    },
+    {
+      "file": "DOGEUSDT_1m_research.csv.gz",
+      "side": "long",
+      "epochs": 3,
+      "parameter_count": 961,
+      "train_positive": 4948,
+      "train_negative": 9896,
+      "metrics": {
+        "select": {
+          "rows": 4203,
+          "positive_fraction": 0.2674280275993338,
+          "ap": 0.3147355697435821,
+          "lift": 1.1768982203134124
+        },
+        "check": {
+          "rows": 2327,
+          "positive_fraction": 0.238504512247529,
+          "ap": 0.35390071239741017,
+          "lift": 1.4838323563040963
+        }
+      },
+      "seconds": 0.4136623999947915
+    },
+    {
+      "file": "DOGEUSDT_1m_research.csv.gz",
+      "side": "short",
+      "epochs": 3,
+      "parameter_count": 961,
+      "train_positive": 5205,
+      "train_negative": 10410,
+      "metrics": {
+        "select": {
+          "rows": 4203,
+          "positive_fraction": 0.31215798239352843,
+          "ap": 0.40489318779738004,
+          "lift": 1.297077795969808
+        },
+        "check": {
+          "rows": 2327,
+          "positive_fraction": 0.3270305113880533,
+          "ap": 0.43169520218833246,
+          "lift": 1.3200456445364648
+        }
+      },
+      "seconds": 0.44914650000282563
+    },
+    {
+      "file": "ETHUSDT_1m_research.csv.gz",
+      "side": "long",
+      "epochs": 3,
+      "parameter_count": 961,
+      "train_positive": 4423,
+      "train_negative": 8846,
+      "metrics": {
+        "select": {
+          "rows": 4203,
+          "positive_fraction": 0.2631453723530811,
+          "ap": 0.28524068560754234,
+          "lift": 1.0839661859028034
+        },
+        "check": {
+          "rows": 2327,
+          "positive_fraction": 0.2144391920928234,
+          "ap": 0.33025318300825157,
+          "lift": 1.540078470661726
+        }
+      },
+      "seconds": 0.36675230000400916
+    },
+    {
+      "file": "ETHUSDT_1m_research.csv.gz",
+      "side": "short",
+      "epochs": 3,
+      "parameter_count": 961,
+      "train_positive": 4520,
+      "train_negative": 9040,
+      "metrics": {
+        "select": {
+          "rows": 4203,
+          "positive_fraction": 0.2921722579110159,
+          "ap": 0.37270197177042463,
+          "lift": 1.2756240939341164
+        },
+        "check": {
+          "rows": 2327,
+          "positive_fraction": 0.29694886119467123,
+          "ap": 0.33252124640551467,
+          "lift": 1.1197929672729852
+        }
+      },
+      "seconds": 0.3632855999894673
+    },
+    {
+      "file": "SOLUSDT_1m_research.csv.gz",
+      "side": "long",
+      "epochs": 3,
+      "parameter_count": 961,
+      "train_positive": 5777,
+      "train_negative": 10886,
+      "metrics": {
+        "select": {
+          "rows": 4203,
+          "positive_fraction": 0.29740661432310256,
+          "ap": 0.31801391298513026,
+          "lift": 1.069289981021202
+        },
+        "check": {
+          "rows": 2327,
+          "positive_fraction": 0.2896433175762785,
+          "ap": 0.49905591843081987,
+          "lift": 1.7230016649681272
+        }
+      },
+      "seconds": 0.4501687000010861
+    },
+    {
+      "file": "SOLUSDT_1m_research.csv.gz",
+      "side": "short",
+      "epochs": 3,
+      "parameter_count": 961,
+      "train_positive": 5465,
+      "train_negative": 10930,
+      "metrics": {
+        "select": {
+          "rows": 4203,
+          "positive_fraction": 0.3459433737806329,
+          "ap": 0.43987071834065117,
+          "lift": 1.2715107490961188
+        },
+        "check": {
+          "rows": 2327,
+          "positive_fraction": 0.36484744305973354,
+          "ap": 0.41698014314901855,
+          "lift": 1.1428890378183347
+        }
+      },
+      "seconds": 0.4361168000032194
+    },
+    {
+      "file": "XRPUSDT_1m_research.csv.gz",
+      "side": "long",
+      "epochs": 3,
+      "parameter_count": 961,
+      "train_positive": 5167,
+      "train_negative": 10334,
+      "metrics": {
+        "select": {
+          "rows": 4203,
+          "positive_fraction": 0.2757554128003807,
+          "ap": 0.3146412904724638,
+          "lift": 1.1410158273129987
+        },
+        "check": {
+          "rows": 2347,
+          "positive_fraction": 0.23221133361738389,
+          "ap": 0.37771306522665904,
+          "lift": 1.6265918607100345
+        }
+      },
+      "seconds": 0.4123820999957388
+    },
+    {
+      "file": "XRPUSDT_1m_research.csv.gz",
+      "side": "short",
+      "epochs": 3,
+      "parameter_count": 961,
+      "train_positive": 5337,
+      "train_negative": 10674,
+      "metrics": {
+        "select": {
+          "rows": 4203,
+          "positive_fraction": 0.3245300975493695,
+          "ap": 0.44608807131362105,
+          "lift": 1.3745661024421916
+        },
+        "check": {
+          "rows": 2347,
+          "positive_fraction": 0.2978270132083511,
+          "ap": 0.29202686466755634,
+          "lift": 0.9805251092628823
+        }
+      },
+      "seconds": 0.4179532999987714
+    }
+  ]
+}

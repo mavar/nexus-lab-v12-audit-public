@@ -1,0 +1,130 @@
+{
+  "1": {
+    "vol_ratio": {
+      "compared_contiguous_windows": 20336,
+      "mismatch_gt_1e-6": 0,
+      "max_abs": 1.1102230246251565e-15
+    },
+    "bollinger_position": {
+      "compared_contiguous_windows": 19372,
+      "mismatch_gt_1e-6": 0,
+      "max_abs": 7.334217677623656e-10
+    },
+    "future_return_consistency": {
+      "matches_available": 15278,
+      "mismatches": 0
+    },
+    "long": {
+      "positive_rows": 3517,
+      "contiguous_runs": 356
+    },
+    "short": {
+      "positive_rows": 4172,
+      "contiguous_runs": 363
+    }
+  },
+  "5": {
+    "vol_ratio": {
+      "compared_contiguous_windows": 9457,
+      "mismatch_gt_1e-6": 0,
+      "max_abs": 9.992007221626409e-16
+    },
+    "bollinger_position": {
+      "compared_contiguous_windows": 8902,
+      "mismatch_gt_1e-6": 0,
+      "max_abs": 2.248272679139518e-10
+    },
+    "future_return_consistency": {
+      "matches_available": 9387,
+      "mismatches": 0
+    },
+    "long": {
+      "positive_rows": 848,
+      "contiguous_runs": 231
+    },
+    "short": {
+      "positive_rows": 955,
+      "contiguous_runs": 226
+    }
+  },
+  "10": {
+    "vol_ratio": {
+      "compared_contiguous_windows": 3981,
+      "mismatch_gt_1e-6": 0,
+      "max_abs": 8.326672684688674e-16
+    },
+    "bollinger_position": {
+      "compared_contiguous_windows": 3414,
+      "mismatch_gt_1e-6": 0,
+      "max_abs": 8.322786904102486e-12
+    },
+    "future_return_consistency": {
+      "matches_available": 4341,
+      "mismatches": 0
+    },
+    "long": {
+      "positive_rows": 370,
+      "contiguous_runs": 141
+    },
+    "short": {
+      "positive_rows": 404,
+      "contiguous_runs": 143
+    }
+  },
+  "15": {
+    "vol_ratio": {
+      "compared_contiguous_windows": 2001,
+      "mismatch_gt_1e-6": 0,
+      "max_abs": 4.440892098500626e-16
+    },
+    "bollinger_position": {
+      "compared_contiguous_windows": 1492,
+      "mismatch_gt_1e-6": 0,
+      "max_abs": 2.5225155297903257e-11
+    },
+    "future_return_consistency": {
+      "matches_available": 2512,
+      "mismatches": 0
+    },
+    "long": {
+      "positive_rows": 215,
+      "contiguous_runs": 100
+    },
+    "short": {
+      "positive_rows": 197,
+      "contiguous_runs": 86
+    }
+  },
+  "30": {
+    "vol_ratio": {
+      "compared_contiguous_windows": 106,
+      "mismatch_gt_1e-6": 0,
+      "max_abs": 4.440892098500626e-16
+    },
+    "bollinger_position": {
+      "compared_contiguous_windows": 0,
+      "mismatch_gt_1e-6": 0,
+      "max_abs": null
+    },
+    "future_return_consistency": {
+      "matches_available": 631,
+      "mismatches": 0
+    },
+    "long": {
+      "positive_rows": 49,
+      "contiguous_runs": 35
+    },
+    "short": {
+      "positive_rows": 39,
+      "contiguous_runs": 25
+    }
+  },
+  "winner_early": {
+    "count": 0,
+    "positive_labels": 0
+  },
+  "winner_unmarked": {
+    "count": 15,
+    "positive_labels": 0
+  }
+}

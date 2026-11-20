@@ -1,0 +1,2002 @@
+[
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-03/trades_SOLUSDT_2026-06-03.parquet",
+    "bytes": 1152776,
+    "rows": 114953,
+    "sha256": "66d285799e89da2bd55fe70a345d3131e4679a0c89e092cb0a56de4fa0b21b71"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-04/trades_SOLUSDT_2026-06-04.parquet",
+    "bytes": 1158569,
+    "rows": 112759,
+    "sha256": "aa871d05d2f6bfe49cda0475ba1ee63a1dc59f339446e7724d469feaf28f4e64"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-06/trades_SOLUSDT_2026-06-06.parquet",
+    "bytes": 946603,
+    "rows": 94004,
+    "sha256": "2cc82f4075f280cda5670d08002c9dd19e195a75ea6e28e1f601b96cd650743f"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-07/trades_SOLUSDT_2026-06-07.parquet",
+    "bytes": 1309015,
+    "rows": 131644,
+    "sha256": "f20ab7131bfff4c444af2df260272f19e184cf1deb6e8b6d7ee5777d39cf4f49"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-08/trades_SOLUSDT_2026-06-08.parquet",
+    "bytes": 1307480,
+    "rows": 133730,
+    "sha256": "54617e7d0ba2eb42be8f836d5768b547bd6b764269ce191a1ee780ed9d5c26eb"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-09/trades_SOLUSDT_2026-06-09.parquet",
+    "bytes": 995503,
+    "rows": 99840,
+    "sha256": "7270a4232d71910b602f43c9272f276a1d3a427cd95cc0eba8a9beffb16e746d"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-12/trades_SOLUSDT_2026-06-12.parquet",
+    "bytes": 557125,
+    "rows": 53637,
+    "sha256": "c20be4cd1a372d1d00e2739ceb753730dff57f4074025f8103eedf6bc1bfbb5d"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-13/trades_SOLUSDT_2026-06-13.parquet",
+    "bytes": 518150,
+    "rows": 49792,
+    "sha256": "115edc0b7a5205614bed1df1c1bba22d6eb6d0c2879254ed30cfa5d7492abad7"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-14/trades_SOLUSDT_2026-06-14.parquet",
+    "bytes": 916969,
+    "rows": 89101,
+    "sha256": "3c60837f2a9a68ba280e66344c43b41b87c31fc611f8cfc696f34ddaf706ce47"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-15/trades_SOLUSDT_2026-06-15.parquet",
+    "bytes": 1259144,
+    "rows": 127030,
+    "sha256": "7739a978c671d599433be1fcef020d82505cc495fbe52ec84c07a3b1ca6d3c37"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-16/trades_SOLUSDT_2026-06-16.parquet",
+    "bytes": 1198239,
+    "rows": 116120,
+    "sha256": "33fcdb18eda66aee175bde308dffb274fb05cd528c66d71ed8cf8cf34ea97062"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-17/trades_SOLUSDT_2026-06-17.parquet",
+    "bytes": 1248958,
+    "rows": 124026,
+    "sha256": "c99a01f97fc8f019c3757964a161f7409a3945323a699115d1148c096087f773"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-18/trades_SOLUSDT_2026-06-18.parquet",
+    "bytes": 1161413,
+    "rows": 112870,
+    "sha256": "c4b7a5892f4768eb0a9d6ccecbbebb3b17c33b0e86c4e98d22aa010c5e394d51"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-19/trades_SOLUSDT_2026-06-19.parquet",
+    "bytes": 1012954,
+    "rows": 100310,
+    "sha256": "8ddd64cfab111f46420ccdf1cc2af09521859fb5aa7edb76dda06cea3dab605f"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-20/trades_SOLUSDT_2026-06-20.parquet",
+    "bytes": 970983,
+    "rows": 92741,
+    "sha256": "7e2236b7018cbdbd6d920cac8b5c837290a3550d3f087e643313a883da319689"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-21/trades_SOLUSDT_2026-06-21.parquet",
+    "bytes": 11436,
+    "rows": 784,
+    "sha256": "0da56014e2720cebedcc94b2211c93541830fd57884f863d6567f3d1622292d4"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-22/trades_SOLUSDT_2026-06-22.parquet",
+    "bytes": 802090,
+    "rows": 74751,
+    "sha256": "8aa519d3dd6a3927821488c38bfcd71f470f7c13874e1aea9223e0d76e44541c"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-23/trades_SOLUSDT_2026-06-23.parquet",
+    "bytes": 939629,
+    "rows": 88312,
+    "sha256": "4a7831aa773c3799c19477b35e0639ebd5c0c517ff18b6cca1e7836999043e77"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-24/trades_SOLUSDT_2026-06-24.parquet",
+    "bytes": 1329316,
+    "rows": 130733,
+    "sha256": "a079c2bb94614ff01b437b63782b519b1dc7f167f492340932b537a85f8c05b3"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-25/trades_SOLUSDT_2026-06-25.parquet",
+    "bytes": 1287141,
+    "rows": 129067,
+    "sha256": "258568240dba6bc32b2d4193391c92d032490020985188af21b4f49f5a375c59"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-26/trades_SOLUSDT_2026-06-26.parquet",
+    "bytes": 179921,
+    "rows": 17433,
+    "sha256": "1666dcfb0ebd232b9a33bebb6136988fc62a24e3786465fb60d13be82115d408"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-27/trades_SOLUSDT_2026-06-27.parquet",
+    "bytes": 21757,
+    "rows": 1725,
+    "sha256": "b65dbfe02753e62622ce33ef2e470a34de7e7f045690f4c73f950cb5e74c907f"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-28/trades_SOLUSDT_2026-06-28.parquet",
+    "bytes": 900229,
+    "rows": 90140,
+    "sha256": "caee21fb97eb7862bf1bf4233c2d0da5f63863d4c3d6e894e2e09b931fe06d21"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-29/trades_SOLUSDT_2026-06-29.parquet",
+    "bytes": 614840,
+    "rows": 96279,
+    "sha256": "f14681e96265237a9d45dcbbc1ddee75b08615ba5a67edd7dea02fddce98236c"
+  },
+  {
+    "stream": "trades",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=trades/symbol=SOLUSDT/date=2026-06-30/trades_SOLUSDT_2026-06-30.parquet",
+    "bytes": 799372,
+    "rows": 76714,
+    "sha256": "c6319d47a5d0829371fd410e36ef30ebdc7d67fb0e2c84902bc5a982eefcfd89"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-03/book_ticker_SOLUSDT_2026-06-03.parquet",
+    "bytes": 7460842,
+    "rows": 697674,
+    "sha256": "d8f44d006143f5c4d845e5884d8a995295a0477216c6e85d32f4b3c12ccd86fa"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-04/book_ticker_SOLUSDT_2026-06-04.parquet",
+    "bytes": 6769293,
+    "rows": 553203,
+    "sha256": "0ca08316d780cdec9b2b21c79e75903340471eea2847f51f02fec7b836cd06db"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-06/book_ticker_SOLUSDT_2026-06-06.parquet",
+    "bytes": 6391627,
+    "rows": 618880,
+    "sha256": "4eddca0ae49a94a1ec1103f49c6622773983fdbf853a668bb0801845748473df"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-07/book_ticker_SOLUSDT_2026-06-07.parquet",
+    "bytes": 8925215,
+    "rows": 864000,
+    "sha256": "90ea07fac31bc1e6bce2f329d46bdb7ad84047ac35b7282cb5d1331a84ecc5e3"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-08/book_ticker_SOLUSDT_2026-06-08.parquet",
+    "bytes": 9008875,
+    "rows": 864000,
+    "sha256": "666aaa22ffae22ba6e13c6bdb042cd4e60d25e46efbcdb9251a346d22553951f"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-09/book_ticker_SOLUSDT_2026-06-09.parquet",
+    "bytes": 6806014,
+    "rows": 659623,
+    "sha256": "1bbc37011a0a45bd82e49c3d022c921b728b0f2ddfe9462484693dfbcf1bcf56"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-12/book_ticker_SOLUSDT_2026-06-12.parquet",
+    "bytes": 3948604,
+    "rows": 409567,
+    "sha256": "c4e436486004668bd047ade78833b4ef9bd0cf9ac130a4e4da38ca6fee4aeae7"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-13/book_ticker_SOLUSDT_2026-06-13.parquet",
+    "bytes": 4458166,
+    "rows": 543897,
+    "sha256": "baf8b0abc762bf05a8d8c2afdaea26ffa47dfb798c224a896925ca71a46b4625"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-14/book_ticker_SOLUSDT_2026-06-14.parquet",
+    "bytes": 7315587,
+    "rows": 856867,
+    "sha256": "63c4530340e87f2a50c78ac308a5a2e7b765020b8bc4c3511897912f79828202"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-15/book_ticker_SOLUSDT_2026-06-15.parquet",
+    "bytes": 8393277,
+    "rows": 852552,
+    "sha256": "f34f20874032432bf4704247d17023e48cc90f58c6ffd5f0c9ddfa56a89e3d6b"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-16/book_ticker_SOLUSDT_2026-06-16.parquet",
+    "bytes": 8180756,
+    "rows": 863967,
+    "sha256": "beba60d6c323469263f74c1487b6cbeeaaa6a9c5c3a165be2180eab11ec0bdcb"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-17/book_ticker_SOLUSDT_2026-06-17.parquet",
+    "bytes": 8564602,
+    "rows": 864000,
+    "sha256": "0e3590550e4078985f43bf80d88f548ad0371e3da7ae543da0697ee163e15860"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-18/book_ticker_SOLUSDT_2026-06-18.parquet",
+    "bytes": 8355125,
+    "rows": 860415,
+    "sha256": "d395e244b0a48a145fce11babd7d55fa52342628edd71e57624f95c6b49e4990"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-19/book_ticker_SOLUSDT_2026-06-19.parquet",
+    "bytes": 7839551,
+    "rows": 864000,
+    "sha256": "c10294571357fa71aff1bdfbb1c89130a1844679b808c95686c126c302ab9ba7"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-20/book_ticker_SOLUSDT_2026-06-20.parquet",
+    "bytes": 7243890,
+    "rows": 816000,
+    "sha256": "6f4fc90b1ce1add4eb1dbafe7543e89403249f8d604e00fa97ae20af400a72a4"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-21/book_ticker_SOLUSDT_2026-06-21.parquet",
+    "bytes": 63598,
+    "rows": 7797,
+    "sha256": "2407185ad1df0c880f16b6bf770fb2bd46c6d352a720c2a40e7c5246ba40100a"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-22/book_ticker_SOLUSDT_2026-06-22.parquet",
+    "bytes": 5243428,
+    "rows": 557409,
+    "sha256": "d242dfe2bae71d1aa0e33e0f8b04a38cd7221ae4390f8d8e35016f8d645b0714"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-23/book_ticker_SOLUSDT_2026-06-23.parquet",
+    "bytes": 6292427,
+    "rows": 652491,
+    "sha256": "76ad8b0a0b1f9107eed9d9720c0ef0cdeedd5bb231bda5346a0918ce441ca91d"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-24/book_ticker_SOLUSDT_2026-06-24.parquet",
+    "bytes": 8872366,
+    "rows": 864000,
+    "sha256": "9714c803579608148a316300d2a8356934bfafac92bf05a0bc75c72d7b3c1afa"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-25/book_ticker_SOLUSDT_2026-06-25.parquet",
+    "bytes": 8776011,
+    "rows": 864000,
+    "sha256": "58eab7b09bf228b03bddee99d33b3e8a2f75e56055ae4b285f9533aabf82de21"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-26/book_ticker_SOLUSDT_2026-06-26.parquet",
+    "bytes": 1184914,
+    "rows": 109988,
+    "sha256": "0fc5a0099479314011cf9bf382932a0fc1c1c2ad3c807f663434026a1690b3a6"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-27/book_ticker_SOLUSDT_2026-06-27.parquet",
+    "bytes": 149853,
+    "rows": 18021,
+    "sha256": "e19b9f8c43119c038395665a9f6ba2b64baa81ed29b46cb42ac0931c404f4b68"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-28/book_ticker_SOLUSDT_2026-06-28.parquet",
+    "bytes": 5989311,
+    "rows": 643403,
+    "sha256": "143d0317579d75d36058928ea594786f2aa2a63ba14d14c4c7a0b9ce7c6d3404"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-29/book_ticker_SOLUSDT_2026-06-29.parquet",
+    "bytes": 983252,
+    "rows": 267832,
+    "sha256": "6ac5bbc8d15fc4409d2b371f1d1d54dc909773f60deedabfb3cc368f66cd1a32"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "SOLUSDT",
+    "relative_source": "stream=book_ticker/symbol=SOLUSDT/date=2026-06-30/book_ticker_SOLUSDT_2026-06-30.parquet",
+    "bytes": 5013590,
+    "rows": 530240,
+    "sha256": "d77657a16ff058783d6ce6b54138e604cb3144ae499a19596d17ba7b0b6e08f4"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-03/trades_BTCUSDT_2026-06-03.parquet",
+    "bytes": 2683574,
+    "rows": 156395,
+    "sha256": "f954cec244d8d92502e1f29fe83f2e411e21198966bb19b662719703b9d4d5c3"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-04/trades_BTCUSDT_2026-06-04.parquet",
+    "bytes": 2301612,
+    "rows": 135518,
+    "sha256": "ea53b27fc501ba241e9961a1780ffb6fc007b34912974e6276ca1d9ebb6bcda5"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-06/trades_BTCUSDT_2026-06-06.parquet",
+    "bytes": 2264686,
+    "rows": 137466,
+    "sha256": "600c5e94ce8f642f87850870dff5fcc5e448c311f48e174f10a7fa66b79cc4d5"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-07/trades_BTCUSDT_2026-06-07.parquet",
+    "bytes": 3353946,
+    "rows": 202157,
+    "sha256": "41032aebe38cb6b6ccc788733de662e4df04a7f8200e26218c67e75cf89ab2c0"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-08/trades_BTCUSDT_2026-06-08.parquet",
+    "bytes": 3412674,
+    "rows": 206269,
+    "sha256": "b42d4577d81c391a7902e3fc4cc38c24b689a6024517dacfb2fa79a6d16c36d5"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-09/trades_BTCUSDT_2026-06-09.parquet",
+    "bytes": 2802982,
+    "rows": 167104,
+    "sha256": "b7d6a5fbd4c2104e4a69b0fefe26d29534cd295e059040882b27d3b8e1ec9ab4"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-12/trades_BTCUSDT_2026-06-12.parquet",
+    "bytes": 1507972,
+    "rows": 89053,
+    "sha256": "b87f84483bca1401d1fda518eb8f026ae0a1315167f5306076c08f4d2c97cd08"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-13/trades_BTCUSDT_2026-06-13.parquet",
+    "bytes": 1542612,
+    "rows": 94377,
+    "sha256": "81107273f5c3bcfa7535b574aefa37ae195580e4fc6ae16b32f0bbe8b11584d7"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-14/trades_BTCUSDT_2026-06-14.parquet",
+    "bytes": 2558413,
+    "rows": 161159,
+    "sha256": "a788218dad4fe2972c346009afbe8482711963e4a99a5d54f827c83172c57b68"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-15/trades_BTCUSDT_2026-06-15.parquet",
+    "bytes": 3174290,
+    "rows": 186742,
+    "sha256": "cc141f54e2d09f6eddb67d7165397fd1201a8b1066307da1fa859baa08ec5bc4"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-16/trades_BTCUSDT_2026-06-16.parquet",
+    "bytes": 3017775,
+    "rows": 180711,
+    "sha256": "85b46d311c1f8e9975c5915c6ad42b8a4f6ac808260890b97cd637d96b7adeb4"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-17/trades_BTCUSDT_2026-06-17.parquet",
+    "bytes": 3179587,
+    "rows": 194897,
+    "sha256": "e55f42e52af78de98179378cc570c8d9fc5bce87ddb520b4a6d10014d6987905"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-18/trades_BTCUSDT_2026-06-18.parquet",
+    "bytes": 3326681,
+    "rows": 200625,
+    "sha256": "8c7c76d7f80d2cfaf367ff8e2b1825e05e8fe5220b1a2bfcb1864fe8bd93c05f"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-19/trades_BTCUSDT_2026-06-19.parquet",
+    "bytes": 3214251,
+    "rows": 190017,
+    "sha256": "b09944570fbf72180507d874ad72cfcbcc3cdf501e91c9959f062975e8a701cf"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-20/trades_BTCUSDT_2026-06-20.parquet",
+    "bytes": 2569987,
+    "rows": 158734,
+    "sha256": "dc77c5ed1f126777af0bb38f0cd4034961c9e291a50f524eb76a5db8acc30953"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-21/trades_BTCUSDT_2026-06-21.parquet",
+    "bytes": 23937,
+    "rows": 1392,
+    "sha256": "9c38472b88aab8e8446ca5c346172cd6f4212703b938c9e514dbe09af4cf11ad"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-22/trades_BTCUSDT_2026-06-22.parquet",
+    "bytes": 2209341,
+    "rows": 131303,
+    "sha256": "5bd0f59d34a18eb0ea2147778903db5538d21f64467e27127629b94d8f216746"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-23/trades_BTCUSDT_2026-06-23.parquet",
+    "bytes": 2563394,
+    "rows": 154347,
+    "sha256": "4680e448690df213ec2b1ae3190b9f49f3c122f110b54c379c4cbe4eccc39aae"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-24/trades_BTCUSDT_2026-06-24.parquet",
+    "bytes": 3455676,
+    "rows": 204155,
+    "sha256": "148d3e8d5ae3441569f8c653633c427ce88cdd188e82dda8db70191203a3b7b0"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-25/trades_BTCUSDT_2026-06-25.parquet",
+    "bytes": 3639229,
+    "rows": 216301,
+    "sha256": "5dad9e2a5ba1ab3c2de81a0538ba403db360f8e0617507c59db7a53bae4a92a5"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-26/trades_BTCUSDT_2026-06-26.parquet",
+    "bytes": 457399,
+    "rows": 26348,
+    "sha256": "c0da8d18c9109c33aa3b90ec981b38548ba954dde446eae5515faf96678e4da3"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-27/trades_BTCUSDT_2026-06-27.parquet",
+    "bytes": 51674,
+    "rows": 2973,
+    "sha256": "57b1e14495db35de3eec47887f728a07f0d8fa404e0c048722c5d11e88504836"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-28/trades_BTCUSDT_2026-06-28.parquet",
+    "bytes": 2166362,
+    "rows": 131758,
+    "sha256": "505a60e4f17a704b08ffa9b83f8f612d7d8eb17cf2c2a492dcc420778a69e604"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-29/trades_BTCUSDT_2026-06-29.parquet",
+    "bytes": 1289736,
+    "rows": 131816,
+    "sha256": "24decc58195df57981347277741304bb56121fe44b99a7d18e6d16f9b143610e"
+  },
+  {
+    "stream": "trades",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=trades/symbol=BTCUSDT/date=2026-06-30/trades_BTCUSDT_2026-06-30.parquet",
+    "bytes": 1988045,
+    "rows": 118586,
+    "sha256": "5a5f115fcca26021f8a751ccfffea7e43121e8909352c45aa1ed5f427518188d"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-03/book_ticker_BTCUSDT_2026-06-03.parquet",
+    "bytes": 11075377,
+    "rows": 697674,
+    "sha256": "bdcf9d7ce67a062b656051f7cfdfd64c60b308879e26c5f197659c895d674f10"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-04/book_ticker_BTCUSDT_2026-06-04.parquet",
+    "bytes": 10556509,
+    "rows": 553203,
+    "sha256": "55526154a96cc8dc7a501984062f03b23dc8c410096976dffcea72d622a23032"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-06/book_ticker_BTCUSDT_2026-06-06.parquet",
+    "bytes": 8116757,
+    "rows": 618882,
+    "sha256": "dd4facb682ef499f5f548d3587b0b89bd8e27c2bbe867b822b529427782c7c42"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-07/book_ticker_BTCUSDT_2026-06-07.parquet",
+    "bytes": 11715776,
+    "rows": 864000,
+    "sha256": "1f338c8c102d99b51fd79dbd4b7cf935a101f0c39921bce5ad6a51bb13a13cae"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-08/book_ticker_BTCUSDT_2026-06-08.parquet",
+    "bytes": 12548219,
+    "rows": 864000,
+    "sha256": "ba8b4038fa6a01a28282fc0cb22c0fcbc383b16739d0d33c058ad8242adc90de"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-09/book_ticker_BTCUSDT_2026-06-09.parquet",
+    "bytes": 10179537,
+    "rows": 659637,
+    "sha256": "417f8df33d0bb9969ab68ae9e13d1bb3df4141e8a3361c295ae30ff535694e75"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-12/book_ticker_BTCUSDT_2026-06-12.parquet",
+    "bytes": 5110625,
+    "rows": 409555,
+    "sha256": "1439c9196fc292fb8fbce157cd2d2373a3df3c59d4901ce0d77ff136cb0a7f97"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-13/book_ticker_BTCUSDT_2026-06-13.parquet",
+    "bytes": 5251902,
+    "rows": 543895,
+    "sha256": "d6ce7d9f168c0dc4f2144cdda6426e02d6b22129f01530c59ff463fba464e85f"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-14/book_ticker_BTCUSDT_2026-06-14.parquet",
+    "bytes": 9070084,
+    "rows": 856644,
+    "sha256": "90e69ff47cce0a1c9cf95088838eec4e3ba5cb2d1ab23c29a24b34ce64f34377"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-15/book_ticker_BTCUSDT_2026-06-15.parquet",
+    "bytes": 10349810,
+    "rows": 852546,
+    "sha256": "040c8bcca7d2412e486a30d02d4e02272f951e9e1fda493a5324fb6b38431ff6"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-16/book_ticker_BTCUSDT_2026-06-16.parquet",
+    "bytes": 10465491,
+    "rows": 863966,
+    "sha256": "1c25aaa9b9546820b4278d8364a84059914651db8d54161a2819b7adf38d4ecf"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-17/book_ticker_BTCUSDT_2026-06-17.parquet",
+    "bytes": 10964645,
+    "rows": 864000,
+    "sha256": "65b0f90f720a08211bb82bbe970ff507598d2b005487338dbe1db59eacad96a2"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-18/book_ticker_BTCUSDT_2026-06-18.parquet",
+    "bytes": 10913125,
+    "rows": 859178,
+    "sha256": "8a399d5b23503615411016783bd80fc3a227172a63a142e560052fa80560a623"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-19/book_ticker_BTCUSDT_2026-06-19.parquet",
+    "bytes": 10035948,
+    "rows": 864000,
+    "sha256": "20c2cc66f6d28ce3754aa9f3faa204ae065f4dcc861926ed6e21972dd348f1aa"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-20/book_ticker_BTCUSDT_2026-06-20.parquet",
+    "bytes": 8633897,
+    "rows": 816000,
+    "sha256": "ccf08a63c1f2969525af68b0d39827a8eb5e223c7212e0089fe96cbd19e2fa1e"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-21/book_ticker_BTCUSDT_2026-06-21.parquet",
+    "bytes": 69165,
+    "rows": 7797,
+    "sha256": "7daeaf6eb5add6f4e60c8471eb571e648e047136b65e7add4d30ac0729361c8e"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-22/book_ticker_BTCUSDT_2026-06-22.parquet",
+    "bytes": 7036422,
+    "rows": 557409,
+    "sha256": "b367ffaa6dffd3d1a676bd67bc245af13f8a5d392b49e8fa4c7ce6a89fac770f"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-23/book_ticker_BTCUSDT_2026-06-23.parquet",
+    "bytes": 8603996,
+    "rows": 652493,
+    "sha256": "48af13c2d6d0660916391be2385ad111371008498b3b97b5f1521af6a397b728"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-24/book_ticker_BTCUSDT_2026-06-24.parquet",
+    "bytes": 12568247,
+    "rows": 864000,
+    "sha256": "ad455c1906d772c5ee5fab1688ca62abaa730ffda6d04f43c760524bd572ab1b"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-25/book_ticker_BTCUSDT_2026-06-25.parquet",
+    "bytes": 12546348,
+    "rows": 864000,
+    "sha256": "32aa253c50cbfbca202bd2fedadf72cb61578027192fab33225e397c50c17c22"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-26/book_ticker_BTCUSDT_2026-06-26.parquet",
+    "bytes": 1815042,
+    "rows": 109988,
+    "sha256": "f715cbfec6c60999829e003e31fee13e56f2de44f06add1fcf40de62403c76f6"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-27/book_ticker_BTCUSDT_2026-06-27.parquet",
+    "bytes": 180605,
+    "rows": 18020,
+    "sha256": "25cef1f8b913411f47a416a2480a4427c9486a7185177806de796b2994632ce4"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-28/book_ticker_BTCUSDT_2026-06-28.parquet",
+    "bytes": 7667043,
+    "rows": 643368,
+    "sha256": "bdb9e5ffaa23861a627ce9c89eceebc9f27db266404a24057a06305d648691b6"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-29/book_ticker_BTCUSDT_2026-06-29.parquet",
+    "bytes": 1607239,
+    "rows": 267832,
+    "sha256": "a2e7448224ff9d41aa9285257971f53dcb0092ed665ce184c6f295472226eeb1"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "BTCUSDT",
+    "relative_source": "stream=book_ticker/symbol=BTCUSDT/date=2026-06-30/book_ticker_BTCUSDT_2026-06-30.parquet",
+    "bytes": 7029119,
+    "rows": 530475,
+    "sha256": "58edfecbec46ec5bd4126b3f5883091eda76fc0bf52b1418485c6930215ff30e"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-03/trades_ETHUSDT_2026-06-03.parquet",
+    "bytes": 1995034,
+    "rows": 160409,
+    "sha256": "fc9bb99ecc427eb0ad5ca4929b11523338088ddf5ac71d2e16908bfe2ce178fd"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-04/trades_ETHUSDT_2026-06-04.parquet",
+    "bytes": 1837958,
+    "rows": 147212,
+    "sha256": "5ae1265fa40ae390cdbe2522344ddadc2d3be3c0ca70c2371b5bcfe7547aca28"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-06/trades_ETHUSDT_2026-06-06.parquet",
+    "bytes": 1678072,
+    "rows": 137895,
+    "sha256": "5127a02643785db0efcd5c4986d6997e69823a4669f869d814c9ff1da1ffc5ef"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-07/trades_ETHUSDT_2026-06-07.parquet",
+    "bytes": 2443296,
+    "rows": 202579,
+    "sha256": "575d875ce47ba47ebb790bb2d1ff65cc69e6a34d8818a051046f78bde2d13813"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-08/trades_ETHUSDT_2026-06-08.parquet",
+    "bytes": 2485821,
+    "rows": 205752,
+    "sha256": "e68e194357d01a8dae30697160ea8325a6edac10baeb5e896831e807d1aa41c5"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-09/trades_ETHUSDT_2026-06-09.parquet",
+    "bytes": 1781218,
+    "rows": 149261,
+    "sha256": "ab852ab58938dbcdca9b4fae15efd06fb49e7acd3f6c1bc906b15a4893802239"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-12/trades_ETHUSDT_2026-06-12.parquet",
+    "bytes": 816260,
+    "rows": 65652,
+    "sha256": "d24b4b76ad5df6b98bfd9a733546acea008a51411a3964c34c61567305252683"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-13/trades_ETHUSDT_2026-06-13.parquet",
+    "bytes": 772084,
+    "rows": 62857,
+    "sha256": "c82cf57a8e28072c2bd76f1e61a35cf7f2e327e8c4b9e7672f542ceeffa0a673"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-14/trades_ETHUSDT_2026-06-14.parquet",
+    "bytes": 1438007,
+    "rows": 123441,
+    "sha256": "7e210db23e1bfd9f26eb90a46101697aad250e4b41a87a2c3f4d2151118e6e9a"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-15/trades_ETHUSDT_2026-06-15.parquet",
+    "bytes": 2251720,
+    "rows": 182237,
+    "sha256": "aa950e28f8ed2490752aa7891176d2059e9fe0f3ca138509c3e4aed8a09da11c"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-16/trades_ETHUSDT_2026-06-16.parquet",
+    "bytes": 2047778,
+    "rows": 169434,
+    "sha256": "87b756240d9125ecdf321473d59c98b336cb894ee23c23d4f55b0ff4d92fdadd"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-17/trades_ETHUSDT_2026-06-17.parquet",
+    "bytes": 1968111,
+    "rows": 163926,
+    "sha256": "02d7eb833cd6842c2a5eb2dded52f01e44d4203ab772b3d9265642773f19ffb9"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-18/trades_ETHUSDT_2026-06-18.parquet",
+    "bytes": 1892489,
+    "rows": 159206,
+    "sha256": "2741fd0328d463fa43197c95d8382f33b2c41c8ebc1889774e1d12f67441f858"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-19/trades_ETHUSDT_2026-06-19.parquet",
+    "bytes": 1348001,
+    "rows": 115688,
+    "sha256": "495bdd77a489f852ade2355c78b31cdd799f2a8c859937753b7d6b6a3cee0101"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-20/trades_ETHUSDT_2026-06-20.parquet",
+    "bytes": 1205049,
+    "rows": 106237,
+    "sha256": "c881b0cac9957bc846fbcc8aa6e4051a43d9ac826df952875995c8a2ce4d434c"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-21/trades_ETHUSDT_2026-06-21.parquet",
+    "bytes": 16679,
+    "rows": 976,
+    "sha256": "60144d2b056eff120c86e71187ba0a4249551574c5845d6bb941338ff5bd68b8"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-22/trades_ETHUSDT_2026-06-22.parquet",
+    "bytes": 1155913,
+    "rows": 94825,
+    "sha256": "3b28f510073238f2db85cdd9f2f95589646e34a8cd2daba5622c9c1386226dc0"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-23/trades_ETHUSDT_2026-06-23.parquet",
+    "bytes": 1382495,
+    "rows": 115781,
+    "sha256": "31b1336c7533483ba58b82d1b9b28d8a7aebd45be5a534ba3517d69ac7840893"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-24/trades_ETHUSDT_2026-06-24.parquet",
+    "bytes": 2105454,
+    "rows": 173644,
+    "sha256": "93e1f0e59c30d312abbe6a4a516f00fac4812fff89c5437dfc5de1f828d7541f"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-25/trades_ETHUSDT_2026-06-25.parquet",
+    "bytes": 2166634,
+    "rows": 177999,
+    "sha256": "46f0c57eeed8e14acd5e0bd2ecec6cdcd8c9f35819d1592c99b642528a064bf1"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-26/trades_ETHUSDT_2026-06-26.parquet",
+    "bytes": 283007,
+    "rows": 21964,
+    "sha256": "60896b69acd66e2ac249d5b3845bd82210991d94277776cc7d9671e23e757477"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-27/trades_ETHUSDT_2026-06-27.parquet",
+    "bytes": 31000,
+    "rows": 1991,
+    "sha256": "124daf9413f695bd430136d4709d3e7adfe837885c4d67fc03f4a49460a51054"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-28/trades_ETHUSDT_2026-06-28.parquet",
+    "bytes": 1152578,
+    "rows": 96510,
+    "sha256": "1ad8757c10f1c6702e05a1f8b45c939321a2e5281a0e7dd7de9499408d4da724"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-29/trades_ETHUSDT_2026-06-29.parquet",
+    "bytes": 768879,
+    "rows": 101552,
+    "sha256": "4a437d86f9db65e2d78c22a59e415583cdf47656269e0b9d011f599f9a6df212"
+  },
+  {
+    "stream": "trades",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=trades/symbol=ETHUSDT/date=2026-06-30/trades_ETHUSDT_2026-06-30.parquet",
+    "bytes": 1181023,
+    "rows": 97999,
+    "sha256": "7734aac63924ed45aac770a3af62840f4c07ad8155f84d2bf2e4772df31370b5"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-03/book_ticker_ETHUSDT_2026-06-03.parquet",
+    "bytes": 10064677,
+    "rows": 697676,
+    "sha256": "316a6aee9ef2a6746abb7da98eda4b56fa68e5343da1f72430705e7c2b7e2270"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-04/book_ticker_ETHUSDT_2026-06-04.parquet",
+    "bytes": 9234376,
+    "rows": 553203,
+    "sha256": "79f6412985813bd7d1bc8a9e71b77725ab0e34266814a8d0ada1fb4de4a8990d"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-06/book_ticker_ETHUSDT_2026-06-06.parquet",
+    "bytes": 8110741,
+    "rows": 618882,
+    "sha256": "211c74c1dd23b8ae374b5f40dc8da21021da5f2dc55e05b2b5037f77def3a9b7"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-07/book_ticker_ETHUSDT_2026-06-07.parquet",
+    "bytes": 11382166,
+    "rows": 864000,
+    "sha256": "ba1fb6564a7de9fa07968fc99ecaa25cc2eb032ab5a667a055e8a5e2654508ab"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-08/book_ticker_ETHUSDT_2026-06-08.parquet",
+    "bytes": 11472505,
+    "rows": 864000,
+    "sha256": "5df1ef65a0b3b967e13104a52e1651f7acbb643b28309bbae516887440c407e8"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-09/book_ticker_ETHUSDT_2026-06-09.parquet",
+    "bytes": 8540052,
+    "rows": 659638,
+    "sha256": "4d83158559ecc672fc5b4b9e0ec2cdaa98ebbffb2d21ee8eaa830f2c06631708"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-12/book_ticker_ETHUSDT_2026-06-12.parquet",
+    "bytes": 4470605,
+    "rows": 409555,
+    "sha256": "a41793d9751b7259e386132cd256235cd4064aa8b40c2bb0e2c2d725f9c3e361"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-13/book_ticker_ETHUSDT_2026-06-13.parquet",
+    "bytes": 4701861,
+    "rows": 543895,
+    "sha256": "1decce4aada63498b08f8843b7b9ec7ec6c9771e582e155441bd73b213e2e3e0"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-14/book_ticker_ETHUSDT_2026-06-14.parquet",
+    "bytes": 8028634,
+    "rows": 856644,
+    "sha256": "e6569b33738a5e8f819dd1d2e564b0954081d56759e0bdac809a4a8982c45399"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-15/book_ticker_ETHUSDT_2026-06-15.parquet",
+    "bytes": 9601867,
+    "rows": 852546,
+    "sha256": "24a2d052ff95eefd0c8ed4a057834f407e76d9868e253d53ef05cbecf5a30849"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-16/book_ticker_ETHUSDT_2026-06-16.parquet",
+    "bytes": 10208282,
+    "rows": 863966,
+    "sha256": "35de29fc39ea5b60eba0da163f3e7fce6ec3e0c3bd91a6ae848a08147eeece80"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-17/book_ticker_ETHUSDT_2026-06-17.parquet",
+    "bytes": 11099866,
+    "rows": 864000,
+    "sha256": "1267579c6d81a4100aa64d6cdfd82662b61566237aba4f0409a1b4f2f8082bef"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-18/book_ticker_ETHUSDT_2026-06-18.parquet",
+    "bytes": 10383620,
+    "rows": 859178,
+    "sha256": "274922d05a821a4326e0f788f474ba981d1144bb3441a6f1f59cb87e1186e30f"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-19/book_ticker_ETHUSDT_2026-06-19.parquet",
+    "bytes": 9048011,
+    "rows": 864000,
+    "sha256": "f9f67bde03a6b2b49036d487087622307b6d82f264e672505496368bf2359264"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-20/book_ticker_ETHUSDT_2026-06-20.parquet",
+    "bytes": 7860207,
+    "rows": 816000,
+    "sha256": "11604224722decda93f15cb466a8b7981591dc8e2e28e3ff69ebd93bd996299a"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-21/book_ticker_ETHUSDT_2026-06-21.parquet",
+    "bytes": 67568,
+    "rows": 7797,
+    "sha256": "ddd5ba43bee2e395c8e6fe19577faff828c9b63635d1d5a49501d1b411ad007e"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-22/book_ticker_ETHUSDT_2026-06-22.parquet",
+    "bytes": 6401846,
+    "rows": 557409,
+    "sha256": "e341526dfcca11e18be7b0e8297765e411419e0eb6a35b4f8f642d561c7340d5"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-23/book_ticker_ETHUSDT_2026-06-23.parquet",
+    "bytes": 7585957,
+    "rows": 652493,
+    "sha256": "fee663ad145daa540f1c408d6a4ee48717c465e70e16649969e03a35f94a369a"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-24/book_ticker_ETHUSDT_2026-06-24.parquet",
+    "bytes": 11074294,
+    "rows": 864000,
+    "sha256": "19db5c565fb4305034d0531a8f22591e5f4719815f614cb976e86ef6caed3b08"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-25/book_ticker_ETHUSDT_2026-06-25.parquet",
+    "bytes": 10929061,
+    "rows": 864000,
+    "sha256": "efc49c19a9e7d3e1ea3a8e481a97eca90431ecef5c444999e4a720b805c3e123"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-26/book_ticker_ETHUSDT_2026-06-26.parquet",
+    "bytes": 1530025,
+    "rows": 109988,
+    "sha256": "27ea877e30ccef715951aa6cf7a501978530272d06064d0930ee1286ffd8a526"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-27/book_ticker_ETHUSDT_2026-06-27.parquet",
+    "bytes": 162819,
+    "rows": 18020,
+    "sha256": "b7f918b40bda8893c31f6524a77327a0cb94fb4debcfb710d0ff67e5ca9a7c8f"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-28/book_ticker_ETHUSDT_2026-06-28.parquet",
+    "bytes": 6986391,
+    "rows": 643368,
+    "sha256": "84dbc0ee5e552ec432ba91853f8a72b67dc8098bc363592ca1845acf685613cb"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-29/book_ticker_ETHUSDT_2026-06-29.parquet",
+    "bytes": 1323587,
+    "rows": 267832,
+    "sha256": "1e70dc8ec6e0914d1c4d3b6cd0d4dc25fc6111cc25c8bc5ebdb9a3c15d4eba0c"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "ETHUSDT",
+    "relative_source": "stream=book_ticker/symbol=ETHUSDT/date=2026-06-30/book_ticker_ETHUSDT_2026-06-30.parquet",
+    "bytes": 6087692,
+    "rows": 530475,
+    "sha256": "f34c1d728a09594b1707345eb8d2633be6d2d74d3e5c375f487383983cc8657b"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-03/trades_XRPUSDT_2026-06-03.parquet",
+    "bytes": 1008967,
+    "rows": 84044,
+    "sha256": "21369688178e6ccfcabe917edcec0a993599cda5437f2191be954cf353bf4dcf"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-04/trades_XRPUSDT_2026-06-04.parquet",
+    "bytes": 1148192,
+    "rows": 93736,
+    "sha256": "345134d4e363d317fe3718386af308bffc9b667b03043400d4e96a246776ca2b"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-06/trades_XRPUSDT_2026-06-06.parquet",
+    "bytes": 826088,
+    "rows": 65752,
+    "sha256": "1cc81708a12c3c40175ae187dcb29f7b0c2a5b80ed2f1eeeef0920eb664172f6"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-07/trades_XRPUSDT_2026-06-07.parquet",
+    "bytes": 1216934,
+    "rows": 97617,
+    "sha256": "409846334c47b64446a3df61ed4e1d0ccd49f7bada5be18de30e06c847177b1e"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-08/trades_XRPUSDT_2026-06-08.parquet",
+    "bytes": 1184784,
+    "rows": 96203,
+    "sha256": "bcaf6bfbfeff963a17a32f5f3414c00c5d872906232576b769af0b61d12bfaec"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-09/trades_XRPUSDT_2026-06-09.parquet",
+    "bytes": 949399,
+    "rows": 76982,
+    "sha256": "5403ccc15849826b73b53d43ed30b24311b96f5ad24faad3c76b8b76daefdcbf"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-12/trades_XRPUSDT_2026-06-12.parquet",
+    "bytes": 499043,
+    "rows": 39168,
+    "sha256": "493987c6ce87173bb231722d8ee01b4e7b7b1fffe96aeee0a1ffdd039cbcce65"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-13/trades_XRPUSDT_2026-06-13.parquet",
+    "bytes": 360599,
+    "rows": 29111,
+    "sha256": "a8a6337a82d10ad811d0f20843d6b9f2fc351bd15f1f9bff89d9b537765dec17"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-14/trades_XRPUSDT_2026-06-14.parquet",
+    "bytes": 767247,
+    "rows": 62573,
+    "sha256": "81b58b95fa921110551c406abb6289e2587ed0bf14be7e44b3c04f9fdb39c1bf"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-15/trades_XRPUSDT_2026-06-15.parquet",
+    "bytes": 1689704,
+    "rows": 147772,
+    "sha256": "180541c9607bddac98aee25804c911bc9cb59dd744de1e4102bdc22a57220623"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-16/trades_XRPUSDT_2026-06-16.parquet",
+    "bytes": 1283082,
+    "rows": 116185,
+    "sha256": "dd924fc73df2c352bc597c757fefc78ffe42d9c5fc6271e0c5480a9777b2d30f"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-17/trades_XRPUSDT_2026-06-17.parquet",
+    "bytes": 1417109,
+    "rows": 128284,
+    "sha256": "7d8bdb9c98ebbb4131b4a25ffdd83923d87035ec198d65895dc5307a644a14fe"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-18/trades_XRPUSDT_2026-06-18.parquet",
+    "bytes": 1250211,
+    "rows": 110876,
+    "sha256": "0b9467508b492ff70ea76fdd2a36e475b789978307927906c41acff9da8edf41"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-19/trades_XRPUSDT_2026-06-19.parquet",
+    "bytes": 929038,
+    "rows": 80759,
+    "sha256": "0d70dfefc55aa58c1de18acd4516d5b8d2d02f59cbda6b0845392c89812edd9b"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-20/trades_XRPUSDT_2026-06-20.parquet",
+    "bytes": 736239,
+    "rows": 63485,
+    "sha256": "105c840ba5cdd407dc982721c63d20cf6e7fcce29fd553427d183ba5d6b11f0a"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-21/trades_XRPUSDT_2026-06-21.parquet",
+    "bytes": 6652,
+    "rows": 351,
+    "sha256": "592e889a4dfd90e2da74682fa4a3c11347d634c92769b08853ea1a0c19353052"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-22/trades_XRPUSDT_2026-06-22.parquet",
+    "bytes": 644123,
+    "rows": 53261,
+    "sha256": "8cdb9ac4e7f81feb6f96cd866f256c3fc7ab0e694c0cd7c3d59c44e450c388a1"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-23/trades_XRPUSDT_2026-06-23.parquet",
+    "bytes": 665782,
+    "rows": 53754,
+    "sha256": "6c5b5d4db1695691d19a56a44a37e6c4b725cf3470698074fc367a2f4550b0ff"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-24/trades_XRPUSDT_2026-06-24.parquet",
+    "bytes": 1061245,
+    "rows": 90339,
+    "sha256": "8c3d9dd7ac5690f65197fc148f1981057b13aff2f1dc83846c14cd1713955769"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-25/trades_XRPUSDT_2026-06-25.parquet",
+    "bytes": 1152975,
+    "rows": 95497,
+    "sha256": "d542561f349914ea13d26bb9e3e99aeb4073fa2c042675154b6fc21f6b36cd95"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-26/trades_XRPUSDT_2026-06-26.parquet",
+    "bytes": 204910,
+    "rows": 15873,
+    "sha256": "57f93f96ca18dfe88d79919c7d1dab747c698a4ed8f3a9f9580d52782bdf323d"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-27/trades_XRPUSDT_2026-06-27.parquet",
+    "bytes": 16255,
+    "rows": 1143,
+    "sha256": "91b91af22b71d4c47d4b380accbfe13de61e851e6c75dda16cf0eab677fdab62"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-28/trades_XRPUSDT_2026-06-28.parquet",
+    "bytes": 571284,
+    "rows": 46971,
+    "sha256": "342ab45c95d3c9da81eb77303a4ec0181e250d552a61d43763291c67fc2600b1"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-29/trades_XRPUSDT_2026-06-29.parquet",
+    "bytes": 390262,
+    "rows": 56510,
+    "sha256": "a6b9b9390a1fc22a3ccf40568d9481c59448a66d03b7660c205ce3da98727997"
+  },
+  {
+    "stream": "trades",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=trades/symbol=XRPUSDT/date=2026-06-30/trades_XRPUSDT_2026-06-30.parquet",
+    "bytes": 517523,
+    "rows": 41714,
+    "sha256": "e186d4d9d40704304b0189606e55db9b6956736be0598d783e2b5df0c30ffdd5"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-03/book_ticker_XRPUSDT_2026-06-03.parquet",
+    "bytes": 7559790,
+    "rows": 697669,
+    "sha256": "079c50c6a94983c87a5a3c943242c613d42170cefe20f8425e27dd8b9826b10e"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-04/book_ticker_XRPUSDT_2026-06-04.parquet",
+    "bytes": 7046922,
+    "rows": 553202,
+    "sha256": "063dd88a6e7d694ba660f6ad0c51c93e406166ee7fe2c0139f4f63312e7d22a2"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-06/book_ticker_XRPUSDT_2026-06-06.parquet",
+    "bytes": 6133094,
+    "rows": 618880,
+    "sha256": "66a327bd21b7ba3aea2a9ab4bd03c12afc0036313f7156636c3685ab27d38adc"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-07/book_ticker_XRPUSDT_2026-06-07.parquet",
+    "bytes": 8827830,
+    "rows": 864000,
+    "sha256": "69e8db4c8cf8270c0efed870259ab8d002cdfb792ebedb049bf4c445c7cba810"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-08/book_ticker_XRPUSDT_2026-06-08.parquet",
+    "bytes": 9204806,
+    "rows": 864000,
+    "sha256": "5bc3ae3626a52c95a83c55ac9db230a575272851f35db53e2b809cb5fd2af169"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-09/book_ticker_XRPUSDT_2026-06-09.parquet",
+    "bytes": 6874073,
+    "rows": 659435,
+    "sha256": "fc217665c831f37d087822209ae080d5d1ba1176231d46e20782740216e13ec4"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-12/book_ticker_XRPUSDT_2026-06-12.parquet",
+    "bytes": 4097985,
+    "rows": 409564,
+    "sha256": "e19a0ea2b5e3471db8df47f605f65de6a2308f8657eb923813e62dbd1cb67406"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-13/book_ticker_XRPUSDT_2026-06-13.parquet",
+    "bytes": 4576593,
+    "rows": 543897,
+    "sha256": "32cf4147fd44467b3ede5d80124735148f7d0fc13884bc0d82258be0d16702c7"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-14/book_ticker_XRPUSDT_2026-06-14.parquet",
+    "bytes": 7529499,
+    "rows": 857173,
+    "sha256": "51830ca2dcce6ecbf0f7a13db16e9ca165e562e5d1379dc74df4f0203efc5a9e"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-15/book_ticker_XRPUSDT_2026-06-15.parquet",
+    "bytes": 9145832,
+    "rows": 852205,
+    "sha256": "00b79f157c30c798a6b3d970d23e451ea7214a0e141c4a9c6ebe223faf77cfd1"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-16/book_ticker_XRPUSDT_2026-06-16.parquet",
+    "bytes": 8746698,
+    "rows": 863967,
+    "sha256": "fa6a7c38147c89f5e6561ed526755bb592002d9aaa3d70ea8c623789838ae420"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-17/book_ticker_XRPUSDT_2026-06-17.parquet",
+    "bytes": 9169863,
+    "rows": 864000,
+    "sha256": "88127b98db13dcc7f5fa2827aeff5ad5d26b55c7f18c84c6569225a8e0e996c0"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-18/book_ticker_XRPUSDT_2026-06-18.parquet",
+    "bytes": 8857019,
+    "rows": 860379,
+    "sha256": "9b9e6db5dee20ddcd3e1ccd0152a2d985a1a2e69150d2516f5b96f278a79168e"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-19/book_ticker_XRPUSDT_2026-06-19.parquet",
+    "bytes": 8348321,
+    "rows": 864000,
+    "sha256": "28f133e3320ffbb1795919b600540f670fbc627ea4d3768ce73ff39a61ee54b8"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-20/book_ticker_XRPUSDT_2026-06-20.parquet",
+    "bytes": 7201705,
+    "rows": 816000,
+    "sha256": "844640dcc1ac89817d9761319ad0254fd6fdf445d4eb7ef7b200392ceb9e1628"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-21/book_ticker_XRPUSDT_2026-06-21.parquet",
+    "bytes": 60126,
+    "rows": 7798,
+    "sha256": "ba95c80c3dfe24ade1a63d65f09496ec7f51547c6652f7b81a0b70cf7616fd84"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-22/book_ticker_XRPUSDT_2026-06-22.parquet",
+    "bytes": 5677032,
+    "rows": 557408,
+    "sha256": "da7b27ec4d4eac0ede2b585b04185e15c11e58334c534aaca55682b4695c09bd"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-23/book_ticker_XRPUSDT_2026-06-23.parquet",
+    "bytes": 6521976,
+    "rows": 652491,
+    "sha256": "5dc2fcc89c5605720a86186ede4c8c4ed9caee38b8ad761a7eafe09692fa268a"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-24/book_ticker_XRPUSDT_2026-06-24.parquet",
+    "bytes": 8996261,
+    "rows": 864000,
+    "sha256": "2156521fe8408a566f185d7f6d52d21d4bba115abe7f1830c44761fbe93102b9"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-25/book_ticker_XRPUSDT_2026-06-25.parquet",
+    "bytes": 9027356,
+    "rows": 864000,
+    "sha256": "778353f347cfa4595b9ffa2703af2dc418ef6f06287b2284ebfc99f741e0bfd8"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-26/book_ticker_XRPUSDT_2026-06-26.parquet",
+    "bytes": 1269262,
+    "rows": 109986,
+    "sha256": "d5a1b626c8dd63b7ea9c08787a164b2eb8e44a738cc8c04b9cbd49b13ebbf0e7"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-27/book_ticker_XRPUSDT_2026-06-27.parquet",
+    "bytes": 151136,
+    "rows": 18021,
+    "sha256": "75f382f37b7d15975a66cda2ce57b16f1d291739685b58ca36d0d0b3788a5250"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-28/book_ticker_XRPUSDT_2026-06-28.parquet",
+    "bytes": 6017161,
+    "rows": 643402,
+    "sha256": "3049a05535aa096eadcd4093f6eaee982cffc7271912ca0350034efaf04f338e"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-29/book_ticker_XRPUSDT_2026-06-29.parquet",
+    "bytes": 3052859,
+    "rows": 558767,
+    "sha256": "84ae129e2fd6a5f35fe651a6689501ae05d202aa268090ebf3b844bac3318352"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "XRPUSDT",
+    "relative_source": "stream=book_ticker/symbol=XRPUSDT/date=2026-06-30/book_ticker_XRPUSDT_2026-06-30.parquet",
+    "bytes": 5011691,
+    "rows": 530750,
+    "sha256": "961050f3e87a51035bcb634847d7dfd15317d42e2ae0b572285de6221e0120fe"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-03/trades_DOGEUSDT_2026-06-03.parquet",
+    "bytes": 802866,
+    "rows": 63069,
+    "sha256": "bf7d1643d71671d6e61eeb2c358a0c90006328dc353c1cd18458131a620af8b4"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-04/trades_DOGEUSDT_2026-06-04.parquet",
+    "bytes": 965691,
+    "rows": 73524,
+    "sha256": "f21e591a39720a8401332d502f8ec9c630ccd20f0b56cec6789aa8a4f9d00f97"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-06/trades_DOGEUSDT_2026-06-06.parquet",
+    "bytes": 765334,
+    "rows": 60113,
+    "sha256": "1d5ff6724571c5b6a2ebdd3ccee174be2f15da051cdeaeae11fb66f61c7638b6"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-07/trades_DOGEUSDT_2026-06-07.parquet",
+    "bytes": 1001690,
+    "rows": 77417,
+    "sha256": "60e43d9a2eed560ea55916a9dbd7c784abfd5b8a097fbb2029b2374c901056bc"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-08/trades_DOGEUSDT_2026-06-08.parquet",
+    "bytes": 903176,
+    "rows": 71923,
+    "sha256": "9b7bf03ab111de245cae9d98642ea27fb9e054c85b3e7c58d6a3274f9bb9bd7b"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-09/trades_DOGEUSDT_2026-06-09.parquet",
+    "bytes": 743193,
+    "rows": 58630,
+    "sha256": "6e411905e6242987175a64a15b236a7ed14b95e6a3efe0a47635e149375277fa"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-12/trades_DOGEUSDT_2026-06-12.parquet",
+    "bytes": 532914,
+    "rows": 41460,
+    "sha256": "582bf9a9aa8e32ac35855b8bd481d1a73fdb669552c7234999a4132f197b6135"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-13/trades_DOGEUSDT_2026-06-13.parquet",
+    "bytes": 412775,
+    "rows": 32418,
+    "sha256": "71e08f15cffbc6be52fddd39b207dd44f855fad9bd8f563724be2fa2ba99199c"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-14/trades_DOGEUSDT_2026-06-14.parquet",
+    "bytes": 664090,
+    "rows": 50953,
+    "sha256": "6063f4cb3d51000bf01909062efec1e1f968d580aa71725271903bc2ed6b8794"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-15/trades_DOGEUSDT_2026-06-15.parquet",
+    "bytes": 1022083,
+    "rows": 83246,
+    "sha256": "c5f41e840aa2fbee3fd7eed289c85c5706f6826efac2cc5a3cc5aea92283b3cb"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-16/trades_DOGEUSDT_2026-06-16.parquet",
+    "bytes": 767841,
+    "rows": 60546,
+    "sha256": "bfb7237bb3ecca068da98b57eb95776e57e4d9b0dd1b1ac7df60eba1b26183aa"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-17/trades_DOGEUSDT_2026-06-17.parquet",
+    "bytes": 732169,
+    "rows": 58095,
+    "sha256": "bc2ecddc47cf23d0f4b66cd3c075ded49f9185737c58b74e3e4601b04383b1fa"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-18/trades_DOGEUSDT_2026-06-18.parquet",
+    "bytes": 675702,
+    "rows": 52878,
+    "sha256": "75acee0bde7071a484fda9f5e82bb38ad390b9f1bd120b68da64f95c2f215783"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-19/trades_DOGEUSDT_2026-06-19.parquet",
+    "bytes": 533608,
+    "rows": 41551,
+    "sha256": "1442765c5cfc5726c6ec6bd4c620861de4368120fe2b0c89d126aca39eeae472"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-20/trades_DOGEUSDT_2026-06-20.parquet",
+    "bytes": 450158,
+    "rows": 35130,
+    "sha256": "33a8754757d519182d447415e033b18def01fbc4587b2df69f2eb7f0b9f05c46"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-21/trades_DOGEUSDT_2026-06-21.parquet",
+    "bytes": 6316,
+    "rows": 319,
+    "sha256": "6847e325d83853cd17d0b503202a33ddb3c085522f3dc428b203edd53e508e07"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-22/trades_DOGEUSDT_2026-06-22.parquet",
+    "bytes": 403750,
+    "rows": 31401,
+    "sha256": "45a366713797056dea49ad1731a998750c7ea9a5304bc22fdb6417a8d63d41cf"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-23/trades_DOGEUSDT_2026-06-23.parquet",
+    "bytes": 587578,
+    "rows": 45159,
+    "sha256": "6e015a03137ba1bae37ad10736d6f04fbab85f48980757aab75aeda16e1f210f"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-24/trades_DOGEUSDT_2026-06-24.parquet",
+    "bytes": 905039,
+    "rows": 71283,
+    "sha256": "3d2b36fb5255e42ba12cda7da12bf39f0427b725bafe7468d4c3fce86edbdc82"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-25/trades_DOGEUSDT_2026-06-25.parquet",
+    "bytes": 806185,
+    "rows": 60716,
+    "sha256": "f7c978d474070e3f1af53be320d2aa07d2f11af6812f614404b6bd5845055c45"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-26/trades_DOGEUSDT_2026-06-26.parquet",
+    "bytes": 104552,
+    "rows": 8024,
+    "sha256": "89c5700d468fce30dea397531db8a3560bd4ffc8cdd0683f576e3000970f6df5"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-27/trades_DOGEUSDT_2026-06-27.parquet",
+    "bytes": 9191,
+    "rows": 545,
+    "sha256": "5635e6b6b9ea17fc9802d94969c1b125fea52a07f72fa8a64c94e0342247140d"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-28/trades_DOGEUSDT_2026-06-28.parquet",
+    "bytes": 511245,
+    "rows": 38702,
+    "sha256": "e6c24e736e29607afefa864890163511be9fdb5a1ecaee4678663982b205b658"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-29/trades_DOGEUSDT_2026-06-29.parquet",
+    "bytes": 269276,
+    "rows": 38953,
+    "sha256": "27ed0a192714b6963523c70cb39f27cb9dd381793b20dc3e569f57f5b17204d4"
+  },
+  {
+    "stream": "trades",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=trades/symbol=DOGEUSDT/date=2026-06-30/trades_DOGEUSDT_2026-06-30.parquet",
+    "bytes": 457546,
+    "rows": 35519,
+    "sha256": "bd7ac516a8903077dfb7ea775924d4cd06757b7694637cfe1fdbb28c2571f33c"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-03/book_ticker_DOGEUSDT_2026-06-03.parquet",
+    "bytes": 7086282,
+    "rows": 697704,
+    "sha256": "910f21e6278bf93667d638e7e36a2fa7f6bc7bb1081c14300aefcb05228823cf"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-04/book_ticker_DOGEUSDT_2026-06-04.parquet",
+    "bytes": 6533729,
+    "rows": 553205,
+    "sha256": "3ac945cf8201910f44addede6da8d51c7b06e4108c47a40d6bb1a3da62c4a5ea"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-06/book_ticker_DOGEUSDT_2026-06-06.parquet",
+    "bytes": 6018723,
+    "rows": 618880,
+    "sha256": "96c548253b37245a2451b762821981f3cbc7e24904a8f4c335ffcbc48c22269b"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-07/book_ticker_DOGEUSDT_2026-06-07.parquet",
+    "bytes": 8157302,
+    "rows": 864000,
+    "sha256": "8d017a5cbec7cfaa6359979dc50ae1484e4cef3b90235217753fcd018e3e4e99"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-08/book_ticker_DOGEUSDT_2026-06-08.parquet",
+    "bytes": 8157878,
+    "rows": 864000,
+    "sha256": "22dc37c0522a42ab29e704c78fd3b7a46f8e720fc3c7eabdb979386775cff432"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-09/book_ticker_DOGEUSDT_2026-06-09.parquet",
+    "bytes": 6282824,
+    "rows": 659444,
+    "sha256": "a153b3784fd9667099026009113ed19632a388ea407e0e3250effd2db20979ee"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-12/book_ticker_DOGEUSDT_2026-06-12.parquet",
+    "bytes": 3942321,
+    "rows": 409566,
+    "sha256": "85981eab4b982a22416b7f6ac8a9aeda9d06098e23b3a785be5245836afc61c9"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-13/book_ticker_DOGEUSDT_2026-06-13.parquet",
+    "bytes": 4417949,
+    "rows": 543897,
+    "sha256": "2fffa2ddb0f5a287ba053e4cf389d62e23651ecf9c20e3f30450c2992c82d961"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-14/book_ticker_DOGEUSDT_2026-06-14.parquet",
+    "bytes": 7007026,
+    "rows": 857175,
+    "sha256": "40573af2d7af4714817687f97795a76cf741a3525de26cb4c9608f87a0a23f47"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-15/book_ticker_DOGEUSDT_2026-06-15.parquet",
+    "bytes": 7616907,
+    "rows": 852204,
+    "sha256": "87c1e684fa08adbbe92202cf9cb4178d396f3e28e94131cacb344dc7bfb7ac0f"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-16/book_ticker_DOGEUSDT_2026-06-16.parquet",
+    "bytes": 7528849,
+    "rows": 863967,
+    "sha256": "cbe9310faf11159d3230356dec20b88b81a070d88cb41f1e1adfc6e6bd2921d0"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-17/book_ticker_DOGEUSDT_2026-06-17.parquet",
+    "bytes": 7873657,
+    "rows": 864000,
+    "sha256": "e386d3c712cab51f2d3040940249c84a41c416717a44be991eaee7d25b2e9ce3"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-18/book_ticker_DOGEUSDT_2026-06-18.parquet",
+    "bytes": 7707527,
+    "rows": 860381,
+    "sha256": "1a94d8b659ec822798cf12eb2e85c3cbb9910a2477372c09db983f6cb9ab1ea7"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-19/book_ticker_DOGEUSDT_2026-06-19.parquet",
+    "bytes": 7571926,
+    "rows": 864000,
+    "sha256": "3156c19ce839d6a6cecc46d83b0d8eff1798a206a66ac1c0657bc90333f38f47"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-20/book_ticker_DOGEUSDT_2026-06-20.parquet",
+    "bytes": 6664581,
+    "rows": 816000,
+    "sha256": "f663836149d96b4a56f49fd30a3d30e8909318bcf063a2b44e1952203c0d9686"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-21/book_ticker_DOGEUSDT_2026-06-21.parquet",
+    "bytes": 59103,
+    "rows": 7799,
+    "sha256": "1604660384775716c7529e51df2839eb9b45ef55de9b556a2aa1958f49d590d1"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-22/book_ticker_DOGEUSDT_2026-06-22.parquet",
+    "bytes": 5013892,
+    "rows": 557410,
+    "sha256": "a8f1b41f09b6a70faa0cf37769e63c217b0078cfaf5ee78468f1a4e848573310"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-23/book_ticker_DOGEUSDT_2026-06-23.parquet",
+    "bytes": 5888034,
+    "rows": 652492,
+    "sha256": "938d45cbc13dfb8c53cc203ddfa6b26e1a1852de80c8d468c3ec9a084612102c"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-24/book_ticker_DOGEUSDT_2026-06-24.parquet",
+    "bytes": 8325456,
+    "rows": 864000,
+    "sha256": "27dff886c0c930e082ce7851b8eb6787adb95f22ac07875c535b6929d909c623"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-25/book_ticker_DOGEUSDT_2026-06-25.parquet",
+    "bytes": 8405872,
+    "rows": 864000,
+    "sha256": "d65c7184101e0e28272fdb24313ecea5a8da59ad3f0de8bf7f1a41faf7915331"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-26/book_ticker_DOGEUSDT_2026-06-26.parquet",
+    "bytes": 1081458,
+    "rows": 109986,
+    "sha256": "025469c20aac1671c7383fd0bdc527f34eb8c529ced10e4cd136c13f4aecf316"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-27/book_ticker_DOGEUSDT_2026-06-27.parquet",
+    "bytes": 140783,
+    "rows": 18021,
+    "sha256": "00c715268c8457238d5f99e3f67efc8e30a38cc303a88c59f5b71c7977b5d059"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-28/book_ticker_DOGEUSDT_2026-06-28.parquet",
+    "bytes": 5668298,
+    "rows": 643404,
+    "sha256": "6e285344030a3da910a759cc5380b85dabb27358b707db66bc2ef5657399a535"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-29/book_ticker_DOGEUSDT_2026-06-29.parquet",
+    "bytes": 847951,
+    "rows": 267830,
+    "sha256": "bebeea2070a71863108731dd0c51e6a3b308e54be3e49b09080ed2bce27fa239"
+  },
+  {
+    "stream": "book_ticker",
+    "symbol": "DOGEUSDT",
+    "relative_source": "stream=book_ticker/symbol=DOGEUSDT/date=2026-06-30/book_ticker_DOGEUSDT_2026-06-30.parquet",
+    "bytes": 4814299,
+    "rows": 530748,
+    "sha256": "411fe8b5d31957de7f7fc25efbaa4fcf1dc5f5061604b92b9927fc239e82fd9d"
+  }
+]

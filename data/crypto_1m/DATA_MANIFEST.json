@@ -1,0 +1,87 @@
+{
+  "exchange": "MEXC",
+  "market": "spot",
+  "bar": "1 minute by local receive timestamp",
+  "start_utc": "2026-06-03 00:00:00+00:00",
+  "end_utc_exclusive": "2026-07-01 00:00:00+00:00",
+  "symbols": {
+    "SOLUSDT": {
+      "file": "SOLUSDT_1m.csv",
+      "bytes": 6158459,
+      "sha256": "ebb169bc351cbdcb71f9f238cbfbb2282198ef2d9880693c4750202bd5aad20e",
+      "calendar_minute_rows": 40320,
+      "price_bars": 26433,
+      "quote_bars": 25714,
+      "trade_rows": 2258495,
+      "identical_looking_trade_rows": 28801,
+      "raw_quote_rows": 15703826,
+      "missing_price_minutes": 13887,
+      "observed_days": 25,
+      "seconds": 18.13159779999114
+    },
+    "BTCUSDT": {
+      "file": "BTCUSDT_1m.csv",
+      "bytes": 6976991,
+      "sha256": "e058e9b5a9ad724ba8b8f4782200e43f3284fca4802e67f4e233ec04e655e095",
+      "calendar_minute_rows": 40320,
+      "price_bars": 26432,
+      "quote_bars": 25696,
+      "trade_rows": 3580203,
+      "identical_looking_trade_rows": 41680,
+      "raw_quote_rows": 15702562,
+      "missing_price_minutes": 13888,
+      "observed_days": 25,
+      "seconds": 25.650684599997476
+    },
+    "ETHUSDT": {
+      "file": "ETHUSDT_1m.csv",
+      "bytes": 6629803,
+      "sha256": "d4bac72481db0a99dc676814bb1713b9b19cdc74734c226b122152792fda65ed",
+      "calendar_minute_rows": 40320,
+      "price_bars": 26432,
+      "quote_bars": 25697,
+      "trade_rows": 3035027,
+      "identical_looking_trade_rows": 38146,
+      "raw_quote_rows": 15702565,
+      "missing_price_minutes": 13888,
+      "observed_days": 25,
+      "seconds": 37.82667819999915
+    },
+    "XRPUSDT": {
+      "file": "XRPUSDT_1m.csv",
+      "bytes": 6356095,
+      "sha256": "c5d0ca059697c1d1e5d9d3bfd6b45c7519901244303c0bf1a18635f99d09545a",
+      "calendar_minute_rows": 40320,
+      "price_bars": 26431,
+      "quote_bars": 26189,
+      "trade_rows": 1747960,
+      "identical_looking_trade_rows": 27183,
+      "raw_quote_rows": 15994994,
+      "missing_price_minutes": 13889,
+      "observed_days": 25,
+      "seconds": 23.340459999992163
+    },
+    "DOGEUSDT": {
+      "file": "DOGEUSDT_1m.csv",
+      "bytes": 6614788,
+      "sha256": "ae38a08478e1ec108c1344b1d2010e19974c10e315070a0664ef1a6a03f67d07",
+      "calendar_minute_rows": 40320,
+      "price_bars": 26430,
+      "quote_bars": 25709,
+      "trade_rows": 1191574,
+      "identical_looking_trade_rows": 11826,
+      "raw_quote_rows": 15704113,
+      "missing_price_minutes": 13890,
+      "observed_days": 25,
+      "seconds": 29.592640000002575
+    }
+  },
+  "data_kind": "real historical observations, no synthetic or forward-filled prices",
+  "trade_volume_unit": "base asset; quote_volume USDT",
+  "duplicate_policy": "keep all trade rows: exchange trade ID unavailable; identical-looking rows can be legitimate",
+  "split_proposal": {
+    "train_end_exclusive": "2026-06-21T00:00:00Z",
+    "select_end_exclusive": "2026-06-26T00:00:00Z",
+    "check_end_exclusive": "2026-07-01T00:00:00Z"
+  }
+}

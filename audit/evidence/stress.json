@@ -1,0 +1,49 @@
+{
+  "rows": 100000,
+  "features": 26,
+  "train_positive": 18854,
+  "train_negative": 56146,
+  "select_rows": 25000,
+  "epochs": 3,
+  "X_bytes": 10400000,
+  "results": {
+    "cpu": {
+      "wall_seconds": 9.206877999997232,
+      "metric": {
+        "ap": 0.248338,
+        "lift": 0.99959,
+        "base": 0.24844,
+        "top_good": 55,
+        "top_total": 250
+      },
+      "last_curve": {
+        "epoch": 3,
+        "train_loss": 0.5631,
+        "select_loss": 0.56182,
+        "select_ap": 0.248338,
+        "select_lift": 0.99959,
+        "seconds": 5.36
+      },
+      "peak_gpu_bytes": null
+    },
+    "cuda": {
+      "wall_seconds": 5.1151843999978155,
+      "metric": {
+        "ap": 0.249166,
+        "lift": 1.00292,
+        "base": 0.24844,
+        "top_good": 57,
+        "top_total": 250
+      },
+      "last_curve": {
+        "epoch": 3,
+        "train_loss": 0.56309,
+        "select_loss": 0.56189,
+        "select_ap": 0.249166,
+        "select_lift": 1.00292,
+        "seconds": 4.815
+      },
+      "peak_gpu_bytes": 42467328
+    }
+  }
+}
