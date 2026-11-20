@@ -1,0 +1,32 @@
+{
+  "README.md": {
+    "status": 200,
+    "sample_bytes": 2048,
+    "authorization_header_used": false
+  },
+  "CHATGPT_HANDOFF_PROMPT.md": {
+    "status": 200,
+    "sample_bytes": 2048,
+    "authorization_header_used": false
+  },
+  "audit/AUDIT_TASKS.json": {
+    "status": 200,
+    "sample_bytes": 2048,
+    "authorization_header_used": false
+  },
+  "DATASET_README.md": {
+    "status": 200,
+    "sample_bytes": 2048,
+    "authorization_header_used": false
+  },
+  "data/crypto_1m/SOLUSDT_example.json": {
+    "status": 200,
+    "sample_bytes": 2048,
+    "authorization_header_used": false
+  },
+  "data/crypto_1m/BTCUSDT_1m.csv": {
+    "status": 200,
+    "sample_bytes": 2048,
+    "authorization_header_used": false
+  }
+}
